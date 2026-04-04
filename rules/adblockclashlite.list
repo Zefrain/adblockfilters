@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260404092354
-# Last modified: 2026/04/04 09:23:54
-# Blocked domains: 5555
+# Version: 20260404163318
+# Last modified: 2026/04/04 16:33:18
+# Blocked domains: 5551
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -1775,7 +1775,6 @@ DOMAIN-SUFFIX,getmyip.top,REJECT-DROP
 DOMAIN-SUFFIX,getui.cn,REJECT-DROP
 DOMAIN-SUFFIX,getui.com,REJECT-DROP
 DOMAIN-SUFFIX,biz.gexing.com,REJECT-DROP
-DOMAIN-SUFFIX,gezxdg.cn,REJECT-DROP
 DOMAIN-SUFFIX,safebrowsing.urlsec.gg.com,REJECT-DROP
 DOMAIN-SUFFIX,gghw-wps.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ggsa-wps.com.cn,REJECT-DROP
@@ -3268,7 +3267,6 @@ DOMAIN-SUFFIX,official-telegramxz.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,offie-wps.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ofice-wps.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ogkuailian.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,ohwypr.cn,REJECT-DROP
 DOMAIN-SUFFIX,apps5.oingo.com,REJECT-DROP
 DOMAIN-SUFFIX,ojg8sflgl.com,REJECT-DROP
 DOMAIN-SUFFIX,oklinkqukuailianliulanqi88.org.cn,REJECT-DROP
@@ -3374,7 +3372,6 @@ DOMAIN-SUFFIX,pfd-google.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,pfdth.cn,REJECT-DROP
 DOMAIN-SUFFIX,pfqwbqs.cn,REJECT-DROP
 DOMAIN-SUFFIX,pfvufy.cn,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.pgbqt.cn,REJECT-DROP
 DOMAIN-SUFFIX,vendhelpuous.pgvjmp.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.marketing.lighting.philips.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,f1.pig66.com,REJECT-DROP
@@ -3839,7 +3836,6 @@ DOMAIN-SUFFIX,safe-yaxing.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,safe-youbo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,404.safedog.cn,REJECT-DROP
 DOMAIN-SUFFIX,go.safemini.club,REJECT-DROP
-DOMAIN-SUFFIX,web.safemini.club,REJECT-DROP
 DOMAIN-SUFFIX,safepalqianbaoguanwangxiazai.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,safewmo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,safewx.hl.cn,REJECT-DROP
