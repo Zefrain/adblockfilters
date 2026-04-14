@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260414095122
-# Last modified: 2026/04/14 09:51:22
-# Blocked domains: 5000
+# Version: 20260414171127
+# Last modified: 2026/04/14 17:11:27
+# Blocked domains: 4995
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -1430,7 +1430,6 @@ local=/ebrid.cn/
 local=/jb.ecar168.cn/
 local=/ecudsc.cn/
 local=/c2vydmvydxbkyxri-kte1fxva3p.edgeone.app/
-local=/chrisbenoitkane.edgeone.app/
 local=/dotnotblock-pfwzl61nwt.edgeone.app/
 local=/hkz2311011313001-l5deuphxox.edgeone.app/
 local=/hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app/
@@ -1491,7 +1490,6 @@ local=/evri-parcelq.cn/
 local=/evri-parcelw.cn/
 local=/duologinsupersdk.ewan.cn/
 local=/ewrrpuquc1.com/
-local=/trusaneous.ewsuff.cn/
 local=/a.exam58.com/
 local=/drovs.excelliance.cn/
 local=/excoino.com/
@@ -1707,7 +1705,6 @@ local=/google-ccc.hl.cn/
 local=/google-chrme-www.com.cn/
 local=/google-cn-chrom.com.cn/
 local=/google-en-chrome.com.cn/
-local=/google-gle.com.cn/
 local=/google-google-google.com.cn/
 local=/google-hk-chrome.com.cn/
 local=/google-ji.com.cn/
@@ -2980,7 +2977,6 @@ local=/api-access.pangolin-sdk-toutiao3.com/
 local=/api-access.pangolin-sdk-toutiao4.com/
 local=/panoeye.com.cn/
 local=/parking-pcnms.cn/
-local=/parking-y.cn/
 local=/partnerboost.com/
 local=/passionsex.vip/
 local=/bt1.patexplorer.com/
@@ -3125,7 +3121,6 @@ local=/log.qiniuapi.com/
 local=/kbae.qiqqh.cn/
 local=/qishmusic.com.cn/
 local=/qishui-qishui.hl.cn/
-local=/qishui-yinle.hl.cn/
 local=/qishuiyinyue.org.cn/
 local=/qishuiyiyue.com.cn/
 local=/qishuiyiyue.hl.cn/
@@ -3145,7 +3140,6 @@ local=/qjiz.cn/
 local=/qjxys.cn/
 local=/qktmwiq.cn/
 local=/logger.qmai.cn/
-local=/qmmyxyp.cn/
 local=/qooic.com/
 local=/log.qookkagames.com/
 local=/gvideo.qpic.cn/
@@ -3644,6 +3638,7 @@ local=/pb.sogou.com/
 local=/wan.sogou.com/
 local=/worldwide.sogou.com/
 local=/ws-keyboard.shouji.sogou.com/
+local=/sogou2.com.cn/
 local=/theta.sogoucdn.com/
 local=/888.tv.sohu.com/
 local=/ad.sohu.com/
