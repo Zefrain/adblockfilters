@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260425094624
-# Last modified: 2026/04/25 09:46:24
-# Blocked domains: 4881
+# Version: 20260425164352
+# Last modified: 2026/04/25 16:43:52
+# Blocked domains: 4876
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -1474,7 +1474,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.etoolads.cn
 0.0.0.0	euuh.cn
 0.0.0.0	evkc.cn
-0.0.0.0	evri-notices.cn
 0.0.0.0	evri-parcelq.cn
 0.0.0.0	evri-parcelw.cn
 0.0.0.0	duologinsupersdk.ewan.cn
@@ -2240,7 +2239,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	save.jnrsmcu.com
 0.0.0.0	ub1.job592.com
 0.0.0.0	yqg.jobui.com
-0.0.0.0	johnrobin.shop
 0.0.0.0	jollyspring.com
 0.0.0.0	cookies.joneslanglasalle.com.cn
 0.0.0.0	email-ap.joneslanglasalle.com.cn
@@ -2315,7 +2313,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adsmart.konka.com
 0.0.0.0	sdkapi.kookong.com
 0.0.0.0	koowo.com
-0.0.0.0	koruna-machinery.com
 0.0.0.0	a.koudai.com
 0.0.0.0	wap.koudaitong.com
 0.0.0.0	b.kouke5.com
@@ -4250,7 +4247,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-stats.weathercn.com
 0.0.0.0	zgzxm.weathercn.com
 0.0.0.0	zgzxs.weathercn.com
-0.0.0.0	hk.web-mobile-whatsapp.com.cn
 0.0.0.0	webdissector.com
 0.0.0.0	log.webnovel.com
 0.0.0.0	webterren.com
@@ -4384,7 +4380,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads-video-qc.xhscdn.com
 0.0.0.0	xhyktech.com
 0.0.0.0	cdn.xianchengyou.com
-0.0.0.0	xiangce.online
 0.0.0.0	khrtac.xiangha.com
 0.0.0.0	xiangshunjy.com
 0.0.0.0	xianshangzixun.com
