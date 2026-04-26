@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260426095801
-! Last modified: 2026/04/26 09:58:01
-! Blocked Filters: 101055
+! Version: 20260426165214
+! Last modified: 2026/04/26 16:52:14
+! Blocked Filters: 101056
 !
 ###AC_ad
 ###AD_160
@@ -76860,6 +76860,7 @@ topminecraftservers.org##.grey-section
 topminecraftservers.org#?#.grey-section:has(> div[style^="text-align:center;min-height:"])
 topnewsshow.com##body > .mdl-layout__container ~ div[id][class*=" "]
 topnewsy.pl##.art div:not([class]) > .lazyload-wrapper:has(button.close + div[class] > a[href="/twoja-prywatnosc"])
+topographic-map.com##.moduleAmazon
 toppixxx.com###topboxad
 toppixxx.com##.bigblock
 toppixxx.com##.imadswide
@@ -81672,10 +81673,10 @@ xing.com##div[data-qa="jobs-inline-ad"]
 xing.com##div[data-qa="jobs-recommendation-ad"]
 xing.com##li[data-qa="notifications-ad"]
 xingkbjm.com##.d_textbanner
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
 xinhuanet.com##.columBox.book
