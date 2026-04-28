@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260428011619
-! Last modified: 2026/04/28 01:16:19
-! Blocked domains: 4871
+! Version: 20260428100740
+! Last modified: 2026/04/28 10:07:40
+! Blocked domains: 4869
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -774,6 +774,7 @@
 ||pimlog.baidu.com^
 ||plugin.mobopay.baidu.com^
 ||pos.baidu.com^
+||publish-pic-cpu.baidu.com^
 ||pups.baidu.com^
 ||push.zhanzhang.baidu.com^
 ||qapm.baidu.com^
@@ -3008,7 +3009,6 @@
 ||qfcdgy.cn^
 ||qfh5tgyv.cn^
 ||qfh8izze.cn^
-||qfq4ulbo.cn^
 ||qg6uf.cn^
 ||jspassport.ssl.qhimg.com^
 ||qhonzpl.cn^
@@ -3383,7 +3383,6 @@
 ||seordl.cn^
 ||seurss.eu.cc^
 ||logstat.t.sfht.com^
-||sfpyykk22.cn^
 ||track.sgdmobile.com^
 ||sglyd.cn^
 ||zqzrzcto.shacukj.cn^
@@ -4515,7 +4514,6 @@
 ||p2p-punch.xxpkg.com^
 ||xxxx68xxxx.com^
 ||xy.com^
-||yrnpuw.xy399566.cn^
 ||xycdn.com^
 ||xyizgh.cn^
 ||a.xywy.com^
