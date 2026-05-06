@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260506100408
-! Last modified: 2026/05/06 10:04:08
-! Blocked domains: 4790
+! Version: 20260506181105
+! Last modified: 2026/05/06 18:11:05
+! Blocked domains: 4785
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -36,6 +36,7 @@ ad.12306.cn
 123cha.com
 bdad.123pan.cn
 ent1.12584.cn
+126.cn
 analytics.126.com
 ir.mail.126.com
 iadmusicmat.music.126.net
@@ -223,6 +224,7 @@ trace.51jingying.com
 scdata.51job.com
 a1.51shiti.cn
 51taifu.com
+ad.51wnl-cq.com
 ad.51wnl.com
 51xuex.com.cn
 51yes.com
@@ -760,7 +762,6 @@ paimgcdn-feed.baidu.com
 pimlog.baidu.com
 plugin.mobopay.baidu.com
 pos.baidu.com
-publish-pic-cpu.baidu.com
 pups.baidu.com
 push.zhanzhang.baidu.com
 qapm.baidu.com
@@ -814,7 +815,6 @@ bakerdavid.shop
 h.baminw.cn
 j.baminw.cn
 baminw.com.cn
-midinfo.baofeng.com
 barhuta.com
 baycode.cn
 bayescom.com
@@ -1047,6 +1047,7 @@ cleartone.club
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -1063,7 +1064,6 @@ senlog.cmpassport.com
 cmpxaup.cn
 ggc.cmvideo.cn
 ggx.cmvideo.cn
-cn-telegramxz.com.cn
 ad-api.cnblogs.com
 analytics.cnblogs.com
 adm.cloud.cnfol.com
@@ -1257,6 +1257,7 @@ msz3.destinia.cn
 detailroi.com
 api.dewmobile.net
 dexinyi.cn
+dgrj.com.cn
 d.dgzj.com
 ad.dhgate.com
 dianru.com
@@ -1364,7 +1365,6 @@ api.e-toys.cn
 eagle-tex.cn
 track.easeus.com
 easou.com
-mini.eastday.com
 ay.eastmoney.com
 bdstatic.eastmoney.com
 bduserlog.eastmoney.com
@@ -2220,6 +2220,7 @@ jxdown.com
 jxdyk65ay.com
 jy135.com
 jygdb.com
+jyhengyi.cn
 o1.jyjyj.cn
 o2.jyjyj.cn
 jzdwl4.cn
@@ -2234,6 +2235,7 @@ panda.kdnet.net
 ssp.kdnet.net
 super.kdnet.net
 tracking.kdnet.net
+kejixueyuan.cn
 elq.keysight.com.cn
 sandbox-elq.keysight.com.cn
 mail.kguapp.com
@@ -2515,7 +2517,6 @@ smetrics.mathworks.cn
 ad.mazc.org
 mbai.cn
 mbaobao.com
-mcatcher.cn
 mckumf5ii4.com
 lepodownload.mediatek.com
 mepodownload.mediatek.com
@@ -2795,7 +2796,6 @@ pdns.nudt.edu.cn
 synad2.nuffnang.com.cn
 c.nuhcpf.com
 log.nuomi.com
-metric.nuonuo.com
 promotionad.nvcam.net
 ad.nvdvr.cn
 anews7.nvwu.com
@@ -2807,7 +2807,6 @@ obv3epx22d.com
 analytics.oceanengine.com
 offerstrack.net
 officesoftcn.com
-official-telegramxz.com.cn
 offie-wps.com.cn
 offiie-wps.com.cn
 apps5.oingo.com
@@ -2858,6 +2857,7 @@ mm.paizi.net
 api-access.pangolin-sdk-toutiao2.com
 api-access.pangolin-sdk-toutiao3.com
 api-access.pangolin-sdk-toutiao4.com
+panoeye.com.cn
 partnerboost.com
 passionsex.vip
 bt1.patexplorer.com
@@ -2931,8 +2931,6 @@ prlioxb.cn
 info.protiviti.com.cn
 psi-association.com
 dm.pstatp.com
-pb3.pstatp.com
-sf1-ttcdn-tos.pstatp.com
 sf3-ttcdn-tos.pstatp.com
 ptengine.cn
 ptgdb.cn
@@ -3395,7 +3393,6 @@ dmp.sina.com.cn
 emarketing.sina.com.cn
 log.mix.sina.com.cn
 matwbp.iask.sina.com.cn
-pfp.sina.com.cn
 sax.sina.com.cn
 saxn.sina.com.cn
 sbeacon.sina.com.cn
@@ -3562,6 +3559,7 @@ sxundrh.cn
 gmbl.sy99.de
 sybnzs.cn
 sanalytics.sydneyuniversity.cn
+sydyqg.cn
 symaa.cn
 synacast.com
 syr66.com.cn
@@ -3805,6 +3803,7 @@ livetech.shopee.co.id.txlivecdn.com
 livetech.shopee.com.br.txlivecdn.com
 m.txtxr.com
 u.txuesoft.cn
+ty.cn
 tydouke.com
 tzlit.cn
 stat.u.sb
@@ -4276,7 +4275,6 @@ pvx.xcar.com.cn
 zio.xcar.com.cn
 analytics1.xdiarys.com
 xdrig.com
-sensors.h5.xed.plus
 xegnfwkju.com
 xerhibx.cn
 xftsjv.top
@@ -4343,7 +4341,6 @@ preload.xiaomi.com
 redirect.pandora.xiaomi.com
 register.xmpush.global.xiaomi.com
 resolver.mi.xiaomi.com
-sdkconfig.ad.eu.xiaomi.com
 stat.pandora.xiaomi.com
 stats.music.xiaomi.com
 storeconfig.mistat.intl.xiaomi.com
@@ -4657,9 +4654,9 @@ api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
 app-analytics-de.zepp.com
 ssp.zf313.com
+zggxkj.com.cn
 zgisp.net
 yin1.zgpingshu.com
-zh-telegramxz.com.cn
 push.zhangyue.com
 sys.zhangyue.com
 saad.ms.zhangyue.net
@@ -4668,7 +4665,6 @@ zhanzhang.net
 mg09.zhaopin.com
 slotabrosdev.zharev.com
 slotabrosuat.zharev.com
-zhcn-telegramxz.com.cn
 cdnlog.zhenai.com
 1.zhev.com.cn
 zhflodsix.cn
@@ -4774,7 +4770,6 @@ zoosnet.net
 zoossoft.net
 zowralr.cn
 zqmhl8lgj.com
-zrg-telegramxz.com.cn
 zsjxwj.com
 steam.zssjsq.com
 ztqdkzn.cn
