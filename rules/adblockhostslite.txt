@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260509171111
-# Last modified: 2026/05/09 17:11:11
-# Blocked domains: 4779
+# Version: 20260510004412
+# Last modified: 2026/05/10 00:44:12
+# Blocked domains: 4778
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -363,6 +363,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	a32a.com.cn
 0.0.0.0	a3p4.net
 0.0.0.0	a4xvv2g18l.com
+0.0.0.0	aaaweb.cn
 0.0.0.0	aaoffice.cn
 0.0.0.0	smetrics.abercrombie.cn
 0.0.0.0	discover.absciex.com.cn
@@ -1037,8 +1038,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	data.chsmarttv.com
 0.0.0.0	api-ad.chuangyuejoy.com
 0.0.0.0	y66xvgo5i.chuimg.com
-0.0.0.0	bd3.chuiyue.com
-0.0.0.0	sbpb1.chuiyue.com
 0.0.0.0	ciajifmfsp.com
 0.0.0.0	hpplay.cdn.cibn.cc
 0.0.0.0	pl.cp31.ott.cibntv.net
