@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260512015105
-# Last modified: 2026/05/12 01:51:05
-# Blocked domains: 4777
+# Version: 20260512101205
+# Last modified: 2026/05/12 10:12:05
+# Blocked domains: 4775
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -438,7 +438,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tracking.agora.io
 0.0.0.0	webcollector-rtm.agora.io
 0.0.0.0	ahov1.top
-0.0.0.0	ai-sogou.com.cn
 0.0.0.0	brc.aigrammar.net
 0.0.0.0	brc2.aigrammar.net
 0.0.0.0	aihaoduo.cn
@@ -617,7 +616,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aoqinglv.cn
 0.0.0.0	wxhawk.aoscdn.com
 0.0.0.0	log-pub-hk.aoshitang.com
-0.0.0.0	apd-todesk.com.cn
 0.0.0.0	adx.apicgate.com
 0.0.0.0	us-behavior.apitd.net
 0.0.0.0	apkevery.com
@@ -1402,7 +1400,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hostecountspringweb-4sbw8uzi5y.edgeone.dev
 0.0.0.0	kita-quote-wt6k5i5yoz.edgeone.dev
 0.0.0.0	loud-bronze-vckfnrbimo.edgeone.dev
-0.0.0.0	reviewsource-inquiryweb-22qyctxg9d.edgeone.dev
 0.0.0.0	roundcube-jrcfj7x9ek.edgeone.dev
 0.0.0.0	srv65ertui8uyt655io-7douf96n3o.edgeone.dev
 0.0.0.0	tropical-red-pd56z5jhth.edgeone.dev
@@ -2678,7 +2675,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trace.mjyx.com
 0.0.0.0	mkue.cn
 0.0.0.0	emjs.mkzhan.com
-0.0.0.0	mlpzes05.com
 0.0.0.0	mlstx.cn
 0.0.0.0	da.mmarket.com
 0.0.0.0	mmkkiivv.com
@@ -2996,6 +2992,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kbae.qiqqh.cn
 0.0.0.0	qishmusic.com.cn
 0.0.0.0	qishui-yinle.hl.cn
+0.0.0.0	qishuiyy.com.cn
 0.0.0.0	qiumiba.cn
 0.0.0.0	stats.qiumibao.com
 0.0.0.0	webstat.qiumibao.com
@@ -3733,6 +3730,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ip.tianqiapi.com
 0.0.0.0	datas.tianqistatic.com
 0.0.0.0	yptqys.tianqistatic.com
+0.0.0.0	fz.tiansys.cn
 0.0.0.0	smetrics.tiffany.cn
 0.0.0.0	tikz.cn
 0.0.0.0	wkrd.tingyun.com
