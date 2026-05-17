@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260517004942
-# Last modified: 2026/05/17 00:49:42
-# Blocked domains: 4835
+# Version: 20260517101429
+# Last modified: 2026/05/17 10:14:29
+# Blocked domains: 4831
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -769,6 +769,7 @@ local=/paimgcdn-feed.baidu.com/
 local=/pimlog.baidu.com/
 local=/plugin.mobopay.baidu.com/
 local=/pos.baidu.com/
+local=/publish-pic-cpu.baidu.com/
 local=/pups.baidu.com/
 local=/push.zhanzhang.baidu.com/
 local=/qapm.baidu.com/
@@ -1088,7 +1089,6 @@ local=/ad.cnr.cn/
 local=/phpstat.cntcm.com.cn/
 local=/cnzz.cn/
 local=/cnzz.com/
-local=/codeminer.cn/
 local=/1.codesdq.com/
 local=/reportwest-midas.codmwest.com/
 local=/guif.coloros.com/
@@ -1445,7 +1445,6 @@ local=/ethan.wang/
 local=/etitgo.com/
 local=/c.etoolads.cn/
 local=/euuh.cn/
-local=/evkc.cn/
 local=/evri-parcelq.cn/
 local=/duologinsupersdk.ewan.cn/
 local=/ewrrpuquc1.com/
@@ -2723,7 +2722,6 @@ local=/qn-cdnfile1pcdn.msstatic.com/
 local=/qn-livewebbs2pcdn.msstatic.com/
 local=/cdnovs.multiopen.cn/
 local=/a.munters.cn/
-local=/muoy.cn/
 local=/mvamnng.cn/
 local=/mxevdii.cn/
 local=/apiyd.my91app.com/
@@ -4217,7 +4215,6 @@ local=/weidianyuedu.com/
 local=/1.weiheshidai.com/
 local=/badjs.weixinbridge.com/
 local=/code.wenbanzhu.com/
-local=/weod.cn/
 local=/ad.weplayer.cc/
 local=/crosspromotion.weplayer.cc/
 local=/s1.wesiedu.com/
@@ -4298,7 +4295,6 @@ local=/1500020991.vodplayer.wxamedia.com/
 local=/1500022744.vodplayer.wxamedia.com/
 local=/1500026601.vodplayer.wxamedia.com/
 local=/wy213.com/
-local=/wyvw.cn/
 local=/a.wzu.com/
 local=/x-steam.com/
 local=/x4hu95mh0t.com/
