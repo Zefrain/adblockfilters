@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260523174531
-! Last modified: 2026/05/23 17:45:31
+! Version: 20260524005333
+! Last modified: 2026/05/24 00:53:33
 ! Blocked domains: 4727
 !
 kwflvcdn.000dn.com
@@ -1829,6 +1829,7 @@ analytics.shop.hisense.com
 api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
+api-gps-na.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 auth-em.hismarttv.com
@@ -1930,7 +1931,6 @@ huitoukao.com
 track.hujiang.com
 trackcommon.hujiang.com
 u8.hujiang.com
-hulichuang.mobi
 log.hunantv.com
 log.v2.hunantv.com
 huoche.com.cn
@@ -2893,6 +2893,7 @@ prlioxb.cn
 info.protiviti.com.cn
 psi-association.com
 dm.pstatp.com
+pb3.pstatp.com
 sf1-ttcdn-tos.pstatp.com
 sf3-ttcdn-tos.pstatp.com
 ptengine.cn
@@ -4620,7 +4621,6 @@ mqtt.zhihu.com
 sugar.zhihu.com
 zhihu-web-analytics.zhihu.com
 collector2c.zhihuishu.com
-analytics.zhihuiya.com
 www.zhikey.com
 ads.zhinengxiyifang.cn
 logapi.zhipin.com

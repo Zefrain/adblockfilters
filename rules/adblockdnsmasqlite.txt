@@ -3,8 +3,8 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260523174531
-# Last modified: 2026/05/23 17:45:31
+# Version: 20260524005333
+# Last modified: 2026/05/24 00:53:33
 # Blocked domains: 4727
 #
 local=/kwflvcdn.000dn.com/
@@ -1829,6 +1829,7 @@ local=/analytics.shop.hisense.com/
 local=/api-4know-em.hismarttv.com/
 local=/api-gps.hismarttv.com/
 local=/api-gps-eu.hismarttv.com/
+local=/api-gps-na.hismarttv.com/
 local=/api-launcher-eu.hismarttv.com/
 local=/api-launcher-na.hismarttv.com/
 local=/auth-em.hismarttv.com/
@@ -1930,7 +1931,6 @@ local=/huitoukao.com/
 local=/track.hujiang.com/
 local=/trackcommon.hujiang.com/
 local=/u8.hujiang.com/
-local=/hulichuang.mobi/
 local=/log.hunantv.com/
 local=/log.v2.hunantv.com/
 local=/huoche.com.cn/
@@ -2893,6 +2893,7 @@ local=/prlioxb.cn/
 local=/info.protiviti.com.cn/
 local=/psi-association.com/
 local=/dm.pstatp.com/
+local=/pb3.pstatp.com/
 local=/sf1-ttcdn-tos.pstatp.com/
 local=/sf3-ttcdn-tos.pstatp.com/
 local=/ptengine.cn/
@@ -4620,7 +4621,6 @@ local=/mqtt.zhihu.com/
 local=/sugar.zhihu.com/
 local=/zhihu-web-analytics.zhihu.com/
 local=/collector2c.zhihuishu.com/
-local=/analytics.zhihuiya.com/
 local=/www.zhikey.com/
 local=/ads.zhinengxiyifang.cn/
 local=/logapi.zhipin.com/
