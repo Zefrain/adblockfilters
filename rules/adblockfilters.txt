@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260524174924
-! Last modified: 2026/05/24 17:49:24
-! Blocked Filters: 101631
+! Version: 20260525005416
+! Last modified: 2026/05/25 00:54:16
+! Blocked Filters: 101643
 !
 ###AC_ad
 ###AD_160
@@ -43872,6 +43872,8 @@ crypto.news##.a49292cf69626
 crypto.news##.b6470de94dc
 crypto.news##.rexas-presale
 crypto.news##.sponsored-button-group
+cryptobriefing.com##.ad-sticky-banner
+cryptobriefing.com##.na-item.item
 cryptocompare.com##.front-page-info-wrapper
 cryptocompare.com##.item-special
 cryptocompare.com##.title-hero
@@ -50619,6 +50621,12 @@ gamesmain.xyz,foodtechnos.in#%#//scriptlet('prevent-element-src-loading', 'scrip
 gamesmain.xyz,foodtechnos.in#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 gamesmain.xyz,foodtechnos.in#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
 gamesmarket.global##.MuiBox-root > .MuiBox-root:has(> .adSlot)
+gamesofdesire.com###chat
+gamesofdesire.com###maincol > div.game_box:has(> a[href="https://www.mnfclub.com"])
+gamesofdesire.com##[alt="banner"]
+gamesofdesire.com##[id^="skin_"]
+gamesofdesire.com##a#img_left
+gamesofdesire.com##a#img_right
 gamespot.com##.vjs-overlay-onceux-countdown-text
 gamespot.com##script.stub-leader
 gamespot.com##script.stub-mpu
@@ -67350,6 +67358,7 @@ poophd.video-src.com#%#//scriptlet('prevent-fetch', 'wpadmngr.com')
 popart.hk###slideshow
 popbee.com##.adblocker
 popcornflix.com#%#//scriptlet('trusted-replace-fetch-response', '"adEnabled":true', '"adEnabled":false')
+popcornmovies.org#%#//scriptlet("json-prune", "*", "ppuClicks")
 popcorntv.it#%#//scriptlet('set-constant', 'adstarted', '5')
 popcorntv.it#%#//scriptlet('set-constant', 'wantedPreroll', '0')
 popcorntv.it#%#//scriptlet('set-constant', 'waterfallIndex', '11')
@@ -86926,7 +86935,6 @@ zzzyk.com###Tinfo
 ||btbtdy.*/templets/btdy/js/ad
 ||btbuluo.com/uploads/*.gif
 ||btc.com/v1/poster/production/explorer-banner.
-||btccasinoexpert.com^$popup
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.*/bal.js
 ||btdb.in/beacon.html
@@ -87714,7 +87722,6 @@ zzzyk.com###Tinfo
 ||citysearch.com/tracker/
 ||cityspark.com^$third-party
 ||citytv.com/wp-json/rsm-adutil/$xmlhttprequest,redirect-rule=noopjson
-||civicscience.com/jot?
 ||civitai.com/api/page-view
 ||civitai.com/api/trpc/track.addView
 ||cj1*.online^
@@ -90056,6 +90063,7 @@ zzzyk.com###Tinfo
 ||fxsc6.net/js/
 ||fxxz.com/skin/know/all.js
 ||fydisk.com/images/showvip.gif
+||fyglovilo.pro^$popup
 ||fzbm.com/bbs/static/js/bma.js
 ||fzd3.com/gg/
 ||fzlol.com/images/$script
@@ -90158,6 +90166,9 @@ zzzyk.com###Tinfo
 ||games-direct.skynetworkcdn.com^$subdocument,third-party
 ||games.masque.com/util/crossPromo/crossPromo.php?id=
 ||gamesdeal.com/media/allkeyshop/banner/text.html
+||gamesofdesire.com/files/flash/*-side.swf
+||gamesofdesire.com/skin/*_*.html
+||gamesofdesire.com/vghd/
 ||gamesrepacks.com/wp-content/plugins/deblocker/$important
 ||gamessumo.com/ima3.js$script,redirect=google-ima3
 ||gamessumo.com^$app=backiee.exe
@@ -91270,7 +91281,6 @@ zzzyk.com###Tinfo
 ||hqtrk.com^$popup
 ||hqtube.xxx/api/pu/
 ||hqtube.xxx/tmp/
-||hrbpark.bid^$third-party
 ||hrjg.com.cn^$third-party
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs.fi/stats
@@ -93414,6 +93424,7 @@ zzzyk.com###Tinfo
 ||lu228.com/ajs/
 ||lucida.su/api/event
 ||ludicer.it/template/checkP.js
+||lukyday.xyz^$popup
 ||lunhua5.com/images/more.gif
 ||luogu.me/static/anti_block.json
 ||luohxs.com/*/*.kkvvxn
@@ -95464,7 +95475,6 @@ zzzyk.com###Tinfo
 ||pexels.com^*/sponsored_
 ||pexu.com^$popup
 ||pfkgl.top/images/*.gif
-||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pg.ignimgs.com/pogoadkit.js
 ||pg.totaaltv.nl/api/metrics
@@ -96183,6 +96193,7 @@ zzzyk.com###Tinfo
 ||purposegames.com/api/*/adblock?token=
 ||pururin.to/assets/js/pop.js
 ||push-free.com^$third-party
+||push-news.click^$popup
 ||push.bdnewsx.com/sahil.js
 ||push.delivery^$third-party
 ||pushabl.com^$script,third-party
@@ -99775,6 +99786,7 @@ zzzyk.com###Tinfo
 ||users-api.com^$third-party
 ||userscript.zone/s.js
 ||usersonline.org/ping.php?
+||userstatics.com/get/script.js
 ||usertracks.live^$third-party
 ||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
