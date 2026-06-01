@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260601213005
-# Last modified: 2026/06/01 21:30:05
-# Blocked domains: 4548
+# Version: 20260602041237
+# Last modified: 2026/06/02 04:12:37
+# Blocked domains: 4552
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -622,7 +622,6 @@ local=/ftwo-feedback.autohome.com.cn/
 local=/ftwo-receiver.autohome.com.cn/
 local=/idm.api.autohome.com.cn/
 local=/pcd.autohome.com.cn/
-local=/pcmx.autohome.com.cn/
 local=/push.app.autohome.com.cn/
 local=/pvx.autohome.com.cn/
 local=/rd.autohome.com.cn/
@@ -728,7 +727,6 @@ local=/libs.baidu.com/
 local=/log.music.baidu.com/
 local=/luimg.baidu.com/
 local=/m1.baidu.com/
-local=/miao.baidu.com/
 local=/miaowu.baidu.com/
 local=/mipengine.baidu.com/
 local=/mobads.baidu.com/
@@ -1375,6 +1373,7 @@ local=/eoyqzzk.cn/
 local=/eqqi.cn/
 local=/m.ercos.cn/
 local=/ethan.wang/
+local=/c.etoolads.cn/
 local=/euuh.cn/
 local=/evri-parcelq.cn/
 local=/duologinsupersdk.ewan.cn/
@@ -2007,6 +2006,7 @@ local=/paopao.iqiyi.com/
 local=/paopao-monitor.iqiyi.com/
 local=/policy.video.iqiyi.com/
 local=/puma-api.iqiyi.com/
+local=/puma.api.iqiyi.com/
 local=/static-s.iqiyi.com/
 local=/static.g.iqiyi.com/
 local=/subscription.iqiyi.com/
@@ -3072,6 +3072,7 @@ local=/userimg.qunar.com/
 local=/ent1.qunchua.cn/
 local=/vn-ebay.quxlpuj.cn/
 local=/zzy1.quyaoya.com/
+local=/api.qvpublish.com/
 local=/u.qxen.com/
 local=/msg.qy.net/
 local=/msg-intl.qy.net/
@@ -3189,6 +3190,7 @@ local=/senbiaojita.com/
 local=/sensorsdata.cn/
 local=/seordl.cn/
 local=/logstat.t.sfht.com/
+local=/track.sgdmobile.com/
 local=/sglyd.cn/
 local=/zqzrzcto.shacukj.cn/
 local=/w88.shanghaidisneyresort.com.cn/
@@ -3211,6 +3213,7 @@ local=/shuiguo.com/
 local=/umini.shujupie.com/
 local=/ad.shunchangzhixing.com/
 local=/js.shunqi.com/
+local=/ut2.shuqistat.com/
 local=/shuzilm.cn/
 local=/ads-monitoring.shziyi.com/
 local=/sigmob.com/
@@ -3603,6 +3606,7 @@ local=/sky.tongjiai.com/
 local=/ato.tooopen.com/
 local=/topsem.com/
 local=/static.topxgun.com/
+local=/api.touch-moblie.com/
 local=/touclick.com/
 local=/toushibao.com/
 local=/ad.toutiao.com/
