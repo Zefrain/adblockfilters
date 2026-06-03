@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/06/03 10:56:34
-#!support=4706
+#!date=2026/06/03 20:32:46
+#!support=4716
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,kwflvcdn.000dn.com
@@ -143,6 +143,7 @@ DOMAIN-SUFFIX,ad.life.360.cn
 DOMAIN-SUFFIX,aicleaner.shouji.360.cn
 DOMAIN-SUFFIX,c.sayhi.360.cn
 DOMAIN-SUFFIX,care.help.360.cn
+DOMAIN-SUFFIX,dd.browser.360.cn
 DOMAIN-SUFFIX,f.360.cn
 DOMAIN-SUFFIX,hao.360.cn
 DOMAIN-SUFFIX,lianmeng.360.cn
@@ -501,6 +502,7 @@ DOMAIN-SUFFIX,loggw.alipay.com.cn
 DOMAIN-SUFFIX,loggw.alipaydns.com
 DOMAIN-SUFFIX,alipaylog.com
 DOMAIN-SUFFIX,acjs.aliyun.com
+DOMAIN-SUFFIX,click.aliyun.com
 DOMAIN-SUFFIX,1fur2cuzsul-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,1fw35mn5y7h-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,1hlahoc4rpc-sdk.rum.aliyuncs.com
@@ -950,6 +952,8 @@ DOMAIN-SUFFIX,tracking.cat898.com
 DOMAIN-SUFFIX,cbhzxctgm.com
 DOMAIN-SUFFIX,adv.ccb.com
 DOMAIN-SUFFIX,ad.ccement.com
+DOMAIN-SUFFIX,btrace.ysp.cctv.cn
+DOMAIN-SUFFIX,mtrace.ysp.cctv.cn
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,httpdns.cctv.com
 DOMAIN-SUFFIX,p.data.cctv.com
@@ -1347,6 +1351,7 @@ DOMAIN-SUFFIX,api.e-toys.cn
 DOMAIN-SUFFIX,eagle-tex.cn
 DOMAIN-SUFFIX,track.easeus.com
 DOMAIN-SUFFIX,easou.com
+DOMAIN-SUFFIX,mini.eastday.com
 DOMAIN-SUFFIX,ay.eastmoney.com
 DOMAIN-SUFFIX,bdstatic.eastmoney.com
 DOMAIN-SUFFIX,bduserlog.eastmoney.com
@@ -2054,7 +2059,6 @@ DOMAIN-SUFFIX,mbdlog.iqiyi.com
 DOMAIN-SUFFIX,msg.iqiyi.com
 DOMAIN-SUFFIX,ndct-data.video.iqiyi.com
 DOMAIN-SUFFIX,nl-rcd.iqiyi.com
-DOMAIN-SUFFIX,nl.rcd.iqiyi.com
 DOMAIN-SUFFIX,paopao.iqiyi.com
 DOMAIN-SUFFIX,paopao-monitor.iqiyi.com
 DOMAIN-SUFFIX,policy.video.iqiyi.com
@@ -2667,11 +2671,17 @@ DOMAIN-SUFFIX,a.munters.cn
 DOMAIN-SUFFIX,mvamnng.cn
 DOMAIN-SUFFIX,mxevdii.cn
 DOMAIN-SUFFIX,apiyd.my91app.com
+DOMAIN-SUFFIX,ceshi127722.obs.cn-north-4.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com
+DOMAIN-SUFFIX,nsp-logservice-hiview-p41-drcn.obs.cn-north-2.myhuaweicloud.com
+DOMAIN-SUFFIX,nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com
+DOMAIN-SUFFIX,nsp-logservice-hiview-p50-drcn.obs.cn-north-2.myhuaweicloud.com
+DOMAIN-SUFFIX,nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com
 DOMAIN-SUFFIX,r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com
+DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com
 DOMAIN-SUFFIX,myhug.cn
 DOMAIN-SUFFIX,metrics-picture-hk.d1.mykeeta.com
 DOMAIN-SUFFIX,esa-reg-eup.myoppo.com
@@ -3137,6 +3147,7 @@ DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com.queniuyk.com
 DOMAIN-SUFFIX,qufu.com.cn
 DOMAIN-SUFFIX,chat.quickcep.com
 DOMAIN-SUFFIX,qujishu.com
+DOMAIN-SUFFIX,sbbd1.qulishi.com
 DOMAIN-SUFFIX,bc.qunar.com
 DOMAIN-SUFFIX,log.flight.qunar.com
 DOMAIN-SUFFIX,qreport.qunar.com
@@ -3334,7 +3345,6 @@ DOMAIN-SUFFIX,dmp.sina.com.cn
 DOMAIN-SUFFIX,emarketing.sina.com.cn
 DOMAIN-SUFFIX,log.mix.sina.com.cn
 DOMAIN-SUFFIX,matwbp.iask.sina.com.cn
-DOMAIN-SUFFIX,pfp.sina.com.cn
 DOMAIN-SUFFIX,sax.sina.com.cn
 DOMAIN-SUFFIX,saxn.sina.com.cn
 DOMAIN-SUFFIX,sbeacon.sina.com.cn
@@ -3424,6 +3434,7 @@ DOMAIN-SUFFIX,ws-keyboard.shouji.sogou.com
 DOMAIN-SUFFIX,sogou2.com.cn
 DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,888.tv.sohu.com
+DOMAIN-SUFFIX,ad.sohu.com
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,bd.hd.sohu.com
 DOMAIN-SUFFIX,changyan.sohu.com
@@ -3981,7 +3992,6 @@ DOMAIN-SUFFIX,ru-exstsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-os-config-appstore.vivoglobal.com
 DOMAIN-SUFFIX,ru-p.vivoglobal.com
-DOMAIN-SUFFIX,ru-pnrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-exappupgrade.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-sl.vivoglobal.com
@@ -4116,7 +4126,7 @@ DOMAIN-SUFFIX,badjs.weixinbridge.com
 DOMAIN-SUFFIX,code.wenbanzhu.com
 DOMAIN-SUFFIX,ad.weplayer.cc
 DOMAIN-SUFFIX,crosspromotion.weplayer.cc
-DOMAIN-SUFFIX,s1.wesiedu.com
+DOMAIN-SUFFIX,wesiedu.com
 DOMAIN-SUFFIX,count.west263.com
 DOMAIN-SUFFIX,perfsight.wetest.net
 DOMAIN-SUFFIX,htrace.wetvinfo.com
