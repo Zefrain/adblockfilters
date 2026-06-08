@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260608104817
-# Last modified: 2026/06/08 10:48:17
-# Blocked domains: 4671
+# Version: 20260608202336
+# Last modified: 2026/06/08 20:23:36
+# Blocked domains: 4674
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -49,7 +49,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	123cha.com
 0.0.0.0	bdad.123pan.cn
 0.0.0.0	ent1.12584.cn
-0.0.0.0	126.cn
 0.0.0.0	analytics.126.com
 0.0.0.0	ir.mail.126.com
 0.0.0.0	iadmusicmat.music.126.net
@@ -82,6 +81,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	crash.163.com
 0.0.0.0	crashlytics.163.com
 0.0.0.0	du.163.com
+0.0.0.0	e-p4p.163.com
 0.0.0.0	fp-upload.dun.163.com
 0.0.0.0	g.163.com
 0.0.0.0	gb.corp.163.com
@@ -424,6 +424,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	report-europe.agora.io
 0.0.0.0	report-north-america.agora.io
 0.0.0.0	report-oversea.agora.io
+0.0.0.0	report-oversea2.agora.io
 0.0.0.0	statscollector-1.agora.io
 0.0.0.0	statscollector-1-asia.agora.io
 0.0.0.0	statscollector-1-europe.agora.io
@@ -938,6 +939,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	caomeixz7.xyz
 0.0.0.0	caonimazuzong.com
 0.0.0.0	baidu1.cardbaobao.com
+0.0.0.0	cart.net.cn
 0.0.0.0	cartx.cloud
 0.0.0.0	super.cat898.com
 0.0.0.0	tracking.cat898.com
@@ -1029,7 +1031,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-api.cli.im
 0.0.0.0	bd1.click.com.cn
 0.0.0.0	clicki.cn
-0.0.0.0	7xi9g1.com1.z0.glb.clouddn.com
 0.0.0.0	bkt.clouddn.com
 0.0.0.0	advertise.cloudlinks.cn
 0.0.0.0	log.cmbchina.com
@@ -1043,7 +1044,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log1.cmpassport.com
 0.0.0.0	log2.cmpassport.com
 0.0.0.0	cmpxaup.cn
-0.0.0.0	ggc.cmvideo.cn
 0.0.0.0	ggx.cmvideo.cn
 0.0.0.0	ad-api.cnblogs.com
 0.0.0.0	analytics.cnblogs.com
@@ -1511,6 +1511,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ng-vn-notice.gameitop.com
 0.0.0.0	ad.gameley.com
 0.0.0.0	click.gamersky.com
+0.0.0.0	ja2.gamersky.com
 0.0.0.0	wmbd.gamersky.com
 0.0.0.0	jiaoben.ganji.cn
 0.0.0.0	ad.ganji.com
@@ -1817,6 +1818,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	auth-phone-afr.hismarttv.com
 0.0.0.0	auth-sa.hismarttv.com
 0.0.0.0	cdn-plugin-sync-upgrade-juui.hismarttv.com
+0.0.0.0	msg-em.hismarttv.com
 0.0.0.0	msg-na.hismarttv.com
 0.0.0.0	unified-ter-na.hismarttv.com
 0.0.0.0	upgrade-update.hismarttv.com
@@ -4260,6 +4262,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
+0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
