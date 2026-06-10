@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260610103843
-! Last modified: 2026/06/10 10:38:43
-! Blocked domains: 4647
+! Version: 20260610193248
+! Last modified: 2026/06/10 19:32:48
+! Blocked domains: 4651
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -926,6 +926,8 @@ tracking.cat898.com
 cbhzxctgm.com
 adv.ccb.com
 ad.ccement.com
+btrace.ysp.cctv.cn
+mtrace.ysp.cctv.cn
 ad.cctv.com
 httpdns.cctv.com
 p.data.cctv.com
@@ -1023,6 +1025,7 @@ log-h5.cmpassport.com
 log1.cmpassport.com
 log2.cmpassport.com
 cmpxaup.cn
+ggc.cmvideo.cn
 ggx.cmvideo.cn
 ad-api.cnblogs.com
 analytics.cnblogs.com
@@ -2297,6 +2300,7 @@ adashx.ut.lazada.com
 amdc.lazada.com
 h-adashx.ut.lazada.com
 orange-dc.lazada.com
+sg-log-emagzal.lazada.com
 jmacs-m.lazada.com.my
 msgacs-m.lazada.com.my
 jmacs-m.lazada.com.ph
@@ -2415,6 +2419,7 @@ mangomob.net
 bi.manhuaren.com
 euadsapi.manhuaren.com
 manyou.com
+adx.maplehaze.cn
 accounts.marketwebb.me
 sdk.markmedia.com.cn
 marshallscarlett.shop
@@ -2683,7 +2688,6 @@ pdns.nudt.edu.cn
 synad2.nuffnang.com.cn
 c.nuhcpf.com
 log.nuomi.com
-metric.nuonuo.com
 promotionad.nvcam.net
 ad.nvdvr.cn
 anews7.nvwu.com
@@ -2789,7 +2793,6 @@ gg86.pinggu.org
 img50.pingguolv.com
 api.pingstart.com
 bd1.pipaw.com
-stat2.pixpin.cn
 pl53l7tyw.com
 placidocn.com
 up.play-analytics.com
@@ -3104,6 +3107,7 @@ v3-reading-ad.qznovelvod.com
 v5-reading-ad.qznovelvod.com
 v6-reading-ad.qznovelvod.com
 v9-reading-ad.qznovelvod.com
+v96-reading-ad.qznovelvod.com
 rabuagc.cn
 luaqxb.rainso.com
 bespoke-analytics.razerapi.com
@@ -3882,6 +3886,7 @@ cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
+co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 de-gdpr-err-up.vivoglobal.com
@@ -3949,6 +3954,7 @@ tr-ort-stsdk.vivoglobal.com
 tr-p.vivoglobal.com
 tr-romsp-unifyconfig.vivoglobal.com
 tr-st-sl.vivoglobal.com
+tr-stsdk.vivoglobal.com
 tr-timesync.vivoglobal.com
 tr-vcode-api.vivoglobal.com
 tr-vcode-od.vivoglobal.com
@@ -4356,7 +4362,6 @@ bd1.yidu.cc
 yijifen.com
 yijirecovery.com
 data-track.yingxiong.com
-data-track-global.yingxiong.com
 yingyankantu.com
 log.yinshantech.cn
 analytics.yinxiang.com
@@ -4514,7 +4519,6 @@ p3.zbjimg.com
 xue.zbyw.cn
 log.zcool.com.cn
 zegarkirepliki.pl
-api-analytics.zepp.com
 api-analytics-cn3.zepp.com
 api-analytics-de.zepp.com
 api-analytics-us.zepp.com
