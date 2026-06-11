@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/06/11 10:48:58
-#!support=4644
+#!date=2026/06/11 20:04:37
+#!support=4646
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,kwflvcdn.000dn.com
@@ -112,7 +112,10 @@ DOMAIN-SUFFIX,2144.cn
 DOMAIN-SUFFIX,ssp.21ic.com
 DOMAIN-SUFFIX,tj.21ic.com
 DOMAIN-SUFFIX,2345.cn
-DOMAIN-SUFFIX,2345.com
+DOMAIN-SUFFIX,bd-js1.2345.com
+DOMAIN-SUFFIX,bd-retrieval1.2345.com
+DOMAIN-SUFFIX,bdcode.2345.com
+DOMAIN-SUFFIX,ggcode.2345.com
 DOMAIN-SUFFIX,2481e.com
 DOMAIN-SUFFIX,25662zubo23739.com
 DOMAIN-SUFFIX,2607.cn
@@ -519,6 +522,7 @@ DOMAIN-SUFFIX,dmg-dd.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,dongtukj.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
 DOMAIN-SUFFIX,ep2x3kiawg-sdk.rum.aliyuncs.com
+DOMAIN-SUFFIX,f8ds5tkidk-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,facai383.oss-cn-guangzhou.aliyuncs.com
 DOMAIN-SUFFIX,first-hufu.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,free-cdn.oss-cn-shanghai.aliyuncs.com
@@ -595,7 +599,6 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,securemetrics.apple.com.cn
 DOMAIN-SUFFIX,fpb1.apple886.com
 DOMAIN-SUFFIX,apps-google-hl.hl.cn
-DOMAIN-SUFFIX,st.appsad.cn
 DOMAIN-SUFFIX,adx.appsdk.com.cn
 DOMAIN-SUFFIX,appsdt.com
 DOMAIN-SUFFIX,tracking.apptrackerlink.com
@@ -930,8 +933,6 @@ DOMAIN-SUFFIX,tracking.cat898.com
 DOMAIN-SUFFIX,cbhzxctgm.com
 DOMAIN-SUFFIX,adv.ccb.com
 DOMAIN-SUFFIX,ad.ccement.com
-DOMAIN-SUFFIX,btrace.ysp.cctv.cn
-DOMAIN-SUFFIX,mtrace.ysp.cctv.cn
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,httpdns.cctv.com
 DOMAIN-SUFFIX,p.data.cctv.com
@@ -1029,7 +1030,6 @@ DOMAIN-SUFFIX,log-h5.cmpassport.com
 DOMAIN-SUFFIX,log1.cmpassport.com
 DOMAIN-SUFFIX,log2.cmpassport.com
 DOMAIN-SUFFIX,cmpxaup.cn
-DOMAIN-SUFFIX,ggc.cmvideo.cn
 DOMAIN-SUFFIX,ggx.cmvideo.cn
 DOMAIN-SUFFIX,ad-api.cnblogs.com
 DOMAIN-SUFFIX,analytics.cnblogs.com
@@ -1221,7 +1221,6 @@ DOMAIN-SUFFIX,msz3.destinia.cn
 DOMAIN-SUFFIX,detailroi.com
 DOMAIN-SUFFIX,api.dewmobile.net
 DOMAIN-SUFFIX,dexinyi.cn
-DOMAIN-SUFFIX,dgrj.com.cn
 DOMAIN-SUFFIX,d.dgzj.com
 DOMAIN-SUFFIX,dianru.com
 DOMAIN-SUFFIX,digitalfiles.org
@@ -2098,6 +2097,7 @@ DOMAIN-SUFFIX,tr.jianshu.com
 DOMAIN-SUFFIX,udiab1.jianshu.com
 DOMAIN-SUFFIX,api.jietuhb.com
 DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,ad.open.api.jihuoniao.com
 DOMAIN-SUFFIX,target.ads.jihuoniao.com
 DOMAIN-SUFFIX,jikewan.com
 DOMAIN-SUFFIX,jikklfexh.com
@@ -2141,7 +2141,6 @@ DOMAIN-SUFFIX,jxdyk65ay.com
 DOMAIN-SUFFIX,ad.jxnews.com.cn
 DOMAIN-SUFFIX,jy135.com
 DOMAIN-SUFFIX,jygdb.com
-DOMAIN-SUFFIX,jyhengyi.cn
 DOMAIN-SUFFIX,o1.jyjyj.cn
 DOMAIN-SUFFIX,o2.jyjyj.cn
 DOMAIN-SUFFIX,jzdwl4.cn
@@ -2302,6 +2301,7 @@ DOMAIN-SUFFIX,adashx.ut.lazada.com
 DOMAIN-SUFFIX,amdc.lazada.com
 DOMAIN-SUFFIX,h-adashx.ut.lazada.com
 DOMAIN-SUFFIX,orange-dc.lazada.com
+DOMAIN-SUFFIX,ph-log-emagzal.lazada.com
 DOMAIN-SUFFIX,sg-log-emagzal.lazada.com
 DOMAIN-SUFFIX,jmacs-m.lazada.com.my
 DOMAIN-SUFFIX,msgacs-m.lazada.com.my
@@ -2515,7 +2515,6 @@ DOMAIN-SUFFIX,ggx01.miguvideo.com
 DOMAIN-SUFFIX,ggx03.miguvideo.com
 DOMAIN-SUFFIX,ggxwb.miguvideo.com
 DOMAIN-SUFFIX,v.miguvideo.com
-DOMAIN-SUFFIX,ad-log-upload.mihoyo.com
 DOMAIN-SUFFIX,apm-log-upload.mihoyo.com
 DOMAIN-SUFFIX,h5log-api-dualstack.mihoyo.com
 DOMAIN-SUFFIX,hkrpg-log-upload.mihoyo.com
@@ -2569,6 +2568,7 @@ DOMAIN-SUFFIX,mqs-log.miui.com
 DOMAIN-SUFFIX,notify.sec.miui.com
 DOMAIN-SUFFIX,port.sec.miui.com
 DOMAIN-SUFFIX,port.sec.intl.miui.com
+DOMAIN-SUFFIX,proxy.sec.miui.com
 DOMAIN-SUFFIX,srv.sec.miui.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.eu.miui.com
@@ -2795,6 +2795,7 @@ DOMAIN-SUFFIX,gg86.pinggu.org
 DOMAIN-SUFFIX,img50.pingguolv.com
 DOMAIN-SUFFIX,api.pingstart.com
 DOMAIN-SUFFIX,bd1.pipaw.com
+DOMAIN-SUFFIX,stat2.pixpin.cn
 DOMAIN-SUFFIX,pl53l7tyw.com
 DOMAIN-SUFFIX,placidocn.com
 DOMAIN-SUFFIX,up.play-analytics.com
@@ -3137,7 +3138,6 @@ DOMAIN-SUFFIX,richh.cn
 DOMAIN-SUFFIX,ad.richmob.cn
 DOMAIN-SUFFIX,riveralydia.shop
 DOMAIN-SUFFIX,bi-tracker-global.rivergame.net
-DOMAIN-SUFFIX,tatracker-us.rivergame.net
 DOMAIN-SUFFIX,rkcfmfm97.com
 DOMAIN-SUFFIX,rkzby.cn
 DOMAIN-SUFFIX,rl1vypwyd2.com
@@ -3693,7 +3693,6 @@ DOMAIN-SUFFIX,livetech.shopee.co.id.txlivecdn.com
 DOMAIN-SUFFIX,livetech.shopee.com.br.txlivecdn.com
 DOMAIN-SUFFIX,m.txtxr.com
 DOMAIN-SUFFIX,u.txuesoft.cn
-DOMAIN-SUFFIX,ty.cn
 DOMAIN-SUFFIX,tydouke.com
 DOMAIN-SUFFIX,tzlit.cn
 DOMAIN-SUFFIX,stat.u.sb
@@ -4198,6 +4197,7 @@ DOMAIN-SUFFIX,bss.pandora.xiaomi.com
 DOMAIN-SUFFIX,cdn-exp-sg-recommend.pt.xiaomi.com
 DOMAIN-SUFFIX,cdn.exp.xiaomi.com
 DOMAIN-SUFFIX,cdn.fds.api.xiaomi.com
+DOMAIN-SUFFIX,data.game.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
 DOMAIN-SUFFIX,de.pandora.xiaomi.com
 DOMAIN-SUFFIX,dvb.pandora.xiaomi.com
@@ -4223,6 +4223,7 @@ DOMAIN-SUFFIX,stats.music.xiaomi.com
 DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com
 DOMAIN-SUFFIX,sys.tv.india.xiaomi.com
 DOMAIN-SUFFIX,t1.a.market.xiaomi.com
+DOMAIN-SUFFIX,t17.market.xiaomi.com
 DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,video.market.xiaomi.com
 DOMAIN-SUFFIX,api.device.xiaomi.net
@@ -4360,6 +4361,7 @@ DOMAIN-SUFFIX,bd1.yidu.cc
 DOMAIN-SUFFIX,yijifen.com
 DOMAIN-SUFFIX,yijirecovery.com
 DOMAIN-SUFFIX,data-track.yingxiong.com
+DOMAIN-SUFFIX,data-track-global.yingxiong.com
 DOMAIN-SUFFIX,yingyankantu.com
 DOMAIN-SUFFIX,log.yinshantech.cn
 DOMAIN-SUFFIX,analytics.yinxiang.com
