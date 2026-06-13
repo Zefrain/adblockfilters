@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260613020121
-! Last modified: 2026/06/13 02:01:21
-! Blocked Filters: 102173
+! Version: 20260613103733
+! Last modified: 2026/06/13 10:37:33
+! Blocked Filters: 102169
 !
 ###AC_ad
 ###AD_160
@@ -13299,7 +13299,6 @@
 ##.sponsored-ad-label
 ##.sponsored-add
 ##.sponsored-ads
-##.sponsored-article
 ##.sponsored-article-item
 ##.sponsored-article-widget
 ##.sponsored-block
@@ -92459,7 +92458,6 @@ zzzyk.com###Tinfo
 ||ingbank.pl/mojeing/bs/xx.js
 ||ingress.rebelboost.com/_ingest-rbst-stats?
 ||inhe.*/Uploadfiles/adpublish
-||inheritknow.com^$popup
 ||inhumanity.com/ajax/cb_iframe_data.php
 ||ininav.com/sites/default/files/js/js
 ||init.voz.party/info_hex.js
@@ -92681,7 +92679,6 @@ zzzyk.com###Tinfo
 ||ivpnoffers.com^$popup
 ||iwantgalleries.com/axxa^
 ||iwantmature.com/ixxi^
-||iwantusingle.com^$popup
 ||iwarship.net/wowsdb/static/img/banner.png
 ||ixiaa.com^$third-party
 ||ixigua.com/at/log/
@@ -93202,7 +93199,6 @@ zzzyk.com###Tinfo
 ||kijimea.it/javascript/script.js
 ||kikibobo.com/banner/
 ||kikinote.net/iframe
-||kiksajex.com^$popup
 ||killcovid2021.com/*.mp4
 ||kimonix.com/analytics/
 ||kindgirls.com/banners2/
@@ -93424,7 +93420,6 @@ zzzyk.com###Tinfo
 ||laregione.ch/ext/av.php?
 ||lasagneandands.com^$third-party
 ||lasentinel.net/static/img/promos/
-||lassampy.com^$popup
 ||lastminute.com/ose/processEvent
 ||lastminute.com/ose/tracking/
 ||lastminute.com/s/hdp/hotel-details/api/logs
@@ -99799,7 +99794,8 @@ zzzyk.com###Tinfo
 ||tracking-*.trnox.com^
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
-||tracking.cds.dmm.
+||tracking.cds.dmm.co.jp^$image
+||tracking.cds.dmm.com^$image
 ||tracking.donnemagazine.it^$script
 ||tracking.foodblog.it^$script
 ||tracking.geo.*.amazonaws.com^
