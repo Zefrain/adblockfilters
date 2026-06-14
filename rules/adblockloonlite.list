@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/06/14 10:49:38
-#!support=4636
+#!date=2026/06/14 18:45:41
+#!support=4650
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,kwflvcdn.000dn.com
@@ -413,6 +413,7 @@ DOMAIN-SUFFIX,report-edge.agora.io
 DOMAIN-SUFFIX,report-europe.agora.io
 DOMAIN-SUFFIX,report-north-america.agora.io
 DOMAIN-SUFFIX,report-oversea.agora.io
+DOMAIN-SUFFIX,report-oversea2.agora.io
 DOMAIN-SUFFIX,statscollector-1.agora.io
 DOMAIN-SUFFIX,statscollector-1-asia.agora.io
 DOMAIN-SUFFIX,statscollector-1-europe.agora.io
@@ -600,6 +601,7 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,securemetrics.apple.com.cn
 DOMAIN-SUFFIX,fpb1.apple886.com
 DOMAIN-SUFFIX,apps-google-hl.hl.cn
+DOMAIN-SUFFIX,st.appsad.cn
 DOMAIN-SUFFIX,adx.appsdk.com.cn
 DOMAIN-SUFFIX,appsdt.com
 DOMAIN-SUFFIX,tracking.apptrackerlink.com
@@ -1734,6 +1736,7 @@ DOMAIN-SUFFIX,iot-earbuds-cn.heytapmobi.com
 DOMAIN-SUFFIX,obus-cn.dc.heytapmobi.com
 DOMAIN-SUFFIX,obus-config-cn.heytapmobi.com
 DOMAIN-SUFFIX,obus-dc10-cn.heytapmobi.com
+DOMAIN-SUFFIX,obus-dc136101-cn.heytapmobi.com
 DOMAIN-SUFFIX,obus-dc20058-cn.heytapmobi.com
 DOMAIN-SUFFIX,obus-dc2007-cn.heytapmobi.com
 DOMAIN-SUFFIX,obus-dc20123-cn.heytapmobi.com
@@ -2009,6 +2012,7 @@ DOMAIN-SUFFIX,apisgame.iqiyi.com
 DOMAIN-SUFFIX,c.uaa.iqiyi.com
 DOMAIN-SUFFIX,cards-css.iqiyi.com
 DOMAIN-SUFFIX,cm.passport.iqiyi.com
+DOMAIN-SUFFIX,cs-feige.iqiyi.com
 DOMAIN-SUFFIX,doh.iqiyi.com
 DOMAIN-SUFFIX,emoticon-sns.iqiyi.com
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com
@@ -2195,6 +2199,7 @@ DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
 DOMAIN-SUFFIX,log-sdk.ksapisrv.com
 DOMAIN-SUFFIX,multi-az-ulog.ksapisrv.com
 DOMAIN-SUFFIX,ulog.ksapisrv.com
+DOMAIN-SUFFIX,ulog-sdk.ksapisrv.com
 DOMAIN-SUFFIX,ulog.v6.ksapisrv.com
 DOMAIN-SUFFIX,ulogjs.ksapisrv.com
 DOMAIN-SUFFIX,ulogs1.ksapisrv.com
@@ -2646,6 +2651,7 @@ DOMAIN-SUFFIX,nasimobi.com
 DOMAIN-SUFFIX,dl.natgo.cn
 DOMAIN-SUFFIX,nbhpqn.cn
 DOMAIN-SUFFIX,sdk.stat.foreign.nearme.com.cn
+DOMAIN-SUFFIX,storedl3f.nearme.com.cn
 DOMAIN-SUFFIX,finance.needtoday.com
 DOMAIN-SUFFIX,tracking.nesox.com
 DOMAIN-SUFFIX,sea.net.edu.cn
@@ -2698,6 +2704,7 @@ DOMAIN-SUFFIX,anews7.nvwu.com
 DOMAIN-SUFFIX,renacious.nwwadq.cn
 DOMAIN-SUFFIX,logserver.nzxcloud.cn
 DOMAIN-SUFFIX,oadz.com
+DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,obv3epx22d.com
 DOMAIN-SUFFIX,analytics.oceanengine.com
 DOMAIN-SUFFIX,offerstrack.net
@@ -2928,6 +2935,7 @@ DOMAIN-SUFFIX,apikey.map.qq.com
 DOMAIN-SUFFIX,appcfg.v.qq.com
 DOMAIN-SUFFIX,applog.reader.qq.com
 DOMAIN-SUFFIX,appsupport.qq.com
+DOMAIN-SUFFIX,as.weixin.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,beacon.cdn.qq.com
 DOMAIN-SUFFIX,beaconcdn.qq.com
@@ -3200,6 +3208,7 @@ DOMAIN-SUFFIX,sbldw.cn
 DOMAIN-SUFFIX,pay.sboot.cn
 DOMAIN-SUFFIX,smetrics.schindler.cn
 DOMAIN-SUFFIX,scjpqut.cn
+DOMAIN-SUFFIX,sckexing.cn
 DOMAIN-SUFFIX,sckfcn.cn
 DOMAIN-SUFFIX,statscollector.sd-rtn.com
 DOMAIN-SUFFIX,sd6hon.cn
@@ -3349,6 +3358,7 @@ DOMAIN-SUFFIX,mercury-sdk.snssdk.com
 DOMAIN-SUFFIX,mon.snssdk.com
 DOMAIN-SUFFIX,open.snssdk.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
+DOMAIN-SUFFIX,pc-mon.snssdk.com
 DOMAIN-SUFFIX,stream.snssdk.com
 DOMAIN-SUFFIX,tbm.snssdk.com
 DOMAIN-SUFFIX,tnc3-aliec2.snssdk.com
@@ -3481,6 +3491,7 @@ DOMAIN-SUFFIX,pco-sm-log.tantanapp.com
 DOMAIN-SUFFIX,report.tantanapp.com
 DOMAIN-SUFFIX,seiya.tantanapp.com
 DOMAIN-SUFFIX,tanv.com
+DOMAIN-SUFFIX,click.tanx.com
 DOMAIN-SUFFIX,cms.tanx.com
 DOMAIN-SUFFIX,df.tanx.com
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com
@@ -3609,7 +3620,6 @@ DOMAIN-SUFFIX,info.thermoscientific.cn
 DOMAIN-SUFFIX,sstats.thermoscientific.cn
 DOMAIN-SUFFIX,thinkingdata.cn
 DOMAIN-SUFFIX,tatrack.thinkyeah.com
-DOMAIN-SUFFIX,ad.thsi.cn
 DOMAIN-SUFFIX,tracking.ti.com.cn
 DOMAIN-SUFFIX,tracking.mail.ti.com.cn
 DOMAIN-SUFFIX,tiandi.com
@@ -3927,6 +3937,7 @@ DOMAIN-SUFFIX,ru-exstsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-os-config-appstore.vivoglobal.com
 DOMAIN-SUFFIX,ru-p.vivoglobal.com
+DOMAIN-SUFFIX,ru-pnrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-exappupgrade.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-sl.vivoglobal.com
@@ -4214,6 +4225,7 @@ DOMAIN-SUFFIX,stats.music.xiaomi.com
 DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com
 DOMAIN-SUFFIX,sys.tv.india.xiaomi.com
 DOMAIN-SUFFIX,t1.a.market.xiaomi.com
+DOMAIN-SUFFIX,t17.market.xiaomi.com
 DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,video.market.xiaomi.com
 DOMAIN-SUFFIX,api.device.xiaomi.net
@@ -4227,6 +4239,7 @@ DOMAIN-SUFFIX,us.api.micloud.xiaomi.net
 DOMAIN-SUFFIX,xiaomifood.cn
 DOMAIN-SUFFIX,xiaoxiuapp.com
 DOMAIN-SUFFIX,xiaoyange.cn
+DOMAIN-SUFFIX,log.eu.xiaoyi.com
 DOMAIN-SUFFIX,log.us.xiaoyi.com
 DOMAIN-SUFFIX,ad-sdk.altamob.xiaoying.co
 DOMAIN-SUFFIX,viva.api.xiaoying.co
@@ -4417,6 +4430,7 @@ DOMAIN-SUFFIX,msg.youku.com
 DOMAIN-SUFFIX,myes.youku.com
 DOMAIN-SUFFIX,orange-dc.youku.com
 DOMAIN-SUFFIX,pcapp-data-collect.youku.com
+DOMAIN-SUFFIX,pis-tel-pcdn.youku.com
 DOMAIN-SUFFIX,player-lg.youku.com
 DOMAIN-SUFFIX,push.m.youku.com
 DOMAIN-SUFFIX,s.p.youku.com

@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260614104938
-! Last modified: 2026/06/14 10:49:38
-! Blocked Filters: 102204
+! Version: 20260614184541
+! Last modified: 2026/06/14 18:45:41
+! Blocked Filters: 102192
 !
 ###AC_ad
 ###AD_160
@@ -14872,7 +14872,6 @@
 ##a[href^="https://pb-track.com/"]
 ##a[href^="https://playnano.online/offerwalls/?ref="]
 ##a[href^="https://porntubemate.com/"]
-##a[href^="https://postback1win.com/"]
 ##a[href^="https://quotationfirearmrevision.com/"]
 ##a[href^="https://rixofa.com/"]
 ##a[href^="https://service.bv-aff-trx.com/"]
@@ -42017,6 +42016,9 @@ chapmanganato.com##div[style^="width: 100%;overflow: hidden;"]
 chaptercheats.com##.dt_ad
 chaptercheats.com##.mid_d
 chaptercheats.com##div[class^="adright"]
+character.ai##.z-40.max-w-\[970px\]
+character.ai#?#.space-y-4 > .w-full:contains(Advertisement)
+character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 charbelnemnom.com#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
 charexempire.com#%#//scriptlet("prevent-window-open")
 chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
@@ -46647,6 +46649,7 @@ ebay.co.uk##div[title="ADVERTISEMENT"]
 ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 ebay.co.uk,ebay.com,ebay.de#@#.adv
 ebay.com##div[title="ADVERTISEMENT"]
+ebay.com,revolt.tv##.leaderboard_ad
 ebb.io#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 ebb.io#%#//scriptlet('set-constant', 'google_empty_script_included', 'true')
 ebc.net.tw###lotteryfnc
@@ -50877,6 +50880,7 @@ gamespot.com##script.stub-leader
 gamespot.com##script.stub-mpu
 gamesradar.com###sidebar > div[style]:not([class]):not([id]) > div[style*="width: 100%"]:not([class]):not([id])
 gamesradar.com##.bordeaux-slot
+gamesradar.com##.dfp-leaderboard-container
 gamesradar.com##.in-article
 gamesradar.com##div[style^="position: relative; box-sizing: border-box; height: auto;"][style*="text-align: center; display: block; transform: none; contain: layout; width: 300px;"]
 gamesradar.com##div[style^="width: 970px; height: 250px; contain: style layout size;"]
@@ -70414,7 +70418,6 @@ reviewmeta.com##span[class^="ad_"]
 reviewstation.me###adxbox
 reviversoft.com##.promo_dr
 revolt.tv##.header-banner-wrapper
-revolt.tv##.leaderboard_ad
 revolution935.com##.qt-sponsor
 revolutionsoccer.net##.mls-o-adv-container
 revolve.com##.site-footer__promo-container
@@ -71561,6 +71564,7 @@ securityonline.info###block-59
 securityonline.info,lanouvelletribune.info,supertelatv.net,yearn-magazine.fr,cantaringles.com,javgay.com,rozbor-dila.cz,filmeseserieshd.org,kizzboy.com,meterpreter.org,atelevisao.com,worldoftrucks.ru,novelleleggere.com,plant-home.net,mundo-pack.com,jmusic.me###adblock_screen
 securityweek.com##.simplemodal-container
 securityweek.com##.simplemodal-overlay
+securityweek.com##.sw-block-webinar
 securityweek.com##.sw-bulletin
 securityweek.com##.sw-home-ads
 securityweek.com##.zox-post-ad-wrap
@@ -86779,7 +86783,6 @@ zzzyk.com###Tinfo
 ||baidu.com^*/w.gif?
 ||baidu.com^*/wb.gif?
 ||baidu.dj/u/upan/you.html
-||baihuwang.com^$third-party
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
 ||baikebcs.bdimg.com/*banner*.jpg
@@ -90933,7 +90936,6 @@ zzzyk.com###Tinfo
 ||glove.fit^$third-party
 ||gloytrkb.com^$popup
 ||glsfreeads.com^$popup
-||gluxouvauure.com^$popup
 ||glzy8.com/img/ceo/js.js
 ||gm99.com^$third-party
 ||gmarket.co.kr/js/common/uuid.js
@@ -91792,7 +91794,6 @@ zzzyk.com###Tinfo
 ||hsdn.org^$third-party
 ||hsex.men/nb/
 ||hsex.men/view/img/*.gif
-||hsrvz.com^$popup
 ||hstats*.hepsiburada.com^
 ||htm*.hepsiburada.com^
 ||html-load.com^$important,domain=nikkansports.com|j-cast.com|picksandparlays.net|ranking.net|minkou.jp|aucfree.com|motor-talk.de|373news.com|northantstelegraph.co.uk|tavovaikas.lt|agriculture.com|travelandleisure.com|learnreligions.com|verywellhealth.com|statecollege.com|dayspedia.com|aussieaudiomart.com|ukaudiomart.com|usaudiomart.com|canuckaudiomart.com|thestreet.com|kurashiru.com|micechat.com|seriouseats.com|followfollow.com|financialpost.com|vancouversun.com|driving.ca|theprovince.com|calgaryherald.com|edmontonsun.com|athlonsports.com|leaderpost.com|thestarphoenix.com|parade.com|elnacional.cat|livescience.com|saikyo-jump.com|torontosun.com|robbreport.com|thelayoff.com|preventionrd.com|meteo60.fr|cybertruckownersclub.com|jlwranglerforums.com|yorkshirepost.co.uk|ontariofarmer.com|all-nationz.com|broncosportforum.com|deltiasgaming.com|taycanforum.com|urbandictionary.com|lfpress.com|4runner6g.com|f150gen14.com|mavericktruckclub.com|tacoma4g.com|game8.jp|windowscentral.com|tomshardware.com
@@ -93419,7 +93420,6 @@ zzzyk.com###Tinfo
 ||lacentrale.fr/static/fragment-tracking/tracking-
 ||lacoccinelle.net/tools.js
 ||lacquerreddeform.com^$popup
-||ladrecaidroo.com^$popup
 ||ladyboygoo.com/lbg/banners/
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lagou.com/js/cooperation/
@@ -93795,6 +93795,7 @@ zzzyk.com###Tinfo
 ||lnk.to/~/tr/visit
 ||lnkd.in/li/track
 ||lnzqw.net/js/
+||loader.gutefrage.net/loader.min.js$script,redirect=noopjs
 ||loader.masthead.me/prod/masthead/loader.min.js
 ||loader.to/ajax/a.php$popup
 ||loader.to/ajax/ad/l.php$popup
@@ -95420,7 +95421,6 @@ zzzyk.com###Tinfo
 ||nweon.com/wp-content/repo/ad/
 ||nwxs5.com/js/
 ||nxflv.com/nxflv.js
-||nxgmqhll.com^$popup
 ||nxgx.com/Scripts/fl12.js
 ||nxgx.com/php/*.php
 ||nxhh.net/gw/gw.js
@@ -95557,7 +95557,6 @@ zzzyk.com###Tinfo
 ||omonoia24.com/wp-content/uploads/*/PANIKOS-*.png
 ||omsnative.de/tracking/
 ||on-push.com^$third-party
-||on1nzbp3.com^$popup
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||ondigitalocean.app/*/index.php?cezp=$document
 ||ondigitalocean.app/*^phone=+1-$document
@@ -95776,7 +95775,6 @@ zzzyk.com###Tinfo
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
 ||p2pup*.gamedl.qq.com^
-||p8wj9zko.com^$popup
 ||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||paella.adrise.tv/*.mp4$redirect=noopmp4-1s
@@ -96511,7 +96509,6 @@ zzzyk.com###Tinfo
 ||positivehealth.com/img/original/BannerAvatar/
 ||positivehealth.com/img/original/TopicbannerAvatar/
 ||postageapp.com/receipt/$third-party
-||postback1win.com^$popup
 ||posthog.com/*/?ip=$xmlhttprequest
 ||posthog.com/*/?retry_count
 ||posthog.com/*/logs?$xmlhttprequest
@@ -96519,7 +96516,6 @@ zzzyk.com###Tinfo
 ||posthog.com/api/signup-count
 ||posti.mail.ee/banners/
 ||postimg.cc^*-960x60.
-||postlnk.com^$popup
 ||potsdamer-stadtplan.com/t.gif
 ||pouvideo.cc/player*/vast.js
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
@@ -96620,7 +96616,6 @@ zzzyk.com###Tinfo
 ||production-adserver-*.amazonaws.com^
 ||productsup.com^$third-party
 ||profamouslife.com/js/adcash.js
-||professionalswebcheck.com^$popup
 ||profitmetrics.io^$third-party
 ||profollow.com/form/
 ||proginn.com/cms/10000/
@@ -96663,7 +96658,6 @@ zzzyk.com###Tinfo
 ||ps557.com/link/
 ||ps886.us/js/*.js
 ||psarips.com/tools.js
-||psaugourtauy.com^$popup
 ||psauwaun.com^$popup
 ||psdkeys.com/uploads/banner_
 ||psgonline.pl/wp-content/uploads/*/*/fortuna*-ligue1*.jpg
@@ -96674,7 +96668,6 @@ zzzyk.com###Tinfo
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
 ||ptmind.com^$third-party
-||ptoakrok.net^$popup
 ||ptoftashulsee.com^$popup
 ||ptp.stbm.it/pushdown/loader/av/players/player-custom-content.js$replace=/&&e\.loader\.opt\.hasAdv/&&!1/,script
 ||ptyalinbrattie.com^$popup
@@ -97978,7 +97971,6 @@ zzzyk.com###Tinfo
 ||shipfa.st/js/script.js
 ||shipin188.com/66
 ||shipping.jp/raa/rd.js
-||shipwreckclassmate.com^$popup
 ||shitouxs.com/static/042417.js
 ||shobiddak.com/logging/
 ||shoebacca.com/YaRJwC0q/init.js
@@ -98264,7 +98256,6 @@ zzzyk.com###Tinfo
 ||smyw.org/popunder.min.js
 ||smyw.org/smyw_anima_1.gif
 ||smzy.com/v1/img/
-||sn00.net
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||snapchat.com/web/metrics
@@ -98319,7 +98310,6 @@ zzzyk.com###Tinfo
 ||sockr.birdie.so/event
 ||socos.gitee.io/ss/poster/
 ||socsi.in^$third-party
-||sodefender.pro^$popup
 ||sodonsolution.org/*/Banner/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -98327,7 +98317,6 @@ zzzyk.com###Tinfo
 ||soduso.com/js/so.js
 ||sofascore.com/affiliate/sofa/generate
 ||sofascore.com/bundles/sofascoreweb/js/bin/util/affiliate.min.js
-||sofinpushpile.com^$popup
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
@@ -98907,7 +98896,6 @@ zzzyk.com###Tinfo
 ||streamelements.com/z/s.js
 ||streamelements.com/z/t
 ||streamen.com/exports/$third-party
-||streamereasy.click^$popup
 ||streamex.sh/pop.js
 ||streamfree.to/acebet-banner
 ||streamhls.to/js/noadblocker.js

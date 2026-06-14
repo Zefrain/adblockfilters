@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260614104938
-! Last modified: 2026/06/14 10:49:38
-! Blocked domains: 4636
+! Version: 20260614184541
+! Last modified: 2026/06/14 18:45:41
+! Blocked domains: 4650
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -409,6 +409,7 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 report-oversea.agora.io
+report-oversea2.agora.io
 statscollector-1.agora.io
 statscollector-1-asia.agora.io
 statscollector-1-europe.agora.io
@@ -596,6 +597,7 @@ iadsdk.apple.com
 securemetrics.apple.com.cn
 fpb1.apple886.com
 apps-google-hl.hl.cn
+st.appsad.cn
 adx.appsdk.com.cn
 appsdt.com
 tracking.apptrackerlink.com
@@ -1730,6 +1732,7 @@ iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
+obus-dc136101-cn.heytapmobi.com
 obus-dc20058-cn.heytapmobi.com
 obus-dc2007-cn.heytapmobi.com
 obus-dc20123-cn.heytapmobi.com
@@ -2005,6 +2008,7 @@ apisgame.iqiyi.com
 c.uaa.iqiyi.com
 cards-css.iqiyi.com
 cm.passport.iqiyi.com
+cs-feige.iqiyi.com
 doh.iqiyi.com
 emoticon-sns.iqiyi.com
 emoticon.sns.iqiyi.com
@@ -2191,6 +2195,7 @@ slb-p2p.vcloud.ks-live.com
 log-sdk.ksapisrv.com
 multi-az-ulog.ksapisrv.com
 ulog.ksapisrv.com
+ulog-sdk.ksapisrv.com
 ulog.v6.ksapisrv.com
 ulogjs.ksapisrv.com
 ulogs1.ksapisrv.com
@@ -2642,6 +2647,7 @@ nasimobi.com
 dl.natgo.cn
 nbhpqn.cn
 sdk.stat.foreign.nearme.com.cn
+storedl3f.nearme.com.cn
 finance.needtoday.com
 tracking.nesox.com
 sea.net.edu.cn
@@ -2694,6 +2700,7 @@ anews7.nvwu.com
 renacious.nwwadq.cn
 logserver.nzxcloud.cn
 oadz.com
+gtm.oasisfeng.com
 obv3epx22d.com
 analytics.oceanengine.com
 offerstrack.net
@@ -2924,6 +2931,7 @@ apikey.map.qq.com
 appcfg.v.qq.com
 applog.reader.qq.com
 appsupport.qq.com
+as.weixin.qq.com
 beacon.qq.com
 beacon.cdn.qq.com
 beaconcdn.qq.com
@@ -3196,6 +3204,7 @@ sbldw.cn
 pay.sboot.cn
 smetrics.schindler.cn
 scjpqut.cn
+sckexing.cn
 sckfcn.cn
 statscollector.sd-rtn.com
 sd6hon.cn
@@ -3345,6 +3354,7 @@ mercury-sdk.snssdk.com
 mon.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
+pc-mon.snssdk.com
 stream.snssdk.com
 tbm.snssdk.com
 tnc3-aliec2.snssdk.com
@@ -3477,6 +3487,7 @@ pco-sm-log.tantanapp.com
 report.tantanapp.com
 seiya.tantanapp.com
 tanv.com
+click.tanx.com
 cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
@@ -3605,7 +3616,6 @@ info.thermoscientific.cn
 sstats.thermoscientific.cn
 thinkingdata.cn
 tatrack.thinkyeah.com
-ad.thsi.cn
 tracking.ti.com.cn
 tracking.mail.ti.com.cn
 tiandi.com
@@ -3923,6 +3933,7 @@ ru-exstsdk.vivoglobal.com
 ru-onrt-stsdk.vivoglobal.com
 ru-os-config-appstore.vivoglobal.com
 ru-p.vivoglobal.com
+ru-pnrt-stsdk.vivoglobal.com
 ru-romsp-unifyconfig.vivoglobal.com
 ru-st-exappupgrade.vivoglobal.com
 ru-st-sl.vivoglobal.com
@@ -4210,6 +4221,7 @@ stats.music.xiaomi.com
 storeconfig.mistat.intl.xiaomi.com
 sys.tv.india.xiaomi.com
 t1.a.market.xiaomi.com
+t17.market.xiaomi.com
 tz.sec.xiaomi.com
 video.market.xiaomi.com
 api.device.xiaomi.net
@@ -4223,6 +4235,7 @@ us.api.micloud.xiaomi.net
 xiaomifood.cn
 xiaoxiuapp.com
 xiaoyange.cn
+log.eu.xiaoyi.com
 log.us.xiaoyi.com
 ad-sdk.altamob.xiaoying.co
 viva.api.xiaoying.co
@@ -4413,6 +4426,7 @@ msg.youku.com
 myes.youku.com
 orange-dc.youku.com
 pcapp-data-collect.youku.com
+pis-tel-pcdn.youku.com
 player-lg.youku.com
 push.m.youku.com
 s.p.youku.com
