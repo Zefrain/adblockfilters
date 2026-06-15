@@ -4,8 +4,8 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260615011205
-  # Last modified: 2026/06/15 01:12:05
+  # Version: 20260615105358
+  # Last modified: 2026/06/15 10:53:58
   # Blocked domains: 4650
   #
   - '+.kwflvcdn.000dn.com'
@@ -20,6 +20,7 @@ payload:
   - '+.0941.org'
   - '+.0wk6gdkg8r.com'
   - '+.10000xing.cn'
+  - '+.1717.1000uc.com'
   - '+.smartad.10010.com'
   - '+.1.1010pic.com'
   - '+.adm.10jqka.com.cn'
@@ -1355,7 +1356,6 @@ payload:
   - '+.healthnuringsafehomeoffloras.edgeone.dev'
   - '+.heydressuniversitydepartcolordesign.edgeone.dev'
   - '+.kita-quote-wt6k5i5yoz.edgeone.dev'
-  - '+.loud-bronze-vckfnrbimo.edgeone.dev'
   - '+.roundcube-jrcfj7x9ek.edgeone.dev'
   - '+.srv65ertui8uyt655io-7douf96n3o.edgeone.dev'
   - '+.tyyuiopopoiuytr-dwrasvzg2a.edgeone.dev'
@@ -2520,6 +2520,7 @@ payload:
   - '+.ggx03.miguvideo.com'
   - '+.ggxwb.miguvideo.com'
   - '+.v.miguvideo.com'
+  - '+.ad-log-upload.mihoyo.com'
   - '+.apm-log-upload.mihoyo.com'
   - '+.h5log-api-dualstack.mihoyo.com'
   - '+.hkrpg-log-upload.mihoyo.com'
@@ -3791,7 +3792,6 @@ payload:
   - '+.jdlog.uu.cc'
   - '+.ms-report.uu.cc'
   - '+.www3-vpass.uubkn.cn'
-  - '+.www.uuboos.com'
   - '+.uulucky.com'
   - '+.uusee.com'
   - '+.gg.uuu9.com'

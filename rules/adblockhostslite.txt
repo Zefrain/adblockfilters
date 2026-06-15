@@ -3,8 +3,8 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260615011205
-# Last modified: 2026/06/15 01:12:05
+# Version: 20260615105357
+# Last modified: 2026/06/15 10:53:57
 # Blocked domains: 4650
 #
 127.0.0.1	localhost
@@ -34,6 +34,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	0941.org
 0.0.0.0	0wk6gdkg8r.com
 0.0.0.0	10000xing.cn
+0.0.0.0	1717.1000uc.com
 0.0.0.0	smartad.10010.com
 0.0.0.0	1.1010pic.com
 0.0.0.0	adm.10jqka.com.cn
@@ -1369,7 +1370,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	healthnuringsafehomeoffloras.edgeone.dev
 0.0.0.0	heydressuniversitydepartcolordesign.edgeone.dev
 0.0.0.0	kita-quote-wt6k5i5yoz.edgeone.dev
-0.0.0.0	loud-bronze-vckfnrbimo.edgeone.dev
 0.0.0.0	roundcube-jrcfj7x9ek.edgeone.dev
 0.0.0.0	srv65ertui8uyt655io-7douf96n3o.edgeone.dev
 0.0.0.0	tyyuiopopoiuytr-dwrasvzg2a.edgeone.dev
@@ -2534,6 +2534,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ggx03.miguvideo.com
 0.0.0.0	ggxwb.miguvideo.com
 0.0.0.0	v.miguvideo.com
+0.0.0.0	ad-log-upload.mihoyo.com
 0.0.0.0	apm-log-upload.mihoyo.com
 0.0.0.0	h5log-api-dualstack.mihoyo.com
 0.0.0.0	hkrpg-log-upload.mihoyo.com
@@ -3805,7 +3806,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	jdlog.uu.cc
 0.0.0.0	ms-report.uu.cc
 0.0.0.0	www3-vpass.uubkn.cn
-0.0.0.0	www.uuboos.com
 0.0.0.0	uulucky.com
 0.0.0.0	uusee.com
 0.0.0.0	gg.uuu9.com
