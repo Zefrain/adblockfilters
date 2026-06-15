@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260615105357
-# Last modified: 2026/06/15 10:53:57
-# Blocked domains: 4650
+# Version: 20260615214900
+# Last modified: 2026/06/15 21:49:00
+# Blocked domains: 4648
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -410,7 +410,6 @@ local=/report-edge.agora.io/
 local=/report-europe.agora.io/
 local=/report-north-america.agora.io/
 local=/report-oversea.agora.io/
-local=/report-oversea2.agora.io/
 local=/statscollector-1.agora.io/
 local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-europe.agora.io/
@@ -928,6 +927,7 @@ local=/telemetry.canva.cn/
 local=/caomeixz7.xyz/
 local=/caonimazuzong.com/
 local=/baidu1.cardbaobao.com/
+local=/cart.net.cn/
 local=/cartx.cloud/
 local=/super.cat898.com/
 local=/tracking.cat898.com/
@@ -1773,7 +1773,6 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
-local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -2801,7 +2800,6 @@ local=/gg86.pinggu.org/
 local=/img50.pingguolv.com/
 local=/api.pingstart.com/
 local=/bd1.pipaw.com/
-local=/stat2.pixpin.cn/
 local=/pl53l7tyw.com/
 local=/placidocn.com/
 local=/bdx.playnext.cn/
@@ -3536,6 +3534,7 @@ local=/huodong.m.taobao.com/
 local=/hybrid.miniapp.taobao.com/
 local=/m-adash.m.taobao.com/
 local=/m.simba.taobao.com/
+local=/mclick.simba.taobao.com/
 local=/nbsdk-baichuan.taobao.com/
 local=/openjmacs.m.taobao.com/
 local=/pcookie.taobao.com/
@@ -4221,7 +4220,6 @@ local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
 local=/sys.tv.india.xiaomi.com/
 local=/t1.a.market.xiaomi.com/
-local=/t17.market.xiaomi.com/
 local=/tz.sec.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/api.device.xiaomi.net/
