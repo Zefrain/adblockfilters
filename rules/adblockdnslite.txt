@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260616105508
-! Last modified: 2026/06/16 10:55:08
-! Blocked domains: 4649
+! Version: 20260616204744
+! Last modified: 2026/06/16 20:47:44
+! Blocked domains: 4632
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -536,7 +536,6 @@
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||logtail-release.oss-cn-hangzhou.aliyuncs.com^
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
@@ -598,7 +597,6 @@
 ||securemetrics.apple.com.cn^
 ||fpb1.apple886.com^
 ||apps-google-hl.hl.cn^
-||st.appsad.cn^
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||tracking.apptrackerlink.com^
@@ -928,7 +926,6 @@
 ||caomeixz7.xyz^
 ||caonimazuzong.com^
 ||baidu1.cardbaobao.com^
-||cart.net.cn^
 ||cartx.cloud^
 ||super.cat898.com^
 ||tracking.cat898.com^
@@ -1733,7 +1730,6 @@
 ||obus-cn.dc.heytapmobi.com^
 ||obus-config-cn.heytapmobi.com^
 ||obus-dc10-cn.heytapmobi.com^
-||obus-dc136101-cn.heytapmobi.com^
 ||obus-dc20058-cn.heytapmobi.com^
 ||obus-dc2007-cn.heytapmobi.com^
 ||obus-dc20123-cn.heytapmobi.com^
@@ -2008,7 +2004,6 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
-||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2099,8 +2094,6 @@
 ||udiab1.jianshu.com^
 ||api.jietuhb.com^
 ||jiguang.cn^
-||ad.open.api.jihuoniao.com^
-||ad.report.jihuoniao.com^
 ||target.ads.jihuoniao.com^
 ||jikewan.com^
 ||jikklfexh.com^
@@ -2195,7 +2188,6 @@
 ||log-sdk.ksapisrv.com^
 ||multi-az-ulog.ksapisrv.com^
 ||ulog.ksapisrv.com^
-||ulog-sdk.ksapisrv.com^
 ||ulog.v6.ksapisrv.com^
 ||ulogjs.ksapisrv.com^
 ||ulogs1.ksapisrv.com^
@@ -2519,7 +2511,6 @@
 ||ggx03.miguvideo.com^
 ||ggxwb.miguvideo.com^
 ||v.miguvideo.com^
-||ad-log-upload.mihoyo.com^
 ||apm-log-upload.mihoyo.com^
 ||h5log-api-dualstack.mihoyo.com^
 ||hkrpg-log-upload.mihoyo.com^
@@ -2648,7 +2639,6 @@
 ||dl.natgo.cn^
 ||nbhpqn.cn^
 ||sdk.stat.foreign.nearme.com.cn^
-||storedl3f.nearme.com.cn^
 ||finance.needtoday.com^
 ||tracking.nesox.com^
 ||sea.net.edu.cn^
@@ -2695,13 +2685,13 @@
 ||synad2.nuffnang.com.cn^
 ||c.nuhcpf.com^
 ||log.nuomi.com^
+||metric.nuonuo.com^
 ||promotionad.nvcam.net^
 ||ad.nvdvr.cn^
 ||anews7.nvwu.com^
 ||renacious.nwwadq.cn^
 ||logserver.nzxcloud.cn^
 ||oadz.com^
-||gtm.oasisfeng.com^
 ||obv3epx22d.com^
 ||analytics.oceanengine.com^
 ||offerstrack.net^
@@ -2862,7 +2852,6 @@
 ||jspassport.ssl.qhimg.com^
 ||qhonzpl.cn^
 ||c.qiandao.cn^
-||sensors-api.qiandao.cn^
 ||click.qianqian.com^
 ||jsb.qianzhan.com^
 ||qichetansuo.com^
@@ -3354,7 +3343,6 @@
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
-||pc-mon.snssdk.com^
 ||stream.snssdk.com^
 ||tbm.snssdk.com^
 ||tnc3-aliec2.snssdk.com^
@@ -3535,7 +3523,6 @@
 ||hybrid.miniapp.taobao.com^
 ||m-adash.m.taobao.com^
 ||m.simba.taobao.com^
-||mclick.simba.taobao.com^
 ||nbsdk-baichuan.taobao.com^
 ||openjmacs.m.taobao.com^
 ||pcookie.taobao.com^
@@ -3617,6 +3604,7 @@
 ||sstats.thermoscientific.cn^
 ||thinkingdata.cn^
 ||tatrack.thinkyeah.com^
+||ad.thsi.cn^
 ||tracking.ti.com.cn^
 ||tracking.mail.ti.com.cn^
 ||tiandi.com^
@@ -3892,7 +3880,6 @@
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
-||co-timesync.vivoglobal.com^
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||de-gdpr-err-up.vivoglobal.com^
@@ -3933,7 +3920,6 @@
 ||ru-onrt-stsdk.vivoglobal.com^
 ||ru-os-config-appstore.vivoglobal.com^
 ||ru-p.vivoglobal.com^
-||ru-pnrt-stsdk.vivoglobal.com^
 ||ru-romsp-unifyconfig.vivoglobal.com^
 ||ru-st-exappupgrade.vivoglobal.com^
 ||ru-st-sl.vivoglobal.com^
@@ -4195,7 +4181,6 @@
 ||cdn-exp-sg-recommend.pt.xiaomi.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.fds.api.xiaomi.com^
-||data.game.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||de.pandora.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
@@ -4234,7 +4219,6 @@
 ||xiaomifood.cn^
 ||xiaoxiuapp.com^
 ||xiaoyange.cn^
-||log.eu.xiaoyi.com^
 ||log.us.xiaoyi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||viva.api.xiaoying.co^
@@ -4359,7 +4343,6 @@
 ||yijifen.com^
 ||yijirecovery.com^
 ||data-track.yingxiong.com^
-||data-track-global.yingxiong.com^
 ||yingyankantu.com^
 ||log.yinshantech.cn^
 ||analytics.yinxiang.com^
@@ -4426,7 +4409,6 @@
 ||myes.youku.com^
 ||orange-dc.youku.com^
 ||pcapp-data-collect.youku.com^
-||pis-tel-pcdn.youku.com^
 ||player-lg.youku.com^
 ||push.m.youku.com^
 ||s.p.youku.com^
@@ -4517,6 +4499,7 @@
 ||xue.zbyw.cn^
 ||log.zcool.com.cn^
 ||zegarkirepliki.pl^
+||api-analytics.zepp.com^
 ||api-analytics-cn3.zepp.com^
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
