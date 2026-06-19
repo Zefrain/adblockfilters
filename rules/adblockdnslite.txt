@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260619113233
-! Last modified: 2026/06/19 11:32:33
+! Version: 20260619200046
+! Last modified: 2026/06/19 20:00:46
 ! Blocked domains: 4631
 ! unBlocked domains: 15
 !
@@ -501,7 +501,6 @@
 ||alipaylog.com^
 ||acjs.aliyun.com^
 ||click.aliyun.com^
-||1fw35mn5y7h-sdk.rum.aliyuncs.com^
 ||1hlahoc4rpc-sdk.rum.aliyuncs.com^
 ||ad-host-backup-america.oss-us-west-1.aliyuncs.com^
 ||ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com^
@@ -2093,6 +2092,7 @@
 ||api.jietuhb.com^
 ||jiguang.cn^
 ||ad.open.api.jihuoniao.com^
+||ad.report.jihuoniao.com^
 ||target.ads.jihuoniao.com^
 ||jikewan.com^
 ||jikklfexh.com^
@@ -2512,7 +2512,6 @@
 ||ggx03.miguvideo.com^
 ||ggxwb.miguvideo.com^
 ||v.miguvideo.com^
-||ad-log-upload.mihoyo.com^
 ||apm-log-upload.mihoyo.com^
 ||h5log-api-dualstack.mihoyo.com^
 ||hkrpg-log-upload.mihoyo.com^
@@ -3469,7 +3468,6 @@
 ||talk99.cn^
 ||talkingdata.com^
 ||clog.tanshudata.com^
-||affiliate.tantanapp.com^
 ||pco-sm-log.tantanapp.com^
 ||report.tantanapp.com^
 ||seiya.tantanapp.com^
@@ -4181,6 +4179,7 @@
 ||cdn-exp-sg-recommend.pt.xiaomi.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.fds.api.xiaomi.com^
+||data.game.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||de.pandora.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
@@ -4343,6 +4342,7 @@
 ||yijifen.com^
 ||yijirecovery.com^
 ||data-track.yingxiong.com^
+||data-track-global.yingxiong.com^
 ||yingyankantu.com^
 ||log.yinshantech.cn^
 ||analytics.yinxiang.com^
