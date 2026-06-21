@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260621105313
-# Last modified: 2026/06/21 10:53:13
-# Blocked domains: 4630
+# Version: 20260621190113
+# Last modified: 2026/06/21 19:01:13
+# Blocked domains: 4641
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -34,6 +34,7 @@ local=/ad.12306.cn/
 local=/123cha.com/
 local=/bdad.123pan.cn/
 local=/ent1.12584.cn/
+local=/126.cn/
 local=/analytics.126.com/
 local=/ir.mail.126.com/
 local=/iadmusicmat.music.126.net/
@@ -625,6 +626,7 @@ local=/pvx.autohome.com.cn/
 local=/rd.autohome.com.cn/
 local=/rdx.autohome.com.cn/
 local=/stats.autohome.com.cn/
+local=/adm2.autoimg.cn/
 local=/adm3.autoimg.cn/
 local=/img2.autoimg.cn/
 local=/adstatistics.av380.net/
@@ -795,6 +797,7 @@ local=/h.baminw.cn/
 local=/j.baminw.cn/
 local=/baminw.com.cn/
 local=/ad.bandao.cn/
+local=/midinfo.baofeng.com/
 local=/baycode.cn/
 local=/bayescom.com/
 local=/bayimob.com/
@@ -916,9 +919,11 @@ local=/appres.camera360.com/
 local=/stratus.campaign-image.com.cn/
 local=/zc1.campaign-view.com.cn/
 local=/count.candou.com/
+local=/telemetry.canva.cn/
 local=/caomeixz7.xyz/
 local=/caonimazuzong.com/
 local=/baidu1.cardbaobao.com/
+local=/cart.net.cn/
 local=/cartx.cloud/
 local=/super.cat898.com/
 local=/tracking.cat898.com/
@@ -1010,7 +1015,6 @@ local=/cleartone.club/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
-local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -1998,6 +2002,7 @@ local=/apisgame.iqiyi.com/
 local=/c.uaa.iqiyi.com/
 local=/cards-css.iqiyi.com/
 local=/cm.passport.iqiyi.com/
+local=/cs-feige.iqiyi.com/
 local=/doh.iqiyi.com/
 local=/emoticon-sns.iqiyi.com/
 local=/emoticon.sns.iqiyi.com/
@@ -2069,6 +2074,7 @@ local=/log.jd.com/
 local=/mapi.m.jd.com/
 local=/mars.jd.com/
 local=/mllog.jd.com/
+local=/nfa.jd.com/
 local=/orbit.jd.com/
 local=/policy.jd.com/
 local=/sgm-w.jd.com/
@@ -2185,6 +2191,7 @@ local=/slb-p2p.vcloud.ks-live.com/
 local=/log-sdk.ksapisrv.com/
 local=/multi-az-ulog.ksapisrv.com/
 local=/ulog.ksapisrv.com/
+local=/ulog-sdk.ksapisrv.com/
 local=/ulog.v6.ksapisrv.com/
 local=/ulogjs.ksapisrv.com/
 local=/ulogs1.ksapisrv.com/
@@ -2594,6 +2601,7 @@ local=/cdn2.moji002.com/
 local=/monidashi.cn/
 local=/moodoo.com.cn/
 local=/m.moomoo.com/
+local=/ad.moonton.cn/
 local=/moquanad.com/
 local=/elq.mouser.cn/
 local=/mp83fkx.cn/
@@ -2849,6 +2857,7 @@ local=/qfh5tgyv.cn/
 local=/jspassport.ssl.qhimg.com/
 local=/qhonzpl.cn/
 local=/c.qiandao.cn/
+local=/sensors-api.qiandao.cn/
 local=/click.qianqian.com/
 local=/jsb.qianzhan.com/
 local=/qichetansuo.com/
@@ -3347,6 +3356,7 @@ local=/tbm.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
 local=/tnc3-alisc1.snssdk.com/
 local=/tnc3-bjlgy.snssdk.com/
+local=/toutiao-frontier.snssdk.com/
 local=/tsearch.snssdk.com/
 local=/ug.snssdk.com/
 local=/vcl-brain.snssdk.com/
@@ -4132,6 +4142,7 @@ local=/pvx.xcar.com.cn/
 local=/zio.xcar.com.cn/
 local=/analytics1.xdiarys.com/
 local=/xdrig.com/
+local=/sensors.h5.xed.plus/
 local=/xegnfwkju.com/
 local=/xerhibx.cn/
 local=/xftsjv.top/

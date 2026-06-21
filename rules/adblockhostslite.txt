@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260621105313
-# Last modified: 2026/06/21 10:53:13
-# Blocked domains: 4630
+# Version: 20260621190113
+# Last modified: 2026/06/21 19:01:13
+# Blocked domains: 4641
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -49,6 +49,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	123cha.com
 0.0.0.0	bdad.123pan.cn
 0.0.0.0	ent1.12584.cn
+0.0.0.0	126.cn
 0.0.0.0	analytics.126.com
 0.0.0.0	ir.mail.126.com
 0.0.0.0	iadmusicmat.music.126.net
@@ -640,6 +641,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rd.autohome.com.cn
 0.0.0.0	rdx.autohome.com.cn
 0.0.0.0	stats.autohome.com.cn
+0.0.0.0	adm2.autoimg.cn
 0.0.0.0	adm3.autoimg.cn
 0.0.0.0	img2.autoimg.cn
 0.0.0.0	adstatistics.av380.net
@@ -810,6 +812,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	j.baminw.cn
 0.0.0.0	baminw.com.cn
 0.0.0.0	ad.bandao.cn
+0.0.0.0	midinfo.baofeng.com
 0.0.0.0	baycode.cn
 0.0.0.0	bayescom.com
 0.0.0.0	bayimob.com
@@ -931,9 +934,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	stratus.campaign-image.com.cn
 0.0.0.0	zc1.campaign-view.com.cn
 0.0.0.0	count.candou.com
+0.0.0.0	telemetry.canva.cn
 0.0.0.0	caomeixz7.xyz
 0.0.0.0	caonimazuzong.com
 0.0.0.0	baidu1.cardbaobao.com
+0.0.0.0	cart.net.cn
 0.0.0.0	cartx.cloud
 0.0.0.0	super.cat898.com
 0.0.0.0	tracking.cat898.com
@@ -1025,7 +1030,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-api.cli.im
 0.0.0.0	bd1.click.com.cn
 0.0.0.0	clicki.cn
-0.0.0.0	7xi9g1.com1.z0.glb.clouddn.com
 0.0.0.0	bkt.clouddn.com
 0.0.0.0	advertise.cloudlinks.cn
 0.0.0.0	log.cmbchina.com
@@ -2013,6 +2017,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.uaa.iqiyi.com
 0.0.0.0	cards-css.iqiyi.com
 0.0.0.0	cm.passport.iqiyi.com
+0.0.0.0	cs-feige.iqiyi.com
 0.0.0.0	doh.iqiyi.com
 0.0.0.0	emoticon-sns.iqiyi.com
 0.0.0.0	emoticon.sns.iqiyi.com
@@ -2084,6 +2089,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mapi.m.jd.com
 0.0.0.0	mars.jd.com
 0.0.0.0	mllog.jd.com
+0.0.0.0	nfa.jd.com
 0.0.0.0	orbit.jd.com
 0.0.0.0	policy.jd.com
 0.0.0.0	sgm-w.jd.com
@@ -2200,6 +2206,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-sdk.ksapisrv.com
 0.0.0.0	multi-az-ulog.ksapisrv.com
 0.0.0.0	ulog.ksapisrv.com
+0.0.0.0	ulog-sdk.ksapisrv.com
 0.0.0.0	ulog.v6.ksapisrv.com
 0.0.0.0	ulogjs.ksapisrv.com
 0.0.0.0	ulogs1.ksapisrv.com
@@ -2609,6 +2616,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	monidashi.cn
 0.0.0.0	moodoo.com.cn
 0.0.0.0	m.moomoo.com
+0.0.0.0	ad.moonton.cn
 0.0.0.0	moquanad.com
 0.0.0.0	elq.mouser.cn
 0.0.0.0	mp83fkx.cn
@@ -2864,6 +2872,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jspassport.ssl.qhimg.com
 0.0.0.0	qhonzpl.cn
 0.0.0.0	c.qiandao.cn
+0.0.0.0	sensors-api.qiandao.cn
 0.0.0.0	click.qianqian.com
 0.0.0.0	jsb.qianzhan.com
 0.0.0.0	qichetansuo.com
@@ -3362,6 +3371,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tnc3-aliec2.snssdk.com
 0.0.0.0	tnc3-alisc1.snssdk.com
 0.0.0.0	tnc3-bjlgy.snssdk.com
+0.0.0.0	toutiao-frontier.snssdk.com
 0.0.0.0	tsearch.snssdk.com
 0.0.0.0	ug.snssdk.com
 0.0.0.0	vcl-brain.snssdk.com
@@ -4147,6 +4157,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	zio.xcar.com.cn
 0.0.0.0	analytics1.xdiarys.com
 0.0.0.0	xdrig.com
+0.0.0.0	sensors.h5.xed.plus
 0.0.0.0	xegnfwkju.com
 0.0.0.0	xerhibx.cn
 0.0.0.0	xftsjv.top
