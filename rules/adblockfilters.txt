@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260623103046
-! Last modified: 2026/06/23 10:30:46
-! Blocked Filters: 102073
+! Version: 20260623185654
+! Last modified: 2026/06/23 18:56:54
+! Blocked Filters: 102094
 !
 ###AC_ad
 ###AD_160
@@ -27005,6 +27005,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$domain=makeuseof.com|howtogeek.com
 @@||cdn.adsninja.ca/an_sn.js$domain=polygon.com
 @@||cdn.adsninja.ca/api/$domain=polygon.com
+@@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=thegamer.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -32607,7 +32610,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pjtra.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||pkfnpo.ru^$generichide
 @@||pkstep.com^$generichide
-@@||places.googleapis.com/*/AutocompletePlaces$stealth=referrer
+@@||places.googleapis.com/*autocomplete$stealth=referrer
 @@||places.nbnco.net.au/places/$stealth=referrer
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
@@ -48637,6 +48640,7 @@ feebee.com.tw###fsa-srp-top-container
 feebee.com.tw##div[id^="afsh_"]
 feedicons.com###footerboard
 feeds.qq.com,lenovo.com.cn##.game
+feedzop.com##div[data-gzp-display-ad-status]
 feet9.com#%#//scriptlet("abort-on-property-read", "__ADX_URL_U")
 feetporno.com,freehardcore.com,cartoonporn.com###_iframe_content
 feiwan.net##div[id*="_"][style]
@@ -49518,6 +49522,8 @@ foodnetwork.com##[data-slot-type="ad_aside"]
 foodnetwork.com##[data-slot-type="ad_aside_top"]
 foodnetwork.com#$#body[style^="margin-top: 90px;"] { margin-top: 0!important; }
 foodrenegade.com##.top-cta
+foodrepublic.com##.raptive-video-player
+foodrepublic.com,islands.com##.article > .under-art:has(> .zergnet-widget)
 foodsforbetterhealth.com###text-46
 foodtechnos.in#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'window.open')
 foojay.io##.sponsors-block
@@ -56512,7 +56518,6 @@ isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 isiyuan.net#?##page-list > ul > .layui-row:has(.ad)
 islamicfinder.org###sky-scraper-ad
 islamicfinder.org##.pad-xs.box.columns.large-12
-islands.com##.article > .under-art:has(> .zergnet-widget)
 islegitsite.com##div[style="max-width: 728px; min-height: 150px;"]
 isnews.it##.bannergroup
 isnews.it##.rstboxes
@@ -67662,7 +67667,7 @@ pluspremieres.*#%#//scriptlet("abort-current-inline-script", "$", "var selector"
 pluspremieres.*#%#//scriptlet("prevent-setInterval", "/\['\\x[\s\S]*?checkInterval/")
 pluto.tv##.pauseAdContainer
 pluto.tv#%#//scriptlet('json-prune', 'adBreaks.*')
-pluto.tv#%#//scriptlet('xml-prune', 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"_ad")]] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', '', '/\/episode\/.+?\.mpd\?/')
+pluto.tv#%#//scriptlet('xml-prune', 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"_ad") and contains(text(),"/mp4/")]] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', '', '/\/episode\/.+?\.mpd\?/')
 plutomovies.com###dl-btn-wrapper + a[rel="nofollow"]
 plutomovies.com##a[href^="https://go.wapdg.com/"]
 plutomovies.com#@#.ad-slot
@@ -68778,6 +68783,7 @@ powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-slot]
 poweroutage.us##.cta-inline
 powerpyx.com##.code-block-14
 powiatowa.info#?#.jm-title-wrap > .jm-title:contains(/^REKLAMA$/)
+powv1deo.cc##iframe[src^="//tontent.powv1deo.cc/"]
 powvideo.net###keepFloatin
 powvideo.net##iframe[src^="//wontent.powvideo.net/apw.hh"]
 powvideo.net,streamplay.to,uxstyle.com###overlay
@@ -69750,6 +69756,7 @@ quizlet.com#%#//scriptlet('set-constant', 'Object.prototype.isRenderingAdInFlash
 quizlet.com#%#//scriptlet('set-constant', 'adshield', 'emptyObj')
 quizlet.com#?##__next > div[class] > div[class][style] > div[class][style*="--"][style*="block"]:has(> .SiteAd:only-child)
 quizlet.com#?#.ExplanationsSolutionStep ~ div:has(> div.SiteAd)
+quizzop.com##.display-ad_displayAdWrapper__nO4Kb
 qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 quoka.de###div-gpt-ad-banner
@@ -75710,7 +75717,6 @@ technofino.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 technojobs.co.uk#?#.section > div.block:has(> div.content > h2:contains(Featured Recruiters))
 technology.org##.techorg-banner
 technologymagazine.com##div[data-isadrow]
-technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 technologynetworks.com##.adverts_footer_scrolling_advert
 technologynetworks.com##.inner_content_olp_on_site_landing_page
 technologynetworks.com#?#.preText:contains(Continue reading below...)
@@ -75793,8 +75799,12 @@ techrepublic.com###leader-plus-top
 techrepublic.com###mantle_skin > div > .ad-active + div[style="width:100%"]
 techrepublic.com###nav-ad
 techrepublic.com##.ad-active + div[style="width:100%"]:not([class]):not([id])
+techrepublic.com##.ad-container
+techrepublic.com##.prose > div.has-data-empty\:hidden
+techrepublic.com##div[data-ad-slot]
 techrepublic.com##div[data-medusa-async-options]
 techrepublic.com##section[class^="content-mpu"] > div
+techrepublic.com##sticky-footer-ad
 techrepublic.com#?#.col-4 > div:has(> section[class^="content-mpu"])
 techrifle.com,sawbank.com,true-tech.net,dailyboulder.com,aclsports.com,route-one.net,prajwaldesai.com,stvincenttimes.com#%#//scriptlet('prevent-setTimeout', 'placebo')
 techrifle.com,sawbank.com,true-tech.net,dailyboulder.com,aclsports.com,route-one.net,prajwaldesai.com,stvincenttimes.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
@@ -75936,6 +75946,7 @@ tekrevue.com##.ad-post-trail
 tekstowo.pl##.adv-home
 tektutorialshub.com###text-139
 telanganatoday.com##.branding .topA > a[href][target="_blank"] > img
+telcomagazine.com,technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 teleboy.ch##.grid-col-content-leaderboard
 telecharger-youtube-mp3.com#%#//scriptlet('remove-attr', 'onclick|href', 'a[href][onclick^="setTimeout(function(){ window.open("][onclick*="clksite.com"]')
 telecomasia.net##.js-seo
@@ -78612,6 +78623,7 @@ tubewolf.com##[id^="TA"][id*="-Native-"]
 tubewolf.com#?#.main > h2:contains(/You may also like|Suggested for you/)
 tubexnxx.pro##.full-brkas-container
 tubitv.com#%#//scriptlet('prevent-fetch', 'adrise.tv/js/ads.js')
+tubitv.com#%#//scriptlet('trusted-json-set', 'Promise.resolve', '$.items[?(@.ad_id)]', '$remove$', '', 'arg:0')
 tuborstb.co#%#//scriptlet('prevent-window-open')
 tubous.com###good_money
 tubous.com##.DarkBg
@@ -79391,6 +79403,7 @@ umatechnology.org,geekchamp.com#%#//scriptlet('abort-current-inline-script', 'Ev
 umbooks.com#%#//scriptlet('abort-current-inline-script', 'document.writeln')
 ummid.com##body > .gridContainer > #Header
 umod.org##ins[data-revive-id]
+umogames.com##.style-module_gam_container__9KUaZ
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
 unb.com.bd##img[style^="width:700px; height:70px;"]
@@ -86400,6 +86413,8 @@ zzzyk.com###Tinfo
 ||api.ouedkniss.com^*&xTrackId=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
 ||api.pcid.ca/v1/client/logs
+||api.pearcommerce.com/v1/client_request_log?
+||api.pearcommerce.com/v1/page_load?
 ||api.perspektywy.pl/v*/banners/
 ||api.picox.bendingspoons.com/v1/events
 ||api.pixai.art/graphql$jsonprune=\$.data.publicDynamicConfig.campaign.feed.*..[?(key-eq "\$.isAd" true)]
@@ -89758,6 +89773,7 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
+||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||eazydata.io^$third-party
 ||ebay.com/delstats/
@@ -93886,7 +93902,6 @@ zzzyk.com###Tinfo
 ||lnk.to/~/tr/visit
 ||lnkd.in/li/track
 ||lnzqw.net/js/
-||loader.gutefrage.net/loader.min.js$script,redirect=noopjs
 ||loader.masthead.me/prod/masthead/loader.min.js
 ||loader.to/ajax/a.php$popup
 ||loader.to/ajax/ad/l.php$popup
@@ -96549,6 +96564,8 @@ zzzyk.com###Tinfo
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||poweredbyeden.com/widget/tracker/
 ||powforums.com/js/hta.php
+||powv1deo.cc/js/dpu*/pu*.min.js
+||powv1deo.cc/player*/*/vast.js
 ||powvibeo.*/ben/$subdocument,~third-party
 ||powvideo.net/bon/exonat.html
 ||powvideo.net/bun/$important
@@ -101146,12 +101163,16 @@ zzzyk.com###Tinfo
 ||x-trojmiasto.pl/combo/f=/_style/$replace=/(.\$)/\$1.banner-maxia\,.banner-a\,.banner-m\,.banner-mr\,a[target="_blank"][href*=".trojmiasto.pl\/"] > img[width][height][src*=".trojmiasto.pl\/"]\,[data-revive-zoneid]{ display: none !important; }/,stylesheet
 ||x.com/*/videoads/
 ||x.com/1.1/attribution
+||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json
 ||x.com/1.1/graphql/user_flow.json
+||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
+||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
 ||x.com/i/jot
