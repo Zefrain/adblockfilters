@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260628104127
-# Last modified: 2026/06/28 10:41:27
-# Blocked domains: 4632
+# Version: 20260628182246
+# Last modified: 2026/06/28 18:22:46
+# Blocked domains: 4641
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -222,6 +222,7 @@ local=/trace.51jingying.com/
 local=/scdata.51job.com/
 local=/a1.51shiti.cn/
 local=/51taifu.com/
+local=/ad.51wnl-cq.com/
 local=/ad.51wnl.com/
 local=/51xuex.com.cn/
 local=/51yes.com/
@@ -517,6 +518,7 @@ local=/dmg-dd.oss-accelerate.aliyuncs.com/
 local=/dongtukj.oss-cn-hongkong.aliyuncs.com/
 local=/dreemdmbabys.oss-cn-guangzhou.aliyuncs.com/
 local=/ep2x3kiawg-sdk.rum.aliyuncs.com/
+local=/f8ds5tkidk-sdk.rum.aliyuncs.com/
 local=/facai383.oss-cn-guangzhou.aliyuncs.com/
 local=/first-hufu.oss-cn-shanghai.aliyuncs.com/
 local=/free-cdn.oss-cn-shanghai.aliyuncs.com/
@@ -921,6 +923,7 @@ local=/telemetry.canva.cn/
 local=/caomeixz7.xyz/
 local=/caonimazuzong.com/
 local=/baidu1.cardbaobao.com/
+local=/cart.net.cn/
 local=/cartx.cloud/
 local=/super.cat898.com/
 local=/tracking.cat898.com/
@@ -1765,6 +1768,7 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
+local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1999,6 +2003,7 @@ local=/apisgame.iqiyi.com/
 local=/c.uaa.iqiyi.com/
 local=/cards-css.iqiyi.com/
 local=/cm.passport.iqiyi.com/
+local=/cs-feige.iqiyi.com/
 local=/doh.iqiyi.com/
 local=/emoticon-sns.iqiyi.com/
 local=/emoticon.sns.iqiyi.com/
@@ -2187,6 +2192,7 @@ local=/slb-p2p.vcloud.ks-live.com/
 local=/log-sdk.ksapisrv.com/
 local=/multi-az-ulog.ksapisrv.com/
 local=/ulog.ksapisrv.com/
+local=/ulog-sdk.ksapisrv.com/
 local=/ulog.v6.ksapisrv.com/
 local=/ulogjs.ksapisrv.com/
 local=/ulogs1.ksapisrv.com/
@@ -2683,7 +2689,6 @@ local=/pdns.nudt.edu.cn/
 local=/synad2.nuffnang.com.cn/
 local=/c.nuhcpf.com/
 local=/log.nuomi.com/
-local=/metric.nuonuo.com/
 local=/promotionad.nvcam.net/
 local=/ad.nvdvr.cn/
 local=/anews7.nvwu.com/
@@ -2850,6 +2855,7 @@ local=/qfh5tgyv.cn/
 local=/jspassport.ssl.qhimg.com/
 local=/qhonzpl.cn/
 local=/c.qiandao.cn/
+local=/sensors-api.qiandao.cn/
 local=/click.qianqian.com/
 local=/jsb.qianzhan.com/
 local=/qichetansuo.com/
@@ -2917,6 +2923,7 @@ local=/apikey.map.qq.com/
 local=/appcfg.v.qq.com/
 local=/applog.reader.qq.com/
 local=/appsupport.qq.com/
+local=/as.weixin.qq.com/
 local=/beacon.qq.com/
 local=/beacon.cdn.qq.com/
 local=/beaconcdn.qq.com/
@@ -3232,6 +3239,7 @@ local=/ad.shunchangzhixing.com/
 local=/js.shunqi.com/
 local=/ut2.shuqistat.com/
 local=/shuzilm.cn/
+local=/ads-monitoring.shziyi.com/
 local=/sigmob.com/
 local=/smetrics.marketing.signify.com.cn/
 local=/simicloud.com/
@@ -4341,6 +4349,7 @@ local=/bd1.yidu.cc/
 local=/yijifen.com/
 local=/yijirecovery.com/
 local=/data-track.yingxiong.com/
+local=/data-track-global.yingxiong.com/
 local=/yingyankantu.com/
 local=/log.yinshantech.cn/
 local=/analytics.yinxiang.com/
