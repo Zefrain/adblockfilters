@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260702103153
-# Last modified: 2026/07/02 10:31:53
-# Blocked domains: 4625
+# Version: 20260702183052
+# Last modified: 2026/07/02 18:30:52
+# Blocked domains: 4630
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -531,6 +531,7 @@ local=/jun01.oss-cn-beijing.aliyuncs.com/
 local=/kmmgoogle.oss-ap-southeast-1.aliyuncs.com/
 local=/logtail-release.oss-cn-hangzhou.aliyuncs.com/
 local=/mobantong.oss-cn-hangzhou.aliyuncs.com/
+local=/o2o-ad-dev.oss-cn-shanghai.aliyuncs.com/
 local=/retcode-sg-lazada.arms.aliyuncs.com/
 local=/shaquevip.oss-cn-zhangjiakou.aliyuncs.com/
 local=/star-seo.oss-ap-northeast-1.aliyuncs.com/
@@ -2090,6 +2091,7 @@ local=/udiab1.jianshu.com/
 local=/api.jietuhb.com/
 local=/jiguang.cn/
 local=/ad.open.api.jihuoniao.com/
+local=/ad.report.jihuoniao.com/
 local=/target.ads.jihuoniao.com/
 local=/jikewan.com/
 local=/jikklfexh.com/
@@ -2294,8 +2296,6 @@ local=/adashx.ut.lazada.com/
 local=/amdc.lazada.com/
 local=/h-adashx.ut.lazada.com/
 local=/orange-dc.lazada.com/
-local=/ph-log-emagzal.lazada.com/
-local=/sg-log-emagzal.lazada.com/
 local=/jmacs-m.lazada.com.my/
 local=/msgacs-m.lazada.com.my/
 local=/jmacs-m.lazada.com.ph/
@@ -2593,6 +2593,7 @@ local=/cdn2.moji002.com/
 local=/monidashi.cn/
 local=/moodoo.com.cn/
 local=/m.moomoo.com/
+local=/ad.moonton.cn/
 local=/moquanad.com/
 local=/elq.mouser.cn/
 local=/mp83fkx.cn/
@@ -2681,7 +2682,6 @@ local=/pdns.nudt.edu.cn/
 local=/synad2.nuffnang.com.cn/
 local=/c.nuhcpf.com/
 local=/log.nuomi.com/
-local=/metric.nuonuo.com/
 local=/promotionad.nvcam.net/
 local=/ad.nvdvr.cn/
 local=/anews7.nvwu.com/
@@ -2787,6 +2787,7 @@ local=/gg86.pinggu.org/
 local=/img50.pingguolv.com/
 local=/api.pingstart.com/
 local=/bd1.pipaw.com/
+local=/stat2.pixpin.cn/
 local=/pl53l7tyw.com/
 local=/placidocn.com/
 local=/bdx.playnext.cn/
@@ -3230,6 +3231,7 @@ local=/ad.shunchangzhixing.com/
 local=/js.shunqi.com/
 local=/ut2.shuqistat.com/
 local=/shuzilm.cn/
+local=/ads-monitoring.shziyi.com/
 local=/sigmob.com/
 local=/smetrics.marketing.signify.com.cn/
 local=/simicloud.com/
@@ -3771,6 +3773,7 @@ local=/dlog-config.uu.cc/
 local=/jdlog.uu.cc/
 local=/ms-report.uu.cc/
 local=/www3-vpass.uubkn.cn/
+local=/www.uuboos.com/
 local=/uulucky.com/
 local=/uusee.com/
 local=/gg.uuu9.com/
@@ -3868,6 +3871,7 @@ local=/cname-asia-comonrt-stsdk.vivoglobal.com/
 local=/cname-asia-st-exappupgrade.vivoglobal.com/
 local=/cname-in-apport-stsdk.vivoglobal.com/
 local=/cname-in-bom01-nginxpool03.vivoglobal.com/
+local=/cname-in-ctdbonrt-stsdk.vivoglobal.com/
 local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
@@ -4173,6 +4177,7 @@ local=/bss.pandora.xiaomi.com/
 local=/cdn-exp-sg-recommend.pt.xiaomi.com/
 local=/cdn.exp.xiaomi.com/
 local=/cdn.fds.api.xiaomi.com/
+local=/data.game.xiaomi.com/
 local=/data.mistat.intl.xiaomi.com/
 local=/de.pandora.xiaomi.com/
 local=/dvb.pandora.xiaomi.com/
@@ -4198,6 +4203,7 @@ local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
 local=/sys.tv.india.xiaomi.com/
 local=/t1.a.market.xiaomi.com/
+local=/t17.market.xiaomi.com/
 local=/tz.sec.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/api.device.xiaomi.net/
@@ -4275,7 +4281,6 @@ local=/xundupdf.com/
 local=/ad.xunkids.com/
 local=/adsp.xunlei.com/
 local=/advertpay-vip-ssl.xunlei.com/
-local=/advertpay.vip.xunlei.com/
 local=/analytics-union.xunlei.com/
 local=/kkpgv2.xunlei.com/
 local=/soa-vip-ssl.xunlei.com/
