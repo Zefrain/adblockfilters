@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260711095254
-# Last modified: 2026/07/11 09:52:54
-# Blocked domains: 4628
+# Version: 20260711171956
+# Last modified: 2026/07/11 17:19:56
+# Blocked domains: 4623
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -49,7 +49,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	123cha.com
 0.0.0.0	bdad.123pan.cn
 0.0.0.0	ent1.12584.cn
-0.0.0.0	126.cn
 0.0.0.0	analytics.126.com
 0.0.0.0	ir.mail.126.com
 0.0.0.0	iadmusicmat.music.126.net
@@ -974,7 +973,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tracking.chacha.com
 0.0.0.0	chance-ad.com
 0.0.0.0	chanet.com.cn
-0.0.0.0	changyi21.cn
 0.0.0.0	chatcenter.ac.cn
 0.0.0.0	chatcenter.nm.cn
 0.0.0.0	chatcenter.sn.cn
@@ -1236,7 +1234,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	detailroi.com
 0.0.0.0	api.dewmobile.net
 0.0.0.0	dexinyi.cn
-0.0.0.0	dgrj.com.cn
 0.0.0.0	d.dgzj.com
 0.0.0.0	dianru.com
 0.0.0.0	digitalfiles.org
@@ -1460,7 +1457,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bro.flyme.cn
 0.0.0.0	t-e.flyme.cn
 0.0.0.0	t-flow.flyme.cn
-0.0.0.0	flyye.cn
 0.0.0.0	www.fm120.com
 0.0.0.0	accoun.fnmgr.cn
 0.0.0.0	adv-sv-show.focus.cn
@@ -1754,6 +1750,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	oversea-nebula-sg.heytapmobi.com
 0.0.0.0	report.uc.heytapmobi.com
 0.0.0.0	ssp-adx.ads.heytapmobi.com
+0.0.0.0	stat.browser.heytapmobi.com
 0.0.0.0	stg-data-f.ads.heytapmobi.com
 0.0.0.0	stg-data-id.ads.heytapmobi.com
 0.0.0.0	stg-data-in.ads.heytapmobi.com
@@ -2150,7 +2147,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.jxnews.com.cn
 0.0.0.0	jy135.com
 0.0.0.0	jygdb.com
-0.0.0.0	jyhengyi.cn
 0.0.0.0	o1.jyjyj.cn
 0.0.0.0	o2.jyjyj.cn
 0.0.0.0	jzdwl4.cn
@@ -2698,7 +2694,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	synad2.nuffnang.com.cn
 0.0.0.0	c.nuhcpf.com
 0.0.0.0	log.nuomi.com
-0.0.0.0	metric.nuonuo.com
 0.0.0.0	promotionad.nvcam.net
 0.0.0.0	ad.nvdvr.cn
 0.0.0.0	anews7.nvwu.com
@@ -3205,7 +3200,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pay.sboot.cn
 0.0.0.0	smetrics.schindler.cn
 0.0.0.0	scjpqut.cn
-0.0.0.0	sckexing.cn
 0.0.0.0	sckfcn.cn
 0.0.0.0	statscollector.sd-rtn.com
 0.0.0.0	sd6hon.cn
@@ -3457,7 +3451,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sxundrh.cn
 0.0.0.0	sybnzs.cn
 0.0.0.0	sanalytics.sydneyuniversity.cn
-0.0.0.0	sydyqg.cn
 0.0.0.0	symaa.cn
 0.0.0.0	synacast.com
 0.0.0.0	syr66.com.cn
@@ -3697,7 +3690,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	livetech.shopee.com.br.txlivecdn.com
 0.0.0.0	m.txtxr.com
 0.0.0.0	u.txuesoft.cn
-0.0.0.0	ty.cn
 0.0.0.0	tydouke.com
 0.0.0.0	tzlit.cn
 0.0.0.0	stat.u.sb
@@ -4217,6 +4209,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
+0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
@@ -4294,6 +4287,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.xunkids.com
 0.0.0.0	adsp.xunlei.com
 0.0.0.0	advertpay-vip-ssl.xunlei.com
+0.0.0.0	advertpay.vip.xunlei.com
 0.0.0.0	analytics-union.xunlei.com
 0.0.0.0	kkpgv2.xunlei.com
 0.0.0.0	soa-vip-ssl.xunlei.com
@@ -4509,6 +4503,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xue.zbyw.cn
 0.0.0.0	log.zcool.com.cn
 0.0.0.0	zegarkirepliki.pl
+0.0.0.0	api-analytics.zepp.com
 0.0.0.0	api-analytics-cn3.zepp.com
 0.0.0.0	api-analytics-de.zepp.com
 0.0.0.0	api-analytics-us.zepp.com
