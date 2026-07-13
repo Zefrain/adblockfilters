@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260713095823
-! Last modified: 2026/07/13 09:58:23
-! Blocked domains: 4633
+! Version: 20260713185223
+! Last modified: 2026/07/13 18:52:23
+! Blocked domains: 4638
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -34,6 +34,7 @@ ad.12306.cn
 123cha.com
 bdad.123pan.cn
 ent1.12584.cn
+126.cn
 analytics.126.com
 ir.mail.126.com
 iadmusicmat.music.126.net
@@ -406,7 +407,6 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 report-oversea.agora.io
-report-oversea2.agora.io
 statscollector-1.agora.io
 statscollector-1-asia.agora.io
 statscollector-1-europe.agora.io
@@ -1015,6 +1015,7 @@ cleartone.club
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -2137,6 +2138,7 @@ jxdyk65ay.com
 ad.jxnews.com.cn
 jy135.com
 jygdb.com
+jyhengyi.cn
 o1.jyjyj.cn
 o2.jyjyj.cn
 jzdwl4.cn
@@ -2693,6 +2695,7 @@ anews7.nvwu.com
 renacious.nwwadq.cn
 logserver.nzxcloud.cn
 oadz.com
+gtm.oasisfeng.com
 obv3epx22d.com
 analytics.oceanengine.com
 offerstrack.net
@@ -3519,6 +3522,7 @@ huodong.m.taobao.com
 hybrid.miniapp.taobao.com
 m-adash.m.taobao.com
 m.simba.taobao.com
+mclick.simba.taobao.com
 nbsdk-baichuan.taobao.com
 openjmacs.m.taobao.com
 pcookie.taobao.com
@@ -3685,6 +3689,7 @@ livetech.shopee.co.id.txlivecdn.com
 livetech.shopee.com.br.txlivecdn.com
 m.txtxr.com
 u.txuesoft.cn
+ty.cn
 tydouke.com
 tzlit.cn
 stat.u.sb
@@ -3829,6 +3834,7 @@ pnrt-stsdk.vivo.com.cn
 prt-stsdk.vivo.com.cn
 stnetsdk.vivo.com.cn
 stsdk.vivo.com.cn
+trace-h5sdk.vivo.com.cn
 tracking-adnet.vivo.com.cn
 vcardsdkservice.vivo.com.cn
 asia-abeacdataonrt-stsdk.vivoglobal.com
@@ -4097,7 +4103,6 @@ push.wps.cn
 update.wps.cn
 wpsweb-dc.wps.cn
 api-ad-adapter.wps.com
-api-ad-adapter-mb.wps.com
 mo.res.wpscdn.cn
 abroadad.cache.wpscdn.com
 wpwpquse.cn
@@ -4217,6 +4222,7 @@ us.api.micloud.xiaomi.net
 xiaomifood.cn
 xiaoxiuapp.com
 xiaoyange.cn
+log.eu.xiaoyi.com
 log.us.xiaoyi.com
 ad-sdk.altamob.xiaoying.co
 viva.api.xiaoying.co
@@ -4340,7 +4346,6 @@ bd1.yidu.cc
 yijifen.com
 yijirecovery.com
 data-track.yingxiong.com
-data-track-global.yingxiong.com
 yingyankantu.com
 log.yinshantech.cn
 analytics.yinxiang.com
