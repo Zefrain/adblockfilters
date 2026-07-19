@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260719095312
-! Last modified: 2026/07/19 09:53:12
-! Blocked domains: 4625
+! Version: 20260719174621
+! Last modified: 2026/07/19 17:46:21
+! Blocked domains: 4637
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -35,6 +35,7 @@
 ||123cha.com^
 ||bdad.123pan.cn^
 ||ent1.12584.cn^
+||126.cn^
 ||analytics.126.com^
 ||ir.mail.126.com^
 ||iadmusicmat.music.126.net^
@@ -67,7 +68,6 @@
 ||crash.163.com^
 ||crashlytics.163.com^
 ||du.163.com^
-||e-p4p.163.com^
 ||fp-upload.dun.163.com^
 ||g.163.com^
 ||gb.corp.163.com^
@@ -222,6 +222,7 @@
 ||scdata.51job.com^
 ||a1.51shiti.cn^
 ||51taifu.com^
+||ad.51wnl-cq.com^
 ||ad.51wnl.com^
 ||51xuex.com.cn^
 ||51yes.com^
@@ -267,6 +268,7 @@
 ||efgh.5lu.com^
 ||5mgrgsc.cn^
 ||adjb.5nd.com^
+||5pub.com^
 ||5qzone.net^
 ||5tmobi.cn^
 ||5uxmusq.cn^
@@ -407,6 +409,7 @@
 ||report-europe.agora.io^
 ||report-north-america.agora.io^
 ||report-oversea.agora.io^
+||report-oversea2.agora.io^
 ||statscollector-1.agora.io^
 ||statscollector-1-asia.agora.io^
 ||statscollector-1-europe.agora.io^
@@ -517,6 +520,7 @@
 ||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||ep2x3kiawg-sdk.rum.aliyuncs.com^
+||f8ds5tkidk-sdk.rum.aliyuncs.com^
 ||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||free-cdn.oss-cn-shanghai.aliyuncs.com^
@@ -981,7 +985,6 @@
 ||sssvd.china.com^
 ||union.china.com.cn^
 ||chinaapper.com^
-||feedbackstorage.blob.core.chinacloudapi.cn^
 ||pcmactivity.chinacloudsites.cn^
 ||same.chinadaily.com.cn^
 ||sdkoptedge.chinanetcenter.com^
@@ -1764,6 +1767,7 @@
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice-dra.platform.hicloud.com^
+||logservice-dre.platform.hicloud.com^
 ||logservice1.hicloud.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||honorsearch-dra.hiboard.hihonorcloud.com^
@@ -1998,6 +2002,7 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
+||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2186,6 +2191,7 @@
 ||log-sdk.ksapisrv.com^
 ||multi-az-ulog.ksapisrv.com^
 ||ulog.ksapisrv.com^
+||ulog-sdk.ksapisrv.com^
 ||ulog.v6.ksapisrv.com^
 ||ulogjs.ksapisrv.com^
 ||ulogs1.ksapisrv.com^
@@ -2295,6 +2301,8 @@
 ||amdc.lazada.com^
 ||h-adashx.ut.lazada.com^
 ||orange-dc.lazada.com^
+||ph-log-emagzal.lazada.com^
+||sg-log-emagzal.lazada.com^
 ||jmacs-m.lazada.com.my^
 ||msgacs-m.lazada.com.my^
 ||jmacs-m.lazada.com.ph^
@@ -2593,6 +2601,7 @@
 ||monidashi.cn^
 ||moodoo.com.cn^
 ||m.moomoo.com^
+||ad.moonton.cn^
 ||moquanad.com^
 ||elq.mouser.cn^
 ||mp83fkx.cn^
@@ -2681,7 +2690,6 @@
 ||synad2.nuffnang.com.cn^
 ||c.nuhcpf.com^
 ||log.nuomi.com^
-||metric.nuonuo.com^
 ||promotionad.nvcam.net^
 ||ad.nvdvr.cn^
 ||anews7.nvwu.com^
@@ -2847,6 +2855,7 @@
 ||jspassport.ssl.qhimg.com^
 ||qhonzpl.cn^
 ||c.qiandao.cn^
+||sensors-api.qiandao.cn^
 ||click.qianqian.com^
 ||jsb.qianzhan.com^
 ||qichetansuo.com^
@@ -3333,9 +3342,11 @@
 ||log-hl.snssdk.com^
 ||log-lq.snssdk.com^
 ||mcs.snssdk.com^
+||mercury-sdk.snssdk.com^
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
+||pc-mon.snssdk.com^
 ||stream.snssdk.com^
 ||tbm.snssdk.com^
 ||tnc3-aliec2.snssdk.com^
@@ -3593,7 +3604,6 @@
 ||sstats.thermoscientific.cn^
 ||thinkingdata.cn^
 ||tatrack.thinkyeah.com^
-||ad.thsi.cn^
 ||tracking.ti.com.cn^
 ||tracking.mail.ti.com.cn^
 ||tiandi.com^
@@ -3911,6 +3921,7 @@
 ||ru-onrt-stsdk.vivoglobal.com^
 ||ru-os-config-appstore.vivoglobal.com^
 ||ru-p.vivoglobal.com^
+||ru-pnrt-stsdk.vivoglobal.com^
 ||ru-romsp-unifyconfig.vivoglobal.com^
 ||ru-st-exappupgrade.vivoglobal.com^
 ||ru-st-sl.vivoglobal.com^
@@ -4211,6 +4222,7 @@
 ||xiaomifood.cn^
 ||xiaoxiuapp.com^
 ||xiaoyange.cn^
+||log.eu.xiaoyi.com^
 ||log.us.xiaoyi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||viva.api.xiaoying.co^
