@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260722095209
-! Last modified: 2026/07/22 09:52:09
-! Blocked Filters: 102758
+! Version: 20260722181734
+! Last modified: 2026/07/22 18:17:34
+! Blocked Filters: 102764
 !
 ###AC_ad
 ###AD_160
@@ -15692,6 +15692,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 -*-*-*-*.panda^$script,third-party
 -1080x140-
 -1080x140.
+-1080x180-
 -120-600.
 -120_600_
 -120x600-
@@ -31256,6 +31257,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||my.foxnews.com^$stealth=referrer
 @@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
 @@||my.gumtree.com/login$stealth=1p-cookie
+@@||my.microsoftpersonalcontent.com^$stealth=3p-auth
 @@||my.nextdns.io^$stealth=dpi
 @@||my.onvista.de^$stealth=dpi
 @@||my.prom.ua/*/iframe$stealth=referrer
@@ -45161,7 +45163,6 @@ ddxsku.com##.adhtml
 ddys.*,ddrk.me##.entry div[id] > a[target="_blank"] > img
 ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
 ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 'true')
-ddzimu.com###popup
 ddzzxs.com###inglestore.inglestore
 dead-frog.com###site_top
 deadline.com##.markplace-ads
@@ -63487,7 +63488,6 @@ multirbl.valli.org###lo-ads
 multiup.io##a[href^="/download-fast/"]
 multiup.io##a[href^="https://multiup.io/download-fast/"]
 multiup.io#$?#.content-body > form[method="POST"][action^="https://multinews.me/"] { remove: true; }
-multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 multiup.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.open')
 multiup.io#%#//scriptlet('prevent-setInterval', '$("form").submit()')
 multiup.io#%#//scriptlet('prevent-window-open', '!multiup')
@@ -69446,6 +69446,7 @@ productreview.com.au#?#header + div[class]:has(> div > div#sticky-top-advertisem
 productreview.com.au#?#main div#search-results + div > div[class]:has(> div div[id^="google_ads_iframe_"])
 productreview.com.au#?#main div#search-results + div > div[class]:has(> div div[style="line-height:0"])
 productz.com##.productz-ad-container
+proewildfire.cn##.comiis_nav ~ a
 proff.no##.MuiBox-root[style="text-align:center;min-height:320px;margin-top:16px"]
 profil.wp.pl###rightLogBox > img.imgRight[src^="/login/"] ~ div[class]
 profil.wp.pl##div[id^="placeholder"]
@@ -80098,6 +80099,7 @@ uploadrar.com##center > a[href][target="_blank"]
 uploadrar.com#?#div[class^="banner"]:not(:has(> div#commonId))
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> .as_ads_guard:only-child)
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> script:first-child + .adsbygoogle)
+uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 uploadvr.com###sticky-rail-container > :not(:first-child)::before
 uploadvr.com###sticky-rail-container::before
 uploadvr.com##.ai-sticky-widget
@@ -82540,6 +82542,7 @@ woot.com##[data-test-ui="advertisement-cdm-zone-06"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 woot.com#?#[dir="auto"]:contains(ADVERTISEMENT)
 woot.com#?#[dir="auto"]:has-text(ADVERTISEMENT)
+wootly.ch#%#//scriptlet('remove-attr', 'href', 'div.playh > a[href][target="_blank"]')
 woowebtools.com##div[style^="padding-top:"]:has(a > img[src])
 woozooo.com##.ves
 woozworld.com###ads_iframe
@@ -90071,6 +90074,7 @@ zzzyk.com###Tinfo
 ||doseofporn.com/img/jerk.gif
 ||doseofporn.com/t63fd79f7055.js
 ||dota2.uuu9.com^$subdocument
+||dota2protracker.com/sget/ads/
 ||dotesports.com/sp.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
@@ -97276,6 +97280,7 @@ zzzyk.com###Tinfo
 ||product.rightmove.co.uk/localhomepages.html$subdocument
 ||production-adserver-*.amazonaws.com^
 ||productsup.com^$third-party
+||proewildfire.cn/fd.js
 ||profamouslife.com/js/adcash.js
 ||profitmetrics.io^$third-party
 ||profollow.com/form/
@@ -101422,6 +101427,7 @@ zzzyk.com###Tinfo
 ||web.valiuz.com^*/tag.js
 ||web.vstat.info/src/ads.js
 ||web.whatsapp.com/wam
+||web8.net^$third-party
 ||webanalytic.info^$third-party
 ||webapi.*/v1/seo_inter_network
 ||webapi.*/v1/seo_trending
