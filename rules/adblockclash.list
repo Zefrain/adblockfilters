@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclash.list
-# Version: 20260729183223
-# Last modified: 2026/07/29 18:32:23
-# Blocked domains: 325253
+# Version: 20260730010641
+# Last modified: 2026/07/30 01:06:41
+# Blocked domains: 325301
 #
 [Rule]
 DOMAIN-SUFFIX,0-0.fr,REJECT-DROP
@@ -337,6 +337,7 @@ DOMAIN-SUFFIX,0628ba07b4.com,REJECT-DROP
 DOMAIN-SUFFIX,063rpyn37z.com,REJECT-DROP
 DOMAIN-SUFFIX,0645405ef4.com,REJECT-DROP
 DOMAIN-SUFFIX,06467.click,REJECT-DROP
+DOMAIN-SUFFIX,064kk.com,REJECT-DROP
 DOMAIN-SUFFIX,84149f947f.065b6e69b5.com,REJECT-DROP
 DOMAIN-SUFFIX,066b7e895c.com,REJECT-DROP
 DOMAIN-SUFFIX,067f87da09.com,REJECT-DROP
@@ -354,6 +355,7 @@ DOMAIN-SUFFIX,06hkgn0jl3.com,REJECT-DROP
 DOMAIN-SUFFIX,www.070829.com,REJECT-DROP
 DOMAIN-SUFFIX,070880.com,REJECT-DROP
 DOMAIN-SUFFIX,0715cx.com,REJECT-DROP
+DOMAIN-SUFFIX,071kk.com,REJECT-DROP
 DOMAIN-SUFFIX,0728723889735.cyou,REJECT-DROP
 DOMAIN-SUFFIX,g2.072m.com,REJECT-DROP
 DOMAIN-SUFFIX,072t.com,REJECT-DROP
@@ -1691,6 +1693,7 @@ DOMAIN-SUFFIX,1e93lqg1eb8gj7r65i.cfd,REJECT-DROP
 DOMAIN-SUFFIX,1earthliving.org,REJECT-DROP
 DOMAIN-SUFFIX,1ebda33434.com,REJECT-DROP
 DOMAIN-SUFFIX,marketing.1edisource.com,REJECT-DROP
+DOMAIN-SUFFIX,1efwxejmwvycnffxu1.cfd,REJECT-DROP
 DOMAIN-SUFFIX,1eher.com,REJECT-DROP
 DOMAIN-SUFFIX,1ehioxpqe.com,REJECT-DROP
 DOMAIN-SUFFIX,www.1ekg.de,REJECT-DROP
@@ -2036,6 +2039,7 @@ DOMAIN-SUFFIX,1win.re,REJECT-DROP
 DOMAIN-SUFFIX,1win.tf,REJECT-DROP
 DOMAIN-SUFFIX,1win.yt,REJECT-DROP
 DOMAIN-SUFFIX,1win1.fr,REJECT-DROP
+DOMAIN-SUFFIX,1winbets.co.za,REJECT-DROP
 DOMAIN-SUFFIX,1winbonus.fr,REJECT-DROP
 DOMAIN-SUFFIX,1wincasino.fr,REJECT-DROP
 DOMAIN-SUFFIX,1winenligne.fr,REJECT-DROP
@@ -7347,6 +7351,7 @@ DOMAIN-SUFFIX,t.82comb.net,REJECT-DROP
 DOMAIN-SUFFIX,82d36b5fc4.com,REJECT-DROP
 DOMAIN-SUFFIX,82db346f-64aa-4d0b-92cf-f635f34a330c-00-2gve7ebk35g2h.worf.replit.dev,REJECT-DROP
 DOMAIN-SUFFIX,82e9ac3c1.com,REJECT-DROP
+DOMAIN-SUFFIX,82fpljhwq5vbon1mrec.cfd,REJECT-DROP
 DOMAIN-SUFFIX,zabka.82h6.xyz,REJECT-DROP
 DOMAIN-SUFFIX,82hw5.lat,REJECT-DROP
 DOMAIN-SUFFIX,82je63e.lat,REJECT-DROP
@@ -17366,6 +17371,7 @@ DOMAIN-SUFFIX,images-ads.aland.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.alandpost.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.alandsradio.ax,REJECT-DROP
 DOMAIN-SUFFIX,alangharmer.shop,REJECT-DROP
+DOMAIN-SUFFIX,alangoverawn.qpon,REJECT-DROP
 DOMAIN-SUFFIX,alaninscaraipeterrar.cyou,REJECT-DROP
 DOMAIN-SUFFIX,alaninspainful.cyou,REJECT-DROP
 DOMAIN-SUFFIX,server.alanlago.com,REJECT-DROP
@@ -21868,6 +21874,7 @@ DOMAIN-SUFFIX,angiomothb.cyou,REJECT-DROP
 DOMAIN-SUFFIX,angioripre.cyou,REJECT-DROP
 DOMAIN-SUFFIX,6w8npdwb.angizeshfarahani.store,REJECT-DROP
 DOMAIN-SUFFIX,xfq2kf92.angizeshfarahani.store,REJECT-DROP
+DOMAIN-SUFFIX,angledskunky.qpon,REJECT-DROP
 DOMAIN-SUFFIX,anglezinccompassionate.com,REJECT-DROP
 DOMAIN-SUFFIX,angliaeunedge.cfd,REJECT-DROP
 DOMAIN-SUFFIX,info.anglianwaterbusiness.co.uk,REJECT-DROP
@@ -28497,6 +28504,7 @@ DOMAIN-SUFFIX,atytentioniaukmla.org,REJECT-DROP
 DOMAIN-SUFFIX,atyvapfwastoa.space,REJECT-DROP
 DOMAIN-SUFFIX,atzltompe.in,REJECT-DROP
 DOMAIN-SUFFIX,atzonebd.com,REJECT-DROP
+DOMAIN-SUFFIX,atzzvmbxqmfgw.website,REJECT-DROP
 DOMAIN-SUFFIX,acv.au-hikari-kddi.com,REJECT-DROP
 DOMAIN-SUFFIX,a8.au-hikarinet.com,REJECT-DROP
 DOMAIN-SUFFIX,ahzqgr.au-sonpo.co.jp,REJECT-DROP
@@ -32557,7 +32565,6 @@ DOMAIN-SUFFIX,balancealign.live,REJECT-DROP
 DOMAIN-SUFFIX,balanceapps-trexoz.wixstudio.com,REJECT-DROP
 DOMAIN-SUFFIX,balanceaquarid.qpon,REJECT-DROP
 DOMAIN-SUFFIX,balanceathlete.com,REJECT-DROP
-DOMAIN-SUFFIX,www.balancebox.com,REJECT-DROP
 DOMAIN-SUFFIX,balancebreath.com,REJECT-DROP
 DOMAIN-SUFFIX,balanceco.pics,REJECT-DROP
 DOMAIN-SUFFIX,balancedalma.com,REJECT-DROP
@@ -43695,6 +43702,7 @@ DOMAIN-SUFFIX,load.sst.boexperia.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.boezemfibrilleren.nl,REJECT-DROP
 DOMAIN-SUFFIX,bofae.com,REJECT-DROP
 DOMAIN-SUFFIX,bofanhxokgxcn.space,REJECT-DROP
+DOMAIN-SUFFIX,boffinsaumailginning.qpon,REJECT-DROP
 DOMAIN-SUFFIX,boffinsoft.com,REJECT-DROP
 DOMAIN-SUFFIX,filter.boffoads.com,REJECT-DROP
 DOMAIN-SUFFIX,search.boffoads.com,REJECT-DROP
@@ -50293,6 +50301,7 @@ DOMAIN-SUFFIX,bwinn.fr,REJECT-DROP
 DOMAIN-SUFFIX,bwinpartypartners.com,REJECT-DROP
 DOMAIN-SUFFIX,mediaserver.bwinpartypartners.it,REJECT-DROP
 DOMAIN-SUFFIX,bwinpromocode.fr,REJECT-DROP
+DOMAIN-SUFFIX,bwitahqriaz.in,REJECT-DROP
 DOMAIN-SUFFIX,bwjdlppiimfli.com,REJECT-DROP
 DOMAIN-SUFFIX,bwkcomucfkfpgl.com,REJECT-DROP
 DOMAIN-SUFFIX,bwkfevvdrwevl.website,REJECT-DROP
@@ -50599,6 +50608,7 @@ DOMAIN-SUFFIX,bypihpjwurkhvi.com,REJECT-DROP
 DOMAIN-SUFFIX,bypikue.com,REJECT-DROP
 DOMAIN-SUFFIX,byplayslaccin.cfd,REJECT-DROP
 DOMAIN-SUFFIX,protection.bypolice.com,REJECT-DROP
+DOMAIN-SUFFIX,byprechaos.cfd,REJECT-DROP
 DOMAIN-SUFFIX,byqhxmtfehcgy.site,REJECT-DROP
 DOMAIN-SUFFIX,byqoq.com,REJECT-DROP
 DOMAIN-SUFFIX,byr2xgh4bkzbkwfy.rest,REJECT-DROP
@@ -51269,7 +51279,6 @@ DOMAIN-SUFFIX,cachotditing.com,REJECT-DROP
 DOMAIN-SUFFIX,cachousbahut.qpon,REJECT-DROP
 DOMAIN-SUFFIX,cachuadirked.top,REJECT-DROP
 DOMAIN-SUFFIX,ly8c.caci-online.fr,REJECT-DROP
-DOMAIN-SUFFIX,caciqincip.cyou,REJECT-DROP
 DOMAIN-SUFFIX,cacklegrievingtank.com,REJECT-DROP
 DOMAIN-SUFFIX,cackm.com,REJECT-DROP
 DOMAIN-SUFFIX,cacksencl.com,REJECT-DROP
@@ -58247,7 +58256,6 @@ DOMAIN-SUFFIX,chebradio.ru,REJECT-DROP
 DOMAIN-SUFFIX,chebtv.ru,REJECT-DROP
 DOMAIN-SUFFIX,booking.check-3ds-eu.com,REJECT-DROP
 DOMAIN-SUFFIX,check-acc.icu,REJECT-DROP
-DOMAIN-SUFFIX,check-ftp.ru,REJECT-DROP
 DOMAIN-SUFFIX,check-gueststay3499.com,REJECT-DROP
 DOMAIN-SUFFIX,mbank.check-human-login.online,REJECT-DROP
 DOMAIN-SUFFIX,check-in-assistant.com,REJECT-DROP
@@ -64651,7 +64659,6 @@ DOMAIN-SUFFIX,colourrobot.com,REJECT-DROP
 DOMAIN-SUFFIX,colourscanvass.com,REJECT-DROP
 DOMAIN-SUFFIX,colourtinctem.com,REJECT-DROP
 DOMAIN-SUFFIX,nd.colozo.store,REJECT-DROP
-DOMAIN-SUFFIX,colpatherm.cyou,REJECT-DROP
 DOMAIN-SUFFIX,colpecokif.cyou,REJECT-DROP
 DOMAIN-SUFFIX,dsp.colpirio.com,REJECT-DROP
 DOMAIN-SUFFIX,data.colpisa.com,REJECT-DROP
@@ -67293,6 +67300,7 @@ DOMAIN-SUFFIX,copisthulwort.qpon,REJECT-DROP
 DOMAIN-SUFFIX,copitacoodle.cyou,REJECT-DROP
 DOMAIN-SUFFIX,copitinamon.com,REJECT-DROP
 DOMAIN-SUFFIX,coplotmentor.cfd,REJECT-DROP
+DOMAIN-SUFFIX,coplotsveals.shop,REJECT-DROP
 DOMAIN-SUFFIX,coplpartool.shop,REJECT-DROP
 DOMAIN-SUFFIX,copolorewsr.com,REJECT-DROP
 DOMAIN-SUFFIX,copolymerittzations.info,REJECT-DROP
@@ -74304,6 +74312,7 @@ DOMAIN-SUFFIX,www-smt.daiichisankyo-hc.co.jp,REJECT-DROP
 DOMAIN-SUFFIX,images.daikinchemicals.com,REJECT-DROP
 DOMAIN-SUFFIX,www2.daikinchemicals.com,REJECT-DROP
 DOMAIN-SUFFIX,daikinvietnam.vn,REJECT-DROP
+DOMAIN-SUFFIX,daikonpiety.qpon,REJECT-DROP
 DOMAIN-SUFFIX,daikoryn-ja.com,REJECT-DROP
 DOMAIN-SUFFIX,vppgfw.daikyo-anabuki.co.jp,REJECT-DROP
 DOMAIN-SUFFIX,daildoumas.cfd,REJECT-DROP
@@ -79432,6 +79441,7 @@ DOMAIN-SUFFIX,manageaccntsqwewbedpodsasdgik.dfjw435eusfdfjhdf.com,REJECT-DROP
 DOMAIN-SUFFIX,managwebapa07q32oihrasdf.dfjwa45udrfhdf.com,REJECT-DROP
 DOMAIN-SUFFIX,dfkd.xyz,REJECT-DROP
 DOMAIN-SUFFIX,dfkkffjulbnec.space,REJECT-DROP
+DOMAIN-SUFFIX,dfkovyzbejisn.website,REJECT-DROP
 DOMAIN-SUFFIX,server.dfluency.com.br,REJECT-DROP
 DOMAIN-SUFFIX,dfmpe7igjx4jo.cloudfront.net,REJECT-DROP
 DOMAIN-SUFFIX,dfmyzc.com,REJECT-DROP
@@ -81317,7 +81327,6 @@ DOMAIN-SUFFIX,discosthoo.com,REJECT-DROP
 DOMAIN-SUFFIX,b.discotech.me,REJECT-DROP
 DOMAIN-SUFFIX,link.discotech.me,REJECT-DROP
 DOMAIN-SUFFIX,stats.discotel.de,REJECT-DROP
-DOMAIN-SUFFIX,discouncon.cyou,REJECT-DROP
 DOMAIN-SUFFIX,discoungul.cyou,REJECT-DROP
 DOMAIN-SUFFIX,discounsel.cyou,REJECT-DROP
 DOMAIN-SUFFIX,discount-centers.shop,REJECT-DROP
@@ -82249,6 +82258,7 @@ DOMAIN-SUFFIX,dizzydiamond.pro,REJECT-DROP
 DOMAIN-SUFFIX,dizzydomaintrack.com,REJECT-DROP
 DOMAIN-SUFFIX,dizzyexit.com,REJECT-DROP
 DOMAIN-SUFFIX,dizzyobject.pro,REJECT-DROP
+DOMAIN-SUFFIX,dizzypiece.com,REJECT-DROP
 DOMAIN-SUFFIX,dizzyshow.com,REJECT-DROP
 DOMAIN-SUFFIX,dj-joyfulministry.org,REJECT-DROP
 DOMAIN-SUFFIX,power.dj.studio,REJECT-DROP
@@ -86790,6 +86800,7 @@ DOMAIN-SUFFIX,dslebb.com,REJECT-DROP
 DOMAIN-SUFFIX,dslenggui.com,REJECT-DROP
 DOMAIN-SUFFIX,dslgfw.com,REJECT-DROP
 DOMAIN-SUFFIX,dslibl.shop,REJECT-DROP
+DOMAIN-SUFFIX,dslniz.com,REJECT-DROP
 DOMAIN-SUFFIX,dslqpa.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.dslr-forum.de,REJECT-DROP
 DOMAIN-SUFFIX,dslrix.com,REJECT-DROP
@@ -87965,6 +87976,7 @@ DOMAIN-SUFFIX,dwaniqueautosales.com,REJECT-DROP
 DOMAIN-SUFFIX,dwarfscriptsfurnished.com,REJECT-DROP
 DOMAIN-SUFFIX,dwarfstar.net,REJECT-DROP
 DOMAIN-SUFFIX,dwarfybesaint.cfd,REJECT-DROP
+DOMAIN-SUFFIX,dwarfydraggy.cfd,REJECT-DROP
 DOMAIN-SUFFIX,dwashhxhmzhjs.space,REJECT-DROP
 DOMAIN-SUFFIX,dwavamtujydry.store,REJECT-DROP
 DOMAIN-SUFFIX,dwazhv.com,REJECT-DROP
@@ -91714,6 +91726,7 @@ DOMAIN-SUFFIX,ejatul.online,REJECT-DROP
 DOMAIN-SUFFIX,ejaxbjcsdmjwm.site,REJECT-DROP
 DOMAIN-SUFFIX,ejcfbugurha.com,REJECT-DROP
 DOMAIN-SUFFIX,ejcnfk4t21lof1.rest,REJECT-DROP
+DOMAIN-SUFFIX,ejcnszxrmlzmk.website,REJECT-DROP
 DOMAIN-SUFFIX,ejdbcklkwdjrfv.com,REJECT-DROP
 DOMAIN-SUFFIX,ejdkqclkzq.com,REJECT-DROP
 DOMAIN-SUFFIX,ejefinsoria.com,REJECT-DROP
@@ -94159,7 +94172,6 @@ DOMAIN-SUFFIX,endorseprovisional.com,REJECT-DROP
 DOMAIN-SUFFIX,endosovers.cyou,REJECT-DROP
 DOMAIN-SUFFIX,endostylety.info,REJECT-DROP
 DOMAIN-SUFFIX,endotprose.cyou,REJECT-DROP
-DOMAIN-SUFFIX,endotsubsf.cyou,REJECT-DROP
 DOMAIN-SUFFIX,endoutealf.qpon,REJECT-DROP
 DOMAIN-SUFFIX,endowmentoverhangutmost.com,REJECT-DROP
 DOMAIN-SUFFIX,endpobest.best,REJECT-DROP
@@ -94308,6 +94320,7 @@ DOMAIN-SUFFIX,enexdirecto.com,REJECT-DROP
 DOMAIN-SUFFIX,serverside.enexopro.com,REJECT-DROP
 DOMAIN-SUFFIX,enfacesplaineddeglory.qpon,REJECT-DROP
 DOMAIN-SUFFIX,load.ggl.enfant-world.com,REJECT-DROP
+DOMAIN-SUFFIX,enfanttheft.qpon,REJECT-DROP
 DOMAIN-SUFFIX,enfasdisso.cyou,REJECT-DROP
 DOMAIN-SUFFIX,enfatsbava.cyou,REJECT-DROP
 DOMAIN-SUFFIX,emailct.enfavr.com,REJECT-DROP
@@ -94652,6 +94665,7 @@ DOMAIN-SUFFIX,ennxeslzxsfyb.space,REJECT-DROP
 DOMAIN-SUFFIX,enochjim.shop,REJECT-DROP
 DOMAIN-SUFFIX,enochjoel.shop,REJECT-DROP
 DOMAIN-SUFFIX,enocholaoye.com,REJECT-DROP
+DOMAIN-SUFFIX,enoderoemerplying.cyou,REJECT-DROP
 DOMAIN-SUFFIX,datacontent.enofrlgo.com,REJECT-DROP
 DOMAIN-SUFFIX,enolatethurm.shop,REJECT-DROP
 DOMAIN-SUFFIX,enolicchou.cyou,REJECT-DROP
@@ -95222,6 +95236,7 @@ DOMAIN-SUFFIX,marketing.eos2017.ch,REJECT-DROP
 DOMAIN-SUFFIX,eosgas.io,REJECT-DROP
 DOMAIN-SUFFIX,eoshoppers.com,REJECT-DROP
 DOMAIN-SUFFIX,eosinbesouth.com,REJECT-DROP
+DOMAIN-SUFFIX,eosineswarlord.cyou,REJECT-DROP
 DOMAIN-SUFFIX,eosinsclatterreve.qpon,REJECT-DROP
 DOMAIN-SUFFIX,eosopqdrtglpx.online,REJECT-DROP
 DOMAIN-SUFFIX,eostvofsqqsvi.site,REJECT-DROP
@@ -97481,9 +97496,7 @@ DOMAIN-SUFFIX,reserve.eu7852-info.com,REJECT-DROP
 DOMAIN-SUFFIX,reserve.eu7920-checkin.com,REJECT-DROP
 DOMAIN-SUFFIX,eu7972-arrive.com,REJECT-DROP
 DOMAIN-SUFFIX,reserve.eu8106-info.com,REJECT-DROP
-DOMAIN-SUFFIX,eu8129-info.com,REJECT-DROP
 DOMAIN-SUFFIX,eu8140-info.com,REJECT-DROP
-DOMAIN-SUFFIX,eu8520-checkin.com,REJECT-DROP
 DOMAIN-SUFFIX,eu8759jwcy6q6nw.rest,REJECT-DROP
 DOMAIN-SUFFIX,eu9972-room.com,REJECT-DROP
 DOMAIN-SUFFIX,euadoroisso.com.br,REJECT-DROP
@@ -98662,7 +98675,6 @@ DOMAIN-SUFFIX,gtmserver.evolucaoinfo.net.br,REJECT-DROP
 DOMAIN-SUFFIX,evolucionfinanciera-es.live,REJECT-DROP
 DOMAIN-SUFFIX,evolucionfinanciera.live,REJECT-DROP
 DOMAIN-SUFFIX,stape.evoluiacademy.com.br,REJECT-DROP
-DOMAIN-SUFFIX,evoluircursosonline.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.evolushost.com,REJECT-DROP
 DOMAIN-SUFFIX,evolutalent.com,REJECT-DROP
 DOMAIN-SUFFIX,evolutetrading.live,REJECT-DROP
@@ -102597,6 +102609,7 @@ DOMAIN-SUFFIX,xhohnr.fdm.pl,REJECT-DROP
 DOMAIN-SUFFIX,fdnamecruck.cfd,REJECT-DROP
 DOMAIN-SUFFIX,fdnaylrjswdud.space,REJECT-DROP
 DOMAIN-SUFFIX,fdnemdjjvyl.info,REJECT-DROP
+DOMAIN-SUFFIX,fdnzfwspjufno.website,REJECT-DROP
 DOMAIN-SUFFIX,fdnzpgzakqnsj.online,REJECT-DROP
 DOMAIN-SUFFIX,fdoepehritanm.site,REJECT-DROP
 DOMAIN-SUFFIX,fdpmvwlxjszfv.space,REJECT-DROP
@@ -111104,6 +111117,7 @@ DOMAIN-SUFFIX,pvaal.freezbone.com,REJECT-DROP
 DOMAIN-SUFFIX,freeze.com,REJECT-DROP
 DOMAIN-SUFFIX,freezeassets.com,REJECT-DROP
 DOMAIN-SUFFIX,stape.freezer.ua,REJECT-DROP
+DOMAIN-SUFFIX,freezesidiasm.shop,REJECT-DROP
 DOMAIN-SUFFIX,freezingbuilding.com,REJECT-DROP
 DOMAIN-SUFFIX,freezonetr.com,REJECT-DROP
 DOMAIN-SUFFIX,fregijawcr.cyou,REJECT-DROP
@@ -113626,6 +113640,7 @@ DOMAIN-SUFFIX,track.g6cred.com.br,REJECT-DROP
 DOMAIN-SUFFIX,g6ghlogvlj3mmyb6.cfd,REJECT-DROP
 DOMAIN-SUFFIX,g6ird1tez2.com,REJECT-DROP
 DOMAIN-SUFFIX,g6x2uvza37.com,REJECT-DROP
+DOMAIN-SUFFIX,g6yihkn9ojo5lewotbkb7h.rest,REJECT-DROP
 DOMAIN-SUFFIX,g7-chauffeur.fr,REJECT-DROP
 DOMAIN-SUFFIX,g7-compagnie.fr,REJECT-DROP
 DOMAIN-SUFFIX,g7-france.fr,REJECT-DROP
@@ -130538,6 +130553,7 @@ DOMAIN-SUFFIX,engage.hierl.com,REJECT-DROP
 DOMAIN-SUFFIX,cet.hiermitherz.de,REJECT-DROP
 DOMAIN-SUFFIX,hierophantou.pro,REJECT-DROP
 DOMAIN-SUFFIX,hierverse.com,REJECT-DROP
+DOMAIN-SUFFIX,hievviijgvakk.site,REJECT-DROP
 DOMAIN-SUFFIX,www.hiewa.com.my,REJECT-DROP
 DOMAIN-SUFFIX,analytics.hiexpress.com,REJECT-DROP
 DOMAIN-SUFFIX,hiferoskdoapdkrowrkf.site,REJECT-DROP
@@ -131403,6 +131419,7 @@ DOMAIN-SUFFIX,hkpride.net,REJECT-DROP
 DOMAIN-SUFFIX,hkpwrpfqmkllb.online,REJECT-DROP
 DOMAIN-SUFFIX,hkq1b3v4wiwzo9zi77.cfd,REJECT-DROP
 DOMAIN-SUFFIX,ghyyss136.hkqwo.com,REJECT-DROP
+DOMAIN-SUFFIX,hkrpmavrbw.com,REJECT-DROP
 DOMAIN-SUFFIX,hkrshvakrvcvc.website,REJECT-DROP
 DOMAIN-SUFFIX,hksdf924pzxoias.appspot.com,REJECT-DROP
 DOMAIN-SUFFIX,hksfa.org,REJECT-DROP
@@ -135931,7 +135948,6 @@ DOMAIN-SUFFIX,hygromycin-b-50mg-ml-solution.com,REJECT-DROP
 DOMAIN-SUFFIX,hyhga.com,REJECT-DROP
 DOMAIN-SUFFIX,hyhpxngoybdiw.website,REJECT-DROP
 DOMAIN-SUFFIX,hyhsaqyiusioz.space,REJECT-DROP
-DOMAIN-SUFFIX,hyicflyt.cyou,REJECT-DROP
 DOMAIN-SUFFIX,hyihyfouxfsjb.online,REJECT-DROP
 DOMAIN-SUFFIX,hyip-zanoza.me,REJECT-DROP
 DOMAIN-SUFFIX,hyip.com,REJECT-DROP
@@ -137663,6 +137679,7 @@ DOMAIN-SUFFIX,oldcname.ieasyclick.net,REJECT-DROP
 DOMAIN-SUFFIX,myeca.ieasytest.net,REJECT-DROP
 DOMAIN-SUFFIX,myecat1.ieasytest.net,REJECT-DROP
 DOMAIN-SUFFIX,iebggwrulqeja.site,REJECT-DROP
+DOMAIN-SUFFIX,iebhbkzfwcwoq.space,REJECT-DROP
 DOMAIN-SUFFIX,ieboncoin.fr,REJECT-DROP
 DOMAIN-SUFFIX,ruby.ops.iec.ch,REJECT-DROP
 DOMAIN-SUFFIX,iecepgcc.org,REJECT-DROP
@@ -138812,6 +138829,7 @@ DOMAIN-SUFFIX,im-pd.com,REJECT-DROP
 DOMAIN-SUFFIX,1.im.cz,REJECT-DROP
 DOMAIN-SUFFIX,im0st6rwn.com,REJECT-DROP
 DOMAIN-SUFFIX,im181.com,REJECT-DROP
+DOMAIN-SUFFIX,im25r8olb.com,REJECT-DROP
 DOMAIN-SUFFIX,connect.im8.net,REJECT-DROP
 DOMAIN-SUFFIX,ima3vpaid.appspot.com,REJECT-DROP
 DOMAIN-SUFFIX,ff.imacdn.com,REJECT-DROP
@@ -139254,6 +139272,7 @@ DOMAIN-SUFFIX,immediatezenxsystem.com,REJECT-DROP
 DOMAIN-SUFFIX,immediatezunc4-tech.com,REJECT-DROP
 DOMAIN-SUFFIX,immelevira.cyou,REJECT-DROP
 DOMAIN-SUFFIX,immense-theme.pro,REJECT-DROP
+DOMAIN-SUFFIX,immensegymsiajt.cyou,REJECT-DROP
 DOMAIN-SUFFIX,log.immergo.tv,REJECT-DROP
 DOMAIN-SUFFIX,oeko.immergruen-energie.de,REJECT-DROP
 DOMAIN-SUFFIX,immerseverse.org,REJECT-DROP
@@ -142503,6 +142522,7 @@ DOMAIN-SUFFIX,inugiwi.pro,REJECT-DROP
 DOMAIN-SUFFIX,inumbreonr.com,REJECT-DROP
 DOMAIN-SUFFIX,sst.inuneko-seikatsu.co.jp,REJECT-DROP
 DOMAIN-SUFFIX,inupdateshub.com,REJECT-DROP
+DOMAIN-SUFFIX,inurebolded.cfd,REJECT-DROP
 DOMAIN-SUFFIX,zhupdf.inurishop.com,REJECT-DROP
 DOMAIN-SUFFIX,inurneddoggish.com,REJECT-DROP
 DOMAIN-SUFFIX,sst.inursecoach.com,REJECT-DROP
@@ -143980,7 +144000,6 @@ DOMAIN-SUFFIX,isabellalive.cfd,REJECT-DROP
 DOMAIN-SUFFIX,stape.isabellalourenco.com.br,REJECT-DROP
 DOMAIN-SUFFIX,svd.isabellaperacchi.com.br,REJECT-DROP
 DOMAIN-SUFFIX,isabellaromei.com,REJECT-DROP
-DOMAIN-SUFFIX,isabelline-loafers.shop,REJECT-DROP
 DOMAIN-SUFFIX,isabelline-soutache.shop,REJECT-DROP
 DOMAIN-SUFFIX,isabelline-spencer.shop,REJECT-DROP
 DOMAIN-SUFFIX,isabelline-tabard.shop,REJECT-DROP
@@ -146306,7 +146325,6 @@ DOMAIN-SUFFIX,jbbyyryolqvvb.top,REJECT-DROP
 DOMAIN-SUFFIX,jbbyyryolqwbl.top,REJECT-DROP
 DOMAIN-SUFFIX,jbcam.cz,REJECT-DROP
 DOMAIN-SUFFIX,jbcapsforum.tk,REJECT-DROP
-DOMAIN-SUFFIX,jbcarnedesol.com,REJECT-DROP
 DOMAIN-SUFFIX,jbcekxybbwsbz.website,REJECT-DROP
 DOMAIN-SUFFIX,jbcotssmdjetb.site,REJECT-DROP
 DOMAIN-SUFFIX,jbdbxwwuxhwfa.online,REJECT-DROP
@@ -151046,6 +151064,7 @@ DOMAIN-SUFFIX,jzyhqohgmdmrn.space,REJECT-DROP
 DOMAIN-SUFFIX,jzynmystixhy.in,REJECT-DROP
 DOMAIN-SUFFIX,jzysorlfmgznf.website,REJECT-DROP
 DOMAIN-SUFFIX,jzzcyytskiojk.life,REJECT-DROP
+DOMAIN-SUFFIX,jzzjziamgjcle.online,REJECT-DROP
 DOMAIN-SUFFIX,jzzk.net,REJECT-DROP
 DOMAIN-SUFFIX,www.jzzkjvae.com,REJECT-DROP
 DOMAIN-SUFFIX,login.jzzkjvaf.com,REJECT-DROP
@@ -152942,7 +152961,6 @@ DOMAIN-SUFFIX,kekwkkdalodoadpdaa.site,REJECT-DROP
 DOMAIN-SUFFIX,kel7ar.lat,REJECT-DROP
 DOMAIN-SUFFIX,stat.kela.fi,REJECT-DROP
 DOMAIN-SUFFIX,kelanabibit.com,REJECT-DROP
-DOMAIN-SUFFIX,kelascinta.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.kelasmalam.net,REJECT-DROP
 DOMAIN-SUFFIX,ss49.kelaspjj.com,REJECT-DROP
 DOMAIN-SUFFIX,kelbrant.online,REJECT-DROP
@@ -154895,6 +154913,7 @@ DOMAIN-SUFFIX,kjtipyiisrgig.site,REJECT-DROP
 DOMAIN-SUFFIX,kjtmgfsxiaftq.com,REJECT-DROP
 DOMAIN-SUFFIX,kjtzh.com,REJECT-DROP
 DOMAIN-SUFFIX,kjugv.yt,REJECT-DROP
+DOMAIN-SUFFIX,kjulevcftpimu.website,REJECT-DROP
 DOMAIN-SUFFIX,kjvyoirbfeivs.store,REJECT-DROP
 DOMAIN-SUFFIX,kjwebcjecrfw.com,REJECT-DROP
 DOMAIN-SUFFIX,kjxsm.com,REJECT-DROP
@@ -161689,6 +161708,7 @@ DOMAIN-SUFFIX,legacypulse.digital,REJECT-DROP
 DOMAIN-SUFFIX,legacyrealtyteam.net,REJECT-DROP
 DOMAIN-SUFFIX,legacyshirts.store,REJECT-DROP
 DOMAIN-SUFFIX,gtm.legadosolido.com.br,REJECT-DROP
+DOMAIN-SUFFIX,legal-necessary.pro,REJECT-DROP
 DOMAIN-SUFFIX,legal-pro.vip,REJECT-DROP
 DOMAIN-SUFFIX,legal-start.fr,REJECT-DROP
 DOMAIN-SUFFIX,legal-tennis.pro,REJECT-DROP
@@ -168703,6 +168723,7 @@ DOMAIN-SUFFIX,ltugynnwf.com,REJECT-DROP
 DOMAIN-SUFFIX,ltujs.com,REJECT-DROP
 DOMAIN-SUFFIX,ltuzz346m.com,REJECT-DROP
 DOMAIN-SUFFIX,ltv-mob.com,REJECT-DROP
+DOMAIN-SUFFIX,ltvxdyovxkxan.website,REJECT-DROP
 DOMAIN-SUFFIX,ltwajfzpsiijg.com,REJECT-DROP
 DOMAIN-SUFFIX,ltwicopymopsey.cyou,REJECT-DROP
 DOMAIN-SUFFIX,ltwinanrnmpou.online,REJECT-DROP
@@ -170359,6 +170380,7 @@ DOMAIN-SUFFIX,c.lypo-c.shop,REJECT-DROP
 DOMAIN-SUFFIX,a8.lyprimo.jp,REJECT-DROP
 DOMAIN-SUFFIX,a8cv.lyprinol.jp,REJECT-DROP
 DOMAIN-SUFFIX,lypslljhdhveu.website,REJECT-DROP
+DOMAIN-SUFFIX,lyqipmieqcdyt.online,REJECT-DROP
 DOMAIN-SUFFIX,lyqktmnzhoapj.online,REJECT-DROP
 DOMAIN-SUFFIX,lyqlmfiyinygz.space,REJECT-DROP
 DOMAIN-SUFFIX,load.st.lyra.academy,REJECT-DROP
@@ -171336,6 +171358,7 @@ DOMAIN-SUFFIX,magiskroot.com,REJECT-DROP
 DOMAIN-SUFFIX,magiskroot.net,REJECT-DROP
 DOMAIN-SUFFIX,magisks.com,REJECT-DROP
 DOMAIN-SUFFIX,magiskzip.com,REJECT-DROP
+DOMAIN-SUFFIX,magismbaiter.cfd,REJECT-DROP
 DOMAIN-SUFFIX,stape.magistrarcursos.com.br,REJECT-DROP
 DOMAIN-SUFFIX,stape.magistrareducacional.com.br,REJECT-DROP
 DOMAIN-SUFFIX,magistrateknock.com,REJECT-DROP
@@ -181017,6 +181040,7 @@ DOMAIN-SUFFIX,modernstoneharbor.com,REJECT-DROP
 DOMAIN-SUFFIX,sgtm.modernstylebd.com,REJECT-DROP
 DOMAIN-SUFFIX,modernsubject.pro,REJECT-DROP
 DOMAIN-SUFFIX,moderntailor.shop,REJECT-DROP
+DOMAIN-SUFFIX,moderntechctg.com,REJECT-DROP
 DOMAIN-SUFFIX,moderntrackdesk.com,REJECT-DROP
 DOMAIN-SUFFIX,collector.moderntv.eu,REJECT-DROP
 DOMAIN-SUFFIX,a8cv.modescape.com,REJECT-DROP
@@ -183427,6 +183451,7 @@ DOMAIN-SUFFIX,mpgames.org,REJECT-DROP
 DOMAIN-SUFFIX,mpgeikkqoyyha.site,REJECT-DROP
 DOMAIN-SUFFIX,mpgldibmqlhwg.space,REJECT-DROP
 DOMAIN-SUFFIX,mpglthexftdcz.space,REJECT-DROP
+DOMAIN-SUFFIX,mpgtxxvlqqdew.website,REJECT-DROP
 DOMAIN-SUFFIX,mpharjisae.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.mphasis.com,REJECT-DROP
 DOMAIN-SUFFIX,mphhnxzquuyij.store,REJECT-DROP
@@ -187217,6 +187242,7 @@ DOMAIN-SUFFIX,ioubm.nakedroot.com,REJECT-DROP
 DOMAIN-SUFFIX,babzg.nakedsundays.com,REJECT-DROP
 DOMAIN-SUFFIX,nakeduphro.cyou,REJECT-DROP
 DOMAIN-SUFFIX,nakelovin-official.com,REJECT-DROP
+DOMAIN-SUFFIX,nakhodnapaean.cfd,REJECT-DROP
 DOMAIN-SUFFIX,uqpvd.nakie.co,REJECT-DROP
 DOMAIN-SUFFIX,nakilotukreijh.pro,REJECT-DROP
 DOMAIN-SUFFIX,scale.nakita.com.br,REJECT-DROP
@@ -188636,7 +188662,6 @@ DOMAIN-SUFFIX,nbdtqugnoekbw.online,REJECT-DROP
 DOMAIN-SUFFIX,nbdysfxadsfji.website,REJECT-DROP
 DOMAIN-SUFFIX,nbedwwb.in,REJECT-DROP
 DOMAIN-SUFFIX,nbekirowekzaq.space,REJECT-DROP
-DOMAIN-SUFFIX,nbet.com,REJECT-DROP
 DOMAIN-SUFFIX,nbeufgnw82kmw.shop,REJECT-DROP
 DOMAIN-SUFFIX,nbexikrnxagzz.website,REJECT-DROP
 DOMAIN-SUFFIX,nbfhxoldzzydm.space,REJECT-DROP
@@ -194493,6 +194518,7 @@ DOMAIN-SUFFIX,stape.notjustapatch.com,REJECT-DROP
 DOMAIN-SUFFIX,notlardergisi.com,REJECT-DROP
 DOMAIN-SUFFIX,notlessbutbetter.com,REJECT-DROP
 DOMAIN-SUFFIX,notlpl.shop,REJECT-DROP
+DOMAIN-SUFFIX,notlwkjg8.com,REJECT-DROP
 DOMAIN-SUFFIX,notmil.com,REJECT-DROP
 DOMAIN-SUFFIX,notmining.org,REJECT-DROP
 DOMAIN-SUFFIX,notmychild.com,REJECT-DROP
@@ -204655,6 +204681,7 @@ DOMAIN-SUFFIX,outryyeproducedhumid.info,REJECT-DROP
 DOMAIN-SUFFIX,outsaleon.com,REJECT-DROP
 DOMAIN-SUFFIX,gtm.outscreen.com.br,REJECT-DROP
 DOMAIN-SUFFIX,outseammisseat.cfd,REJECT-DROP
+DOMAIN-SUFFIX,outseekstaff.cyou,REJECT-DROP
 DOMAIN-SUFFIX,outsetnormalwaited.com,REJECT-DROP
 DOMAIN-SUFFIX,outshowhyalinecondemn.cfd,REJECT-DROP
 DOMAIN-SUFFIX,ad.outsidehub.com,REJECT-DROP
@@ -208143,6 +208170,7 @@ DOMAIN-SUFFIX,welcome.patientmatters.com,REJECT-DROP
 DOMAIN-SUFFIX,patientne.info,REJECT-DROP
 DOMAIN-SUFFIX,go.patientpop.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.patientsatheart.com,REJECT-DROP
+DOMAIN-SUFFIX,patientsoigne.shop,REJECT-DROP
 DOMAIN-SUFFIX,info.patientwise.com,REJECT-DROP
 DOMAIN-SUFFIX,patilericin.com,REJECT-DROP
 DOMAIN-SUFFIX,patimera.net,REJECT-DROP
@@ -213392,6 +213420,7 @@ DOMAIN-SUFFIX,pjwareaxi.org,REJECT-DROP
 DOMAIN-SUFFIX,pjwvgji56wrt9b8.rest,REJECT-DROP
 DOMAIN-SUFFIX,pjxnjswqkn.com,REJECT-DROP
 DOMAIN-SUFFIX,pjybuyt.shop,REJECT-DROP
+DOMAIN-SUFFIX,pjyibsavpisod.space,REJECT-DROP
 DOMAIN-SUFFIX,pjzftkxmyzuat.space,REJECT-DROP
 DOMAIN-SUFFIX,pjzjzv.com,REJECT-DROP
 DOMAIN-SUFFIX,pjzngxzektni.com,REJECT-DROP
@@ -219857,6 +219886,7 @@ DOMAIN-SUFFIX,prasoidsating.cfd,REJECT-DROP
 DOMAIN-SUFFIX,prasquinor.jp,REJECT-DROP
 DOMAIN-SUFFIX,stape.pratagy.com.br,REJECT-DROP
 DOMAIN-SUFFIX,praterage-colled.com,REJECT-DROP
+DOMAIN-SUFFIX,pratersheersleonora.cyou,REJECT-DROP
 DOMAIN-SUFFIX,pratica-web.eu.cc,REJECT-DROP
 DOMAIN-SUFFIX,gtm.praticaeminventarios.com.br,REJECT-DROP
 DOMAIN-SUFFIX,api.praticaensino.com.br,REJECT-DROP
@@ -223763,6 +223793,7 @@ DOMAIN-SUFFIX,ptxhfxkvetqjn.online,REJECT-DROP
 DOMAIN-SUFFIX,ptxxd.top,REJECT-DROP
 DOMAIN-SUFFIX,ptxyd.com,REJECT-DROP
 DOMAIN-SUFFIX,ptyalinrhodoraate.cyou,REJECT-DROP
+DOMAIN-SUFFIX,ptyceotacvpon.site,REJECT-DROP
 DOMAIN-SUFFIX,ptyiqhzhiqfjq.space,REJECT-DROP
 DOMAIN-SUFFIX,ptymt.com,REJECT-DROP
 DOMAIN-SUFFIX,ptypfiawb.in,REJECT-DROP
@@ -227391,6 +227422,7 @@ DOMAIN-SUFFIX,qbbledger.com,REJECT-DROP
 DOMAIN-SUFFIX,qbcyr5tfd.com,REJECT-DROP
 DOMAIN-SUFFIX,qbdgmnnxeqtpn.website,REJECT-DROP
 DOMAIN-SUFFIX,qbdlijgzxscfa.site,REJECT-DROP
+DOMAIN-SUFFIX,qbdphmakgqhnl.site,REJECT-DROP
 DOMAIN-SUFFIX,qbdrc.com,REJECT-DROP
 DOMAIN-SUFFIX,qbdtjnxxkygrl.site,REJECT-DROP
 DOMAIN-SUFFIX,qbdwfejndi.com,REJECT-DROP
@@ -230219,6 +230251,7 @@ DOMAIN-SUFFIX,quzavro.shop,REJECT-DROP
 DOMAIN-SUFFIX,quzdwlwqnxrta.website,REJECT-DROP
 DOMAIN-SUFFIX,qv.co.ke,REJECT-DROP
 DOMAIN-SUFFIX,qv2xzy7wop.digital,REJECT-DROP
+DOMAIN-SUFFIX,qv759mti9lixmiw94pri.rest,REJECT-DROP
 DOMAIN-SUFFIX,qv7epv7przcqukppr.cfd,REJECT-DROP
 DOMAIN-SUFFIX,qvakujjzyrxqi.online,REJECT-DROP
 DOMAIN-SUFFIX,qvantaro-it.live,REJECT-DROP
@@ -231484,7 +231517,6 @@ DOMAIN-SUFFIX,login.ralkj.com,REJECT-DROP
 DOMAIN-SUFFIX,rallemoith.cyou,REJECT-DROP
 DOMAIN-SUFFIX,rallierweaner.qpon,REJECT-DROP
 DOMAIN-SUFFIX,ralliesmeld.cfd,REJECT-DROP
-DOMAIN-SUFFIX,rallomonot.cyou,REJECT-DROP
 DOMAIN-SUFFIX,links.rally.app,REJECT-DROP
 DOMAIN-SUFFIX,links.dev.rally.app,REJECT-DROP
 DOMAIN-SUFFIX,beacon.rallydev.com,REJECT-DROP
@@ -232007,7 +232039,6 @@ DOMAIN-SUFFIX,www.raspberryketoneslim.com,REJECT-DROP
 DOMAIN-SUFFIX,raspconfirmationtroops.com,REJECT-DROP
 DOMAIN-SUFFIX,rasperspalter.cyou,REJECT-DROP
 DOMAIN-SUFFIX,raspfact.com,REJECT-DROP
-DOMAIN-SUFFIX,raspisconv.cyou,REJECT-DROP
 DOMAIN-SUFFIX,rasprepress.com,REJECT-DROP
 DOMAIN-SUFFIX,rasqeemrfzdoq.website,REJECT-DROP
 DOMAIN-SUFFIX,server.rasrybd.com,REJECT-DROP
@@ -234028,6 +234059,7 @@ DOMAIN-SUFFIX,sgtm.reencle.co,REJECT-DROP
 DOMAIN-SUFFIX,reenerji.com,REJECT-DROP
 DOMAIN-SUFFIX,aldiuk-market.reenhouranch.com,REJECT-DROP
 DOMAIN-SUFFIX,reenitex.org,REJECT-DROP
+DOMAIN-SUFFIX,reenkerfing.qpon,REJECT-DROP
 DOMAIN-SUFFIX,sst.reeqalnahl.com,REJECT-DROP
 DOMAIN-SUFFIX,reerecingu.cyou,REJECT-DROP
 DOMAIN-SUFFIX,reesehull.com,REJECT-DROP
@@ -236698,6 +236730,7 @@ DOMAIN-SUFFIX,rewardsflow.com,REJECT-DROP
 DOMAIN-SUFFIX,rewardsgiantca.com,REJECT-DROP
 DOMAIN-SUFFIX,rewardsgiantusa.com,REJECT-DROP
 DOMAIN-SUFFIX,rewardspark.co,REJECT-DROP
+DOMAIN-SUFFIX,rewardssiennasflag.cfd,REJECT-DROP
 DOMAIN-SUFFIX,collect.rewardstyle.com,REJECT-DROP
 DOMAIN-SUFFIX,rewardszoneusa.com,REJECT-DROP
 DOMAIN-SUFFIX,go.trc.rewardtown.me,REJECT-DROP
@@ -240959,6 +240992,7 @@ DOMAIN-SUFFIX,rr7770.com,REJECT-DROP
 DOMAIN-SUFFIX,rr7772.com,REJECT-DROP
 DOMAIN-SUFFIX,rr7774.com,REJECT-DROP
 DOMAIN-SUFFIX,clk.rratrack.com,REJECT-DROP
+DOMAIN-SUFFIX,rrbqvmoordsye.space,REJECT-DROP
 DOMAIN-SUFFIX,rrbrmijkhpork.online,REJECT-DROP
 DOMAIN-SUFFIX,rrbzvmklrzwmk.top,REJECT-DROP
 DOMAIN-SUFFIX,rrcfswrwcvcki.online,REJECT-DROP
@@ -242441,6 +242475,7 @@ DOMAIN-SUFFIX,rwzvqzvqkzowy.top,REJECT-DROP
 DOMAIN-SUFFIX,rwzweheqfaqct.space,REJECT-DROP
 DOMAIN-SUFFIX,rwzxsuwwuijen.space,REJECT-DROP
 DOMAIN-SUFFIX,rx-n.com,REJECT-DROP
+DOMAIN-SUFFIX,rx-pills-101.com,REJECT-DROP
 DOMAIN-SUFFIX,rx1iwebx2.com,REJECT-DROP
 DOMAIN-SUFFIX,rxa9wm.beer,REJECT-DROP
 DOMAIN-SUFFIX,rxa9wm.club,REJECT-DROP
@@ -244767,6 +244802,7 @@ DOMAIN-SUFFIX,sarcasticnotarycontrived.com,REJECT-DROP
 DOMAIN-SUFFIX,sarcinenosingsendaze.qpon,REJECT-DROP
 DOMAIN-SUFFIX,module.sarclisa.com,REJECT-DROP
 DOMAIN-SUFFIX,sarcomawafered.qpon,REJECT-DROP
+DOMAIN-SUFFIX,sarcousaglint.cyou,REJECT-DROP
 DOMAIN-SUFFIX,stape.sardagnaweb.com.br,REJECT-DROP
 DOMAIN-SUFFIX,api.sardar-group.kz,REJECT-DROP
 DOMAIN-SUFFIX,sardarsbenami.cyou,REJECT-DROP
@@ -245790,6 +245826,7 @@ DOMAIN-SUFFIX,okafo.scentit.se,REJECT-DROP
 DOMAIN-SUFFIX,scento-sweep.com,REJECT-DROP
 DOMAIN-SUFFIX,scentsgalliot.cfd,REJECT-DROP
 DOMAIN-SUFFIX,scentsroupingpierre.cfd,REJECT-DROP
+DOMAIN-SUFFIX,scentwerthermetring.cfd,REJECT-DROP
 DOMAIN-SUFFIX,sgtmstape.scentworld.ae,REJECT-DROP
 DOMAIN-SUFFIX,scepsisstatal.com,REJECT-DROP
 DOMAIN-SUFFIX,scepticalomnipresentmelody.com,REJECT-DROP
@@ -246277,6 +246314,7 @@ DOMAIN-SUFFIX,preview-collector.scopely.io,REJECT-DROP
 DOMAIN-SUFFIX,sdk.scopely.io,REJECT-DROP
 DOMAIN-SUFFIX,scopemarkets.com,REJECT-DROP
 DOMAIN-SUFFIX,scoperimpi.cyou,REJECT-DROP
+DOMAIN-SUFFIX,scopesolion.cfd,REJECT-DROP
 DOMAIN-SUFFIX,tatu.scopi.com.br,REJECT-DROP
 DOMAIN-SUFFIX,scopingcopperscirculi.cfd,REJECT-DROP
 DOMAIN-SUFFIX,metrics.scopus.com,REJECT-DROP
@@ -250487,6 +250525,7 @@ DOMAIN-SUFFIX,telemetry.sharepointpnp.com,REJECT-DROP
 DOMAIN-SUFFIX,shareptc.com,REJECT-DROP
 DOMAIN-SUFFIX,shareresults.com,REJECT-DROP
 DOMAIN-SUFFIX,shareroom-housestay9175.com,REJECT-DROP
+DOMAIN-SUFFIX,sharervoder.qpon,REJECT-DROP
 DOMAIN-SUFFIX,rtek-link.shares.social,REJECT-DROP
 DOMAIN-SUFFIX,sharesceral.uno,REJECT-DROP
 DOMAIN-SUFFIX,sharesharemail.net,REJECT-DROP
@@ -258651,6 +258690,7 @@ DOMAIN-SUFFIX,some-reputation.pro,REJECT-DROP
 DOMAIN-SUFFIX,somebodydriver.com,REJECT-DROP
 DOMAIN-SUFFIX,somebodyfabulousgrain.com,REJECT-DROP
 DOMAIN-SUFFIX,somebodymanage.com,REJECT-DROP
+DOMAIN-SUFFIX,somechapmenfaugh.qpon,REJECT-DROP
 DOMAIN-SUFFIX,someclosing.com,REJECT-DROP
 DOMAIN-SUFFIX,somecoding.com,REJECT-DROP
 DOMAIN-SUFFIX,someeadmin.cyou,REJECT-DROP
@@ -261763,6 +261803,7 @@ DOMAIN-SUFFIX,spuddledyslogy.cyou,REJECT-DROP
 DOMAIN-SUFFIX,spuddyamlikar.shop,REJECT-DROP
 DOMAIN-SUFFIX,spudranges.cyou,REJECT-DROP
 DOMAIN-SUFFIX,spuehandjar.qpon,REJECT-DROP
+DOMAIN-SUFFIX,spufeswbbnhxg.site,REJECT-DROP
 DOMAIN-SUFFIX,spugnsmeri.cyou,REJECT-DROP
 DOMAIN-SUFFIX,spulcprofe.cyou,REJECT-DROP
 DOMAIN-SUFFIX,spulse.net,REJECT-DROP
@@ -268580,7 +268621,6 @@ DOMAIN-SUFFIX,sv1291.space,REJECT-DROP
 DOMAIN-SUFFIX,sv2.biz,REJECT-DROP
 DOMAIN-SUFFIX,sv388vn1.com,REJECT-DROP
 DOMAIN-SUFFIX,sv7lkenburda.pro,REJECT-DROP
-DOMAIN-SUFFIX,sv88.com,REJECT-DROP
 DOMAIN-SUFFIX,ssc.svaboda.org,REJECT-DROP
 DOMAIN-SUFFIX,tags.svaboda.org,REJECT-DROP
 DOMAIN-SUFFIX,svaccvettu.cyou,REJECT-DROP
@@ -277350,6 +277390,7 @@ DOMAIN-SUFFIX,tgmkoguqofjor.website,REJECT-DROP
 DOMAIN-SUFFIX,brt.tgmong.buzz,REJECT-DROP
 DOMAIN-SUFFIX,tgmvsyzelndqn.space,REJECT-DROP
 DOMAIN-SUFFIX,xmfugv.tgn.co.jp,REJECT-DROP
+DOMAIN-SUFFIX,tgnoppvxz.com,REJECT-DROP
 DOMAIN-SUFFIX,delphoi.tgoapps.com,REJECT-DROP
 DOMAIN-SUFFIX,tgoogle.fr,REJECT-DROP
 DOMAIN-SUFFIX,tgowvecdkon.com,REJECT-DROP
@@ -286373,6 +286414,7 @@ DOMAIN-SUFFIX,trezzr-io-strt-us.framer.media,REJECT-DROP
 DOMAIN-SUFFIX,trezzr-strt.framer.media,REJECT-DROP
 DOMAIN-SUFFIX,trezzur-en.wixstudio.com,REJECT-DROP
 DOMAIN-SUFFIX,trfpump.com,REJECT-DROP
+DOMAIN-SUFFIX,trfqbzvcofmsz.space,REJECT-DROP
 DOMAIN-SUFFIX,trgp7pddid.com,REJECT-DROP
 DOMAIN-SUFFIX,privacypolicy.trgr.be,REJECT-DROP
 DOMAIN-SUFFIX,ltlweight.trgr.me,REJECT-DROP
@@ -287777,6 +287819,7 @@ DOMAIN-SUFFIX,om.tsc.ca,REJECT-DROP
 DOMAIN-SUFFIX,oms.tsc.ca,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.tsc.ca,REJECT-DROP
 DOMAIN-SUFFIX,target.tsc.ca,REJECT-DROP
+DOMAIN-SUFFIX,tsccayvibxlxj.online,REJECT-DROP
 DOMAIN-SUFFIX,monkey.tschira-jugendakademie.info,REJECT-DROP
 DOMAIN-SUFFIX,stape.tsclinicarapongas.com.br,REJECT-DROP
 DOMAIN-SUFFIX,tscnwyvxzsfzv.online,REJECT-DROP
@@ -289521,6 +289564,7 @@ DOMAIN-SUFFIX,tyjitvdujivma.space,REJECT-DROP
 DOMAIN-SUFFIX,tyjor.click,REJECT-DROP
 DOMAIN-SUFFIX,tykenrivalvalines.cfd,REJECT-DROP
 DOMAIN-SUFFIX,tykentots.com,REJECT-DROP
+DOMAIN-SUFFIX,tykkffdzmrobu.space,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.tyknology.com,REJECT-DROP
 DOMAIN-SUFFIX,tykseckvnewdh.online,REJECT-DROP
 DOMAIN-SUFFIX,tylang.site,REJECT-DROP
@@ -302145,6 +302189,7 @@ DOMAIN-SUFFIX,mybjjg.vlan.be,REJECT-DROP
 DOMAIN-SUFFIX,www.vlasneua.com,REJECT-DROP
 DOMAIN-SUFFIX,vlauqfbnfigdk.site,REJECT-DROP
 DOMAIN-SUFFIX,vlayitwuvh.com,REJECT-DROP
+DOMAIN-SUFFIX,vlc-player.net,REJECT-DROP
 DOMAIN-SUFFIX,vlc.de,REJECT-DROP
 DOMAIN-SUFFIX,vlcdownloads.com,REJECT-DROP
 DOMAIN-SUFFIX,vlckdbjxmdvxs.com,REJECT-DROP
@@ -310359,6 +310404,7 @@ DOMAIN-SUFFIX,wiredforcoffee.com,REJECT-DROP
 DOMAIN-SUFFIX,wiredminds.de,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.wireimage.com,REJECT-DROP
 DOMAIN-SUFFIX,wirejournalhubpro.com,REJECT-DROP
+DOMAIN-SUFFIX,wirelesszone.top,REJECT-DROP
 DOMAIN-SUFFIX,mk.wiremanse.hair,REJECT-DROP
 DOMAIN-SUFFIX,go.wiremasters.net,REJECT-DROP
 DOMAIN-SUFFIX,wiremeshbelts.org,REJECT-DROP
@@ -316632,6 +316678,7 @@ DOMAIN-SUFFIX,creative.xxbritslive.com,REJECT-DROP
 DOMAIN-SUFFIX,xxbrurcjryzny.website,REJECT-DROP
 DOMAIN-SUFFIX,xxbtgbgzcelai.website,REJECT-DROP
 DOMAIN-SUFFIX,xxcmdl.com,REJECT-DROP
+DOMAIN-SUFFIX,analytics.xxcontent.lol,REJECT-DROP
 DOMAIN-SUFFIX,nv.xxdccfv.cyou,REJECT-DROP
 DOMAIN-SUFFIX,xxddl.com,REJECT-DROP
 DOMAIN-SUFFIX,xxddwsss.com,REJECT-DROP
@@ -318701,6 +318748,7 @@ DOMAIN-SUFFIX,ads.ynot.com,REJECT-DROP
 DOMAIN-SUFFIX,ynpkjip43x.com,REJECT-DROP
 DOMAIN-SUFFIX,ynppqrvsmwfpz.space,REJECT-DROP
 DOMAIN-SUFFIX,ynqhkj.com,REJECT-DROP
+DOMAIN-SUFFIX,ynrenai.com,REJECT-DROP
 DOMAIN-SUFFIX,ynrzdybvkzhme.website,REJECT-DROP
 DOMAIN-SUFFIX,flexpod.ynsecureserver.net,REJECT-DROP
 DOMAIN-SUFFIX,marketing.ynsecureserver.net,REJECT-DROP
@@ -321782,7 +321830,6 @@ DOMAIN-SUFFIX,zeitmeister-tr.fyi,REJECT-DROP
 DOMAIN-SUFFIX,load.gtm.zeitschrift-der-gesundheit.de,REJECT-DROP
 DOMAIN-SUFFIX,step.zeitschriftenhandel.org,REJECT-DROP
 DOMAIN-SUFFIX,data-16d7ec9a30.zeitungsgruppe.ms,REJECT-DROP
-DOMAIN-SUFFIX,zejjyno.shop,REJECT-DROP
 DOMAIN-SUFFIX,zejyoelgljenc.site,REJECT-DROP
 DOMAIN-SUFFIX,zekagaibrryns.space,REJECT-DROP
 DOMAIN-SUFFIX,zekere-sparholm.live,REJECT-DROP
@@ -324500,6 +324547,7 @@ DOMAIN-SUFFIX,ztrzechscianpokojuzczwartej.xyz,REJECT-DROP
 DOMAIN-SUFFIX,ztrzeciegopiananarozumiejsca.top,REJECT-DROP
 DOMAIN-SUFFIX,ztrzeciegopietraobokkreconychschodow.top,REJECT-DROP
 DOMAIN-SUFFIX,ztshg.cn,REJECT-DROP
+DOMAIN-SUFFIX,ztshu.com,REJECT-DROP
 DOMAIN-SUFFIX,ztsjdthngoeln.space,REJECT-DROP
 DOMAIN-SUFFIX,ztsrv.com,REJECT-DROP
 DOMAIN-SUFFIX,zttebe.top,REJECT-DROP
