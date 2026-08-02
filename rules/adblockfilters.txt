@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260802095756
-! Last modified: 2026/08/02 09:57:56
-! Blocked Filters: 103027
+! Version: 20260802175016
+! Last modified: 2026/08/02 17:50:16
+! Blocked Filters: 103030
 !
 ###AC_ad
 ###AD_160
@@ -83424,6 +83424,7 @@ xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
 xgaytube.com##a[href^="https://stats.hprofits.com"]
 xgaytube.tv##.b-header > .b-row > .b-main-nav > ul > li > a[href^="https://hd100546b.com/"]
+xgcartoon.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'mount_adsqrt_ad')
 xgeshu.com,boqushu.com##div[style="display:block;width:100%;height:100px;overflow:hidden;"]
 xgore.net,mehndihairachnewaali.com##.e3lan
 xgp.pl###hdrbnr
@@ -86090,6 +86091,7 @@ zzzyk.com###Tinfo
 ||91bixin.net/api/chdd/liveAdv?
 ||91danji.com/attachments/201810/12/10/2hdyj7ut9.jpg
 ||91danji.com/js/lmt.js
+||91friend.com^$third-party
 ||91jbz.com/file/script/A
 ||91jp3.beauty/abc/data*.json
 ||91mjw.com/hy-66-90.php
@@ -86969,6 +86971,7 @@ zzzyk.com###Tinfo
 ||anime.freehentaistream.com/content/natheadcontent
 ||anime.freehentaistream.com/content/natundervidcontent
 ||anime.freehentaistream.com/content/pdz.js
+||anime.nexus/video/vast-ad.mov
 ||anime4up.com/wp-content/uploads/*.png$popup
 ||animeaddicts.hu/file/adver/
 ||animeaddicts.hu/theme/images/banner_ezit.png
@@ -88752,7 +88755,6 @@ zzzyk.com###Tinfo
 ||cdn.btmessage.com^$domain=leagueofgraphs.com|mobafire.com|porofessor.gg
 ||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.camwhores.tv/contents/player2/player/*mp4$media,domain=camwhores.video
-||cdn.clkmc.com/cmc.js
 ||cdn.cloudfrale.com/Managed/*.mp4
 ||cdn.cnn.com/ads/
 ||cdn.coingape.com/wp-content/uploads/2020/05/21173509/Br-min.jpg
@@ -89763,7 +89765,6 @@ zzzyk.com###Tinfo
 ||cyber-guard.me^$popup
 ||cyberlink.pro^$popup
 ||cybernews.com/images/tools/*/banner/
-||cyberprivacy.pro^$popup
 ||cyberscoop.com/advertising/
 ||cyberscore.live/images/bnrk-res/
 ||cycyw.com/mf/
@@ -90452,6 +90453,10 @@ zzzyk.com###Tinfo
 ||dykshao.cn/image/$third-party
 ||dyktanda.pl/static/js/main.*.chunk.js$replace=/src:"https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js"/src:"\/"/
 ||dymmt.com/skin/mzitu/js/foot.
+||dynacrems.wp.pl/ad/
+||dynacrems.wp.pl/ad/$replace=/.+//,important
+||dynacrems.wp.pl/script/?id=*&placement_id=$replace=/.+//,important
+||dynacrems.wp.pl/staticad/$replace=/.+//,important
 ||dynamic-manifest.hulustream.com/hulu*playlist.m3u8$replace=/#EXT-X-DATERANGE:ID=".*?ad".*?\n[\s\S]*?(?=#EXT-X-DATERANGE:ID=)//,domain=hulu.com
 ||dynamicyield.com/batch?
 ||dynamicyield.com/clog
@@ -94236,7 +94241,6 @@ zzzyk.com###Tinfo
 ||kohls.com/test_rum_nv?
 ||koji-analytics.com^$third-party
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
-||kokojia.com^$third-party
 ||koksenergy.de/animiert.gif
 ||kolayik.com/gjyo/
 ||kolivo.id/api/v1/track/event
@@ -101194,7 +101198,6 @@ zzzyk.com###Tinfo
 ||users-api.com^$third-party
 ||userscript.zone/s.js
 ||usersonline.org/ping.php?
-||userstatics.com/get/script.js
 ||usertracks.live^$third-party
 ||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
