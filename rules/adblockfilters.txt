@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260816084701
-! Last modified: 2026/08/16 08:47:01
-! Blocked Filters: 103387
+! Version: 20260816161937
+! Last modified: 2026/08/16 16:19:37
+! Blocked Filters: 103375
 !
 ###AC_ad
 ###AD_160
@@ -50135,6 +50135,8 @@ forge.plebmasters.de#?#.forge-background > .justify-center > .v-col-sm-8:has(> h
 forgemods.de##.grid > div[class^="h-full "]:has(> a[target="_blank"])
 forgemods.de##div.grid > div.grid-cols-1:has(> div.thumbnails-section div.inset-0 > span.tracking-widest)
 forgenc.net##div[class*="widget_alx_"]
+forkast.news##.fk-ad
+forkast.news##.fk-cta
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 formiche.net###text-17
 formiche.net##a[class^="banner"]
@@ -86651,7 +86653,6 @@ zzzyk.com###Tinfo
 ||adhoc2.net^$popup
 ||adi*.cnool.net^
 ||adimg*.search.naver.net^
-||adimo.co/api/tracking/
 ||adm.cnzz.net^$third-party
 ||adm24.de/hp_counter/$third-party
 ||admaimai.com/inc/adv
@@ -90883,14 +90884,12 @@ zzzyk.com###Tinfo
 ||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||eazydata.io^$third-party
+||ebay.com/4xvLYt8n2y2Icbf2jCP_k_JP/
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/scl/js/ScandalLoader.js
 ||ebay.com^*/customer_image_service?
 ||ebay.com^*/madrona_loadscripts.js
-||ebaystatic.com/cr/v/c01/c54e60e1-996e-4a53-a314-f44a6b151b40.min.js
-||ebaystatic.com/cr/v/c01/nh24082119176031f8a0afcb42d.js
-||ebaystatic.com/cr/v/c01/ubt241024192c097b9ddc0a81e0a.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
 ||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
@@ -93101,7 +93100,6 @@ zzzyk.com###Tinfo
 ||huavod.com/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.net/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.top/player/$replace=/let ConFig/var ConFig/,document,subdocument
-||hub.reacti.co/index.js
 ||hubdigitalads.com^$third-party
 ||hubspot.com/analytics/
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
@@ -93975,7 +93973,6 @@ zzzyk.com###Tinfo
 ||its.porn/ai/s/s/js/m/push.js
 ||ittontrinevengre.info^$popup
 ||ituba.cc/uploads/allimg/201610/603/
-||iturl.in/analytics?
 ||itweb.co.za/static/misc/toolbox/
 ||itweb.co.za^*/sponsors
 ||iubenda.com/write?
@@ -94018,7 +94015,6 @@ zzzyk.com###Tinfo
 ||jadxs.org/themes/*/js/fixed.js
 ||jadxs.org/themes/*/js/test.js
 ||jagledam.com/js/ad-placement.js
-||jailbaitchan.com/tp/
 ||jal.co.jp/common_rn/img/rtam.gif
 ||jal.co.jp/common_rn/js/rtam.js
 ||jam.hearstapps.com/js/renderer.js
@@ -94142,7 +94138,6 @@ zzzyk.com###Tinfo
 ||jerkmatelive.com/api/metrics
 ||jeshoots.com/wp-content/uploads/*/*/banner1.jpg
 ||jetbluevacations.com/apis/v2-analytics/
-||jetvis.ru/stat/
 ||jeu.net/hits.js
 ||jgthms.com/carbon.js
 ||jia.com/js/common/article_home_adv.js
@@ -95014,7 +95009,6 @@ zzzyk.com###Tinfo
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyingtv.com/common/api_getAcode.php
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
-||live-partner.com/tags?
 ||live-sports-stream.net/media-resources/other/scripts/tsc-widget-v1.min.js
 ||live-tv-channels.org^$replace=/&&!!.\.headers\.get\("Content-Length"\)//,document
 ||live.avrebo.net/api/live/v*/web/live-channels?
@@ -95507,7 +95501,6 @@ zzzyk.com###Tinfo
 ||massivebelieved.com^$popup
 ||massivecams.com/api/metrics
 ||master-push.com^$third-party
-||master-push.net^$third-party
 ||masterani.me/static/neenee/*-*.$image
 ||masternodes.online/baseimages/
 ||masterworks.digital^$third-party
@@ -95841,7 +95834,6 @@ zzzyk.com###Tinfo
 ||mis.ig.com/tracking/
 ||misc-api.feathermc.com/*/ads/ad_units?
 ||miserly-phone.com^$popup
-||misrepush.com^$third-party
 ||missav*/herebyad
 ||missav.*/pop?url=
 ||missav.com/pop?$popup
@@ -96119,7 +96111,6 @@ zzzyk.com###Tinfo
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/measurements/
 ||mtvnservices.com/metrics/
-||muenchener-stadtplan.com/t.gif
 ||mult-imgs.cyou/images/hentaed-
 ||multiplayer-games.net^$domain=xxx-videos.org
 ||multirbl.valli.org/images/hetrixtools-ad-banner.gif
@@ -98972,7 +98963,6 @@ zzzyk.com###Tinfo
 ||secured.dailymail.co.uk/feeds/commercial/topVideos.json
 ||secureprovide1.com/*=tracking$image
 ||secureserver.net/t/
-||security.giokko.ru/cookie.php
 ||see.xxx/nr.js
 ||see.xxx/pccznwlnrs/
 ||seectech.cn/scm/ad/list
@@ -99002,7 +98992,6 @@ zzzyk.com###Tinfo
 ||semawur.com/download3.png
 ||sembox.it/js/sembox-tracking.js
 ||seminarski-diplomski.co.rs/js/custom.js
-||sempra.pro/stat/
 ||send2video.com/banners?
 ||sendpulse.com^$third-party
 ||sendspace.com/defaults/sendspace-pop.html$popup
@@ -100303,6 +100292,7 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/v/$third-party
 ||svc.dynamics.com/t/w$third-party
+||svcs.ebay.com/ufeservice/v1/metrics
 ||svet24.si/build/assets/adbeacon.js
 ||svetapple.sk/*/ecophone-banner.jpg
 ||svgcolor.com/assets/js/template/anti-block.js
@@ -101350,7 +101340,6 @@ zzzyk.com###Tinfo
 ||u.riju.com/click.php
 ||ua.financialexpress.com/api/capture
 ||uaa.com/js/dxj.
-||uadblocker.com/pixel1.php?$third-party
 ||uai.com.br^*/analytics.js
 ||ub.galaxus.
 ||ubacollect-*.cloud.dbankcloud.cn^
@@ -101782,7 +101771,6 @@ zzzyk.com###Tinfo
 ||visit-website.com^$popup
 ||visit-x.net/promo/$third-party
 ||visithunter.io^$third-party
-||visitorapi.pixplug.in^$domain=pixnet.net
 ||visitorqueue.com^$third-party
 ||visitortracking.com^$third-party
 ||vissle.me/track/
