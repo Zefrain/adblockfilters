@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260818162611
-! Last modified: 2026/08/18 16:26:11
-! Blocked domains: 4569
+! Version: 20260819002145
+! Last modified: 2026/08/19 00:21:45
+! Blocked domains: 4557
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -907,15 +907,12 @@
 ||telemetry.canva.cn^
 ||caomeixz7.xyz^
 ||baidu1.cardbaobao.com^
-||cart.net.cn^
 ||cartx.cloud^
 ||super.cat898.com^
 ||tracking.cat898.com^
 ||cbhzxctgm.com^
 ||adv.ccb.com^
 ||ad.ccement.com^
-||btrace.ysp.cctv.cn^
-||mtrace.ysp.cctv.cn^
 ||ad.cctv.com^
 ||httpdns.cctv.com^
 ||p.data.cctv.com^
@@ -1010,7 +1007,6 @@
 ||log1.cmpassport.com^
 ||log2.cmpassport.com^
 ||cmpxaup.cn^
-||ggc.cmvideo.cn^
 ||ggx.cmvideo.cn^
 ||ad-api.cnblogs.com^
 ||analytics.cnblogs.com^
@@ -1547,6 +1543,7 @@
 ||prom.gome.com.cn^
 ||one.gongshu168.cn^
 ||gongxifc.com^
+||cdn.file6.goodid.com^
 ||google-analytics-cn.com^
 ||google-analytics.com^
 ||ads.google.cn^
@@ -1686,7 +1683,6 @@
 ||data.ads.heytapmobi.com^
 ||dc-dragate-cn.heytapmobi.com^
 ||dragate-sg.dc.heytapmobi.com^
-||epoch-id.cdo.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
 ||i-sg01a.ocloud.heytapmobi.com^
 ||iot-earbuds-cn.heytapmobi.com^
@@ -1965,7 +1961,6 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
-||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2056,8 +2051,6 @@
 ||udiab1.jianshu.com^
 ||api.jietuhb.com^
 ||jiguang.cn^
-||ad.open.api.jihuoniao.com^
-||ad.report.jihuoniao.com^
 ||target.ads.jihuoniao.com^
 ||jikewan.com^
 ||wuliao.jingyanben.com^
@@ -2259,7 +2252,6 @@
 ||amdc.lazada.com^
 ||h-adashx.ut.lazada.com^
 ||orange-dc.lazada.com^
-||ph-log-emagzal.lazada.com^
 ||sg-log-emagzal.lazada.com^
 ||jmacs-m.lazada.com.my^
 ||msgacs-m.lazada.com.my^
@@ -2277,6 +2269,7 @@
 ||storeen.ldmnq.com^
 ||ad.ldplayer.net^
 ||advertise.ldplayer.net^
+||ld-analytics.ldycdn.com^
 ||banana.le.com^
 ||cherry.le.com^
 ||stat.le.com^
@@ -2296,7 +2289,6 @@
 ||o.lenovo.com^
 ||s.lenovo.com^
 ||fsr.lenovomm.com^
-||prw.lenovomm.com^
 ||pushapi.lenovomm.com^
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
@@ -2645,6 +2637,7 @@
 ||synad2.nuffnang.com.cn^
 ||c.nuhcpf.com^
 ||log.nuomi.com^
+||metric.nuonuo.com^
 ||promotionad.nvcam.net^
 ||ad.nvdvr.cn^
 ||anews7.nvwu.com^
@@ -3286,7 +3279,6 @@
 ||log-hl.snssdk.com^
 ||log-lq.snssdk.com^
 ||mcs.snssdk.com^
-||mercury-sdk.snssdk.com^
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
@@ -3509,7 +3501,6 @@
 ||log.tec73.com^
 ||1.tecbbs.com^
 ||tongji.techweb.com.cn^
-||data.tempersyi.com^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
@@ -3545,6 +3536,7 @@
 ||sstats.thermoscientific.cn^
 ||thinkingdata.cn^
 ||tatrack.thinkyeah.com^
+||ad.thsi.cn^
 ||tracking.ti.com.cn^
 ||tracking.mail.ti.com.cn^
 ||tiandi.com^
@@ -3775,7 +3767,6 @@
 ||prt-stsdk.vivo.com.cn^
 ||stnetsdk.vivo.com.cn^
 ||stsdk.vivo.com.cn^
-||trace-h5sdk.vivo.com.cn^
 ||tracking-adnet.vivo.com.cn^
 ||vcardsdkservice.vivo.com.cn^
 ||asia-abeacdataonrt-stsdk.vivoglobal.com^
@@ -3818,11 +3809,9 @@
 ||cname-asia-st-exappupgrade.vivoglobal.com^
 ||cname-in-apport-stsdk.vivoglobal.com^
 ||cname-in-bom01-nginxpool03.vivoglobal.com^
-||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
-||co-timesync.vivoglobal.com^
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||de-gdpr-err-up.vivoglobal.com^
@@ -4042,6 +4031,7 @@
 ||update.wps.cn^
 ||wpsweb-dc.wps.cn^
 ||api-ad-adapter.wps.com^
+||api-ad-adapter-mb.wps.com^
 ||mo.res.wpscdn.cn^
 ||abroadad.cache.wpscdn.com^
 ||wpwpquse.cn^
@@ -4049,7 +4039,6 @@
 ||wrljgy.cn^
 ||wsacjdg.cn^
 ||wsds.cn^
-||mlog.wangsu.com.wswebcdn.com^
 ||wukongtongji.com^
 ||wumii.cn^
 ||wumii.com^
@@ -4222,7 +4211,6 @@
 ||ad.xunkids.com^
 ||adsp.xunlei.com^
 ||advertpay-vip-ssl.xunlei.com^
-||advertpay.vip.xunlei.com^
 ||analytics-union.xunlei.com^
 ||kkpgv2.xunlei.com^
 ||soa-vip-ssl.xunlei.com^
@@ -4252,6 +4240,7 @@
 ||ycsshb.cn^
 ||ydgsvls.cn^
 ||kl.yditweb.cn^
+||adpublish.ydstatic.com^
 ||oimagea2.ydstatic.com^
 ||bdm.ye-su.cn^
 ||ir.mail.yeah.net^
@@ -4280,7 +4269,6 @@
 ||yijifen.com^
 ||yijirecovery.com^
 ||data-track.yingxiong.com^
-||data-track-global.yingxiong.com^
 ||yingyankantu.com^
 ||log.yinshantech.cn^
 ||analytics.yinxiang.com^
