@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260823084902
-  # Last modified: 2026/08/23 08:49:02
-  # Blocked domains: 4607
+  # Version: 20260823162024
+  # Last modified: 2026/08/23 16:20:24
+  # Blocked domains: 4602
   #
   - '+.kwflvcdn.000dn.com'
   - '+.img.0279.net'
@@ -630,7 +630,6 @@ payload:
   - '+.b1.b2b168.com'
   - '+.b1.b2b168.net'
   - '+.b4641y3dw.com'
-  - '+.b8b4ix7bj.com'
   - '+.apishow.babybus.com'
   - '+.apishowstats.babybus.com'
   - '+.apppromoteapi.babybus.com'
@@ -1951,7 +1950,6 @@ payload:
   - '+.daima.ijq.tv'
   - '+.lm.ijq.tv'
   - '+.ikunikun.xyz'
-  - '+.static.ilclock.com'
   - '+.ilkwork.com'
   - '+.smetrics.illumina.com.cn'
   - '+.metrics.ilovematlab.cn'
@@ -2121,7 +2119,6 @@ payload:
   - '+.juzi.cn'
   - '+.juzilm.com'
   - '+.jxdown.com'
-  - '+.jxdyk65ay.com'
   - '+.ad.jxnews.com.cn'
   - '+.jy135.com'
   - '+.jygdb.com'
@@ -2273,7 +2270,6 @@ payload:
   - '+.open.kwaizt.com'
   - '+.kwdgudw.cn'
   - '+.ky595images.com'
-  - '+.kychq.cn'
   - '+.kzchyhr.cn'
   - '+.data.adobe.l-god.cn'
   - '+.lady177.com'
@@ -3975,7 +3971,6 @@ payload:
   - '+.vxhsj.cn'
   - '+.vyye.cn'
   - '+.vzvvifw.cn'
-  - '+.w3cfba6ufr.com'
   - '+.w8.com.cn'
   - '+.w97nv5ibv4.com'
   - '+.tongdun-fingerprint.walmartmobile.cn'

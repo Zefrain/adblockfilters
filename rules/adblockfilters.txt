@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260823084901
-! Last modified: 2026/08/23 08:49:01
-! Blocked Filters: 103602
+! Version: 20260823162023
+! Last modified: 2026/08/23 16:20:23
+! Blocked Filters: 103606
 !
 ###AC_ad
 ###AD_160
@@ -53991,6 +53991,7 @@ headfonics.com#%#//scriptlet("abort-on-property-read", "advanced_ads_ready")
 headforpoints.com##.widget--aside.widget
 headlineintime.com##.banner-add
 headlines.footybite.to##div[style^="position: fixed;"][style*="z-index: 1000000;"]
+headlinesplus.com##.hp-ad
 headphonesty.com###media_image-2
 healdad.com#%#//scriptlet("abort-on-property-read", "checkAdBlocker")
 health.clevelandclinic.org##[data-identity*="billboard-ad"]
@@ -58300,6 +58301,8 @@ justfullporn.net##.order-1:has(> .video-block-happy)
 justinweather.com##.top-ad-banner-wrapper
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 justjared.com##.header-container__main
+justjared.com##.tpd-ob-reserve
+justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0 !important}
 justjared.com#$#.banner-spacer-top { max-height: 50px !important; }
 justjared.com#$#[role="banner"] { top:0 !important }
@@ -89272,6 +89275,7 @@ zzzyk.com###Tinfo
 ||cdn.gsmarena.com/vv/assets*/js/_pf-*.js
 ||cdn.gulte.com/wp-content/uploads/*/IndianClicks_Exxeella_Gulte_
 ||cdn.haokongbu1.com^*.js
+||cdn.headlinesplus.com/tcm-widget.js
 ||cdn.hotscope.tv/assets/ai/video-
 ||cdn.http.anno.channel4.com/m/*/*.mp4$media,domain=uktvplay.uktv.co.uk|uktvplay.co.uk
 ||cdn.http.anno.channel4.com/m/1/$media,domain=uktvplay.co.uk
