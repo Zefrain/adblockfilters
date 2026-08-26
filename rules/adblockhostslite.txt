@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260826163356
-# Last modified: 2026/08/26 16:33:56
-# Blocked domains: 4590
+# Version: 20260827004306
+# Last modified: 2026/08/27 00:43:06
+# Blocked domains: 4587
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -235,6 +235,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	scdata.51job.com
 0.0.0.0	a1.51shiti.cn
 0.0.0.0	51taifu.com
+0.0.0.0	ad.51wnl-cq.com
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51xuex.com.cn
 0.0.0.0	51yes.com
@@ -852,7 +853,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	data.bilibili.com
 0.0.0.0	miniapp.bilibili.com
 0.0.0.0	line1-log.biligame.net
-0.0.0.0	line3-adscore-api.biligame.net
 0.0.0.0	mcdn.bilivideo.com
 0.0.0.0	ai.bioon.com
 0.0.0.0	carstat.bitauto.com
@@ -2085,7 +2085,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	udiab1.jianshu.com
 0.0.0.0	api.jietuhb.com
 0.0.0.0	jiguang.cn
-0.0.0.0	ad.open.api.jihuoniao.com
 0.0.0.0	target.ads.jihuoniao.com
 0.0.0.0	jikewan.com
 0.0.0.0	wuliao.jingyanben.com
@@ -2677,7 +2676,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	synad2.nuffnang.com.cn
 0.0.0.0	c.nuhcpf.com
 0.0.0.0	log.nuomi.com
-0.0.0.0	metric.nuonuo.com
 0.0.0.0	promotionad.nvcam.net
 0.0.0.0	ad.nvdvr.cn
 0.0.0.0	anews7.nvwu.com
@@ -2721,7 +2719,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bidder.dsp.outfit7.com
 0.0.0.0	hb-af-us-central1.outfit7.com
 0.0.0.0	revive.outin.cn
-0.0.0.0	ouyaoxiazai.com
 0.0.0.0	ovnrmvg.cn
 0.0.0.0	umami.oyo.cool
 0.0.0.0	oyz61nhz8.com
@@ -2782,6 +2779,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	img50.pingguolv.com
 0.0.0.0	api.pingstart.com
 0.0.0.0	bd1.pipaw.com
+0.0.0.0	stat2.pixpin.cn
 0.0.0.0	pl53l7tyw.com
 0.0.0.0	placidocn.com
 0.0.0.0	bdx.playnext.cn
@@ -2806,7 +2804,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pqjprom.cn
 0.0.0.0	primevalsolar.shop
 0.0.0.0	prlioxb.cn
-0.0.0.0	proewildfire.cn
 0.0.0.0	info.protiviti.com.cn
 0.0.0.0	dm.pstatp.com
 0.0.0.0	pb3.pstatp.com
@@ -3879,6 +3876,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ex-adreq-in.vivoglobal.com
 0.0.0.0	ex-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	id-third-appstore.vivoglobal.com
+0.0.0.0	kz-onrt-stsdk.vivoglobal.com
 0.0.0.0	kz-vcode-od.vivoglobal.com
 0.0.0.0	mx-cota.vivoglobal.com
 0.0.0.0	mx-domaincfg.vivoglobal.com
@@ -4114,6 +4112,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pvx.xcar.com.cn
 0.0.0.0	zio.xcar.com.cn
 0.0.0.0	xdrig.com
+0.0.0.0	sensors.h5.xed.plus
 0.0.0.0	xegnfwkju.com
 0.0.0.0	xerhibx.cn
 0.0.0.0	dt.xfyun.cn
@@ -4157,7 +4156,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cdn-exp-sg-recommend.pt.xiaomi.com
 0.0.0.0	cdn.exp.xiaomi.com
 0.0.0.0	cdn.fds.api.xiaomi.com
-0.0.0.0	data.game.xiaomi.com
 0.0.0.0	data.mistat.intl.xiaomi.com
 0.0.0.0	de.pandora.xiaomi.com
 0.0.0.0	dvb.pandora.xiaomi.com
@@ -4181,7 +4179,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
-0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
