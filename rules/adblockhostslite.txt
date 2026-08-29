@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260828161001
-# Last modified: 2026/08/28 16:10:01
-# Blocked domains: 4591
+# Version: 20260829081725
+# Last modified: 2026/08/29 08:17:25
+# Blocked domains: 4588
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -1668,7 +1668,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	img-c.heytapimage.com
 0.0.0.0	ums-rum-cn.heytapimage.com
 0.0.0.0	ums-rum-global.heytapimage.com
-0.0.0.0	adm-smc-cn.heytapmobi.com
 0.0.0.0	adx-f.ads.heytapmobi.com
 0.0.0.0	adx-id.ads.heytapmobi.com
 0.0.0.0	adx-in.ads.heytapmobi.com
@@ -1949,7 +1948,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	seeder.igetget.com
 0.0.0.0	ihclam.cn
 0.0.0.0	fpbone.ihowguide.com
-0.0.0.0	appadapi.ihuman.com
 0.0.0.0	iimedia.cn
 0.0.0.0	www.iiyout.cn
 0.0.0.0	ijinshan.com
@@ -2601,7 +2599,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pp-cdnfile1pcdn.msstatic.com
 0.0.0.0	qn-cdnfile1pcdn.msstatic.com
 0.0.0.0	qn-livewebbs2pcdn.msstatic.com
-0.0.0.0	cdnovs.multiopen.cn
 0.0.0.0	a.munters.cn
 0.0.0.0	mvamnng.cn
 0.0.0.0	mxevdii.cn
@@ -2723,7 +2720,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bidder.dsp.outfit7.com
 0.0.0.0	hb-af-us-central1.outfit7.com
 0.0.0.0	revive.outin.cn
-0.0.0.0	ouyaoxiazai.com
 0.0.0.0	ovnrmvg.cn
 0.0.0.0	umami.oyo.cool
 0.0.0.0	oyz61nhz8.com
@@ -3899,7 +3895,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	mx-vcode-od.vivoglobal.com
 0.0.0.0	mx-vcode-or.vivoglobal.com
 0.0.0.0	onrt-stsdk.vivoglobal.com
-0.0.0.0	ru-commonitor-stsdk.vivoglobal.com
 0.0.0.0	ru-comonrt-stsdk.vivoglobal.com
 0.0.0.0	ru-comort-stsdk.vivoglobal.com
 0.0.0.0	ru-compnrt-stsdk.vivoglobal.com
@@ -4086,6 +4081,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.wps.cn
 0.0.0.0	wpsweb-dc.wps.cn
 0.0.0.0	api-ad-adapter.wps.com
+0.0.0.0	api-ad-adapter-mb.wps.com
 0.0.0.0	mo.res.wpscdn.cn
 0.0.0.0	abroadad.cache.wpscdn.com
 0.0.0.0	wpwpquse.cn
@@ -4184,6 +4180,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
+0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
