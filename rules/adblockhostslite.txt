@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260831103433
-# Last modified: 2026/08/31 10:34:33
-# Blocked domains: 4610
+# Version: 20260831234312
+# Last modified: 2026/08/31 23:43:12
+# Blocked domains: 4608
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -535,7 +535,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	logtail-release.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	mobantong.oss-cn-hangzhou.aliyuncs.com
-0.0.0.0	o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0	shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 0.0.0.0	star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -919,7 +918,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	stratus.campaign-image.com.cn
 0.0.0.0	zc1.campaign-view.com.cn
 0.0.0.0	count.candou.com
-0.0.0.0	telemetry.canva.cn
 0.0.0.0	caomeixz7.xyz
 0.0.0.0	baidu1.cardbaobao.com
 0.0.0.0	cart.net.cn
@@ -929,6 +927,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cbhzxctgm.com
 0.0.0.0	adv.ccb.com
 0.0.0.0	ad.ccement.com
+0.0.0.0	btrace.ysp.cctv.cn
 0.0.0.0	mtrace.ysp.cctv.cn
 0.0.0.0	ad.cctv.com
 0.0.0.0	httpdns.cctv.com
@@ -4100,7 +4099,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.wps.cn
 0.0.0.0	wpsweb-dc.wps.cn
 0.0.0.0	api-ad-adapter.wps.com
-0.0.0.0	api-ad-adapter-mb.wps.com
 0.0.0.0	mo.res.wpscdn.cn
 0.0.0.0	abroadad.cache.wpscdn.com
 0.0.0.0	wpwpquse.cn
@@ -4201,6 +4199,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
+0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
@@ -4402,7 +4401,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	myes.youku.com
 0.0.0.0	orange-dc.youku.com
 0.0.0.0	pcapp-data-collect.youku.com
-0.0.0.0	pis-tel-pcdn.youku.com
 0.0.0.0	player-lg.youku.com
 0.0.0.0	push.m.youku.com
 0.0.0.0	s.p.youku.com

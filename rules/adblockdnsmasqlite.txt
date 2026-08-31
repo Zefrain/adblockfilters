@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260831103433
-# Last modified: 2026/08/31 10:34:33
-# Blocked domains: 4610
+# Version: 20260831234312
+# Last modified: 2026/08/31 23:43:12
+# Blocked domains: 4608
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -520,7 +520,6 @@ local=/jun01.oss-cn-beijing.aliyuncs.com/
 local=/kmmgoogle.oss-ap-southeast-1.aliyuncs.com/
 local=/logtail-release.oss-cn-hangzhou.aliyuncs.com/
 local=/mobantong.oss-cn-hangzhou.aliyuncs.com/
-local=/o2o-ad-dev.oss-cn-shanghai.aliyuncs.com/
 local=/retcode-sg-lazada.arms.aliyuncs.com/
 local=/shaquevip.oss-cn-zhangjiakou.aliyuncs.com/
 local=/star-seo.oss-ap-northeast-1.aliyuncs.com/
@@ -904,7 +903,6 @@ local=/appres.camera360.com/
 local=/stratus.campaign-image.com.cn/
 local=/zc1.campaign-view.com.cn/
 local=/count.candou.com/
-local=/telemetry.canva.cn/
 local=/caomeixz7.xyz/
 local=/baidu1.cardbaobao.com/
 local=/cart.net.cn/
@@ -914,6 +912,7 @@ local=/tracking.cat898.com/
 local=/cbhzxctgm.com/
 local=/adv.ccb.com/
 local=/ad.ccement.com/
+local=/btrace.ysp.cctv.cn/
 local=/mtrace.ysp.cctv.cn/
 local=/ad.cctv.com/
 local=/httpdns.cctv.com/
@@ -4085,7 +4084,6 @@ local=/push.wps.cn/
 local=/update.wps.cn/
 local=/wpsweb-dc.wps.cn/
 local=/api-ad-adapter.wps.com/
-local=/api-ad-adapter-mb.wps.com/
 local=/mo.res.wpscdn.cn/
 local=/abroadad.cache.wpscdn.com/
 local=/wpwpquse.cn/
@@ -4186,6 +4184,7 @@ local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
 local=/sys.tv.india.xiaomi.com/
 local=/t1.a.market.xiaomi.com/
+local=/t17.market.xiaomi.com/
 local=/tz.sec.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/api.device.xiaomi.net/
@@ -4387,7 +4386,6 @@ local=/msg.youku.com/
 local=/myes.youku.com/
 local=/orange-dc.youku.com/
 local=/pcapp-data-collect.youku.com/
-local=/pis-tel-pcdn.youku.com/
 local=/player-lg.youku.com/
 local=/push.m.youku.com/
 local=/s.p.youku.com/
