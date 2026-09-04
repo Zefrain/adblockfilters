@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260904030023
-! Last modified: 2026/09/04 03:00:23
-! Blocked Filters: 103868
+! Version: 20260904101050
+! Last modified: 2026/09/04 10:10:50
+! Blocked Filters: 103872
 !
 ###AC_ad
 ###AD_160
@@ -14924,6 +14924,7 @@
 ##body .has-ad
 ##body .top-advert
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -98400,6 +98401,7 @@ zzzyk.com###Tinfo
 ||publish0x.com^$image,script,third-party
 ||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publisher.freerider.ro/storage/images/_Freerider-Afisport
+||publishflow.com^$third-party
 ||publytics.net^$third-party
 ||pubplus.com^$third-party
 ||pubstack.io^$third-party
@@ -99456,6 +99458,7 @@ zzzyk.com###Tinfo
 ||sellsy.com^$third-party,domain=~sellsy.fr
 ||sellthing.co/?advertiserId=&platform=$important,redirect=noopjs
 ||seloger.com/cdp-bff/analytics
+||semanticverses.com^$third-party
 ||sematext.com^$third-party
 ||semawur.com/download3.png
 ||sembox.it/js/sembox-tracking.js
@@ -101528,6 +101531,7 @@ zzzyk.com###Tinfo
 ||tracking.style24.it^$script
 ||tracking.viaggiamo.it^$script
 ||trackingca.com^$third-party
+||trackinglabs.com^$third-party
 ||trackitonline.ru/pics/lety.gif
 ||trackmethod.com^$third-party
 ||trackset.com^$third-party
