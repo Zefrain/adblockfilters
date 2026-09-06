@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260906100704
-# Last modified: 2026/09/06 10:07:04
-# Blocked domains: 4556
+# Version: 20260906195155
+# Last modified: 2026/09/06 19:51:55
+# Blocked domains: 4578
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -224,6 +224,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	51.la
 0.0.0.0	511a.cn
 0.0.0.0	51240.com
+0.0.0.0	5166.info
 0.0.0.0	amradmin.5173.com
 0.0.0.0	518ad.com
 0.0.0.0	log.51changdu.com
@@ -234,6 +235,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	scdata.51job.com
 0.0.0.0	a1.51shiti.cn
 0.0.0.0	51taifu.com
+0.0.0.0	ad.51wnl-cq.com
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51xuex.com.cn
 0.0.0.0	51yes.com
@@ -737,6 +739,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pimlog.baidu.com
 0.0.0.0	plugin.mobopay.baidu.com
 0.0.0.0	pos.baidu.com
+0.0.0.0	publish-pic-cpu.baidu.com
 0.0.0.0	pups.baidu.com
 0.0.0.0	push.zhanzhang.baidu.com
 0.0.0.0	qapm.baidu.com
@@ -849,6 +852,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	data.bilibili.com
 0.0.0.0	miniapp.bilibili.com
 0.0.0.0	line1-log.biligame.net
+0.0.0.0	line3-adscore-api.biligame.net
 0.0.0.0	mcdn.bilivideo.com
 0.0.0.0	ai.bioon.com
 0.0.0.0	carstat.bitauto.com
@@ -911,12 +915,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	telemetry.canva.cn
 0.0.0.0	caomeixz7.xyz
 0.0.0.0	baidu1.cardbaobao.com
+0.0.0.0	cart.net.cn
 0.0.0.0	cartx.cloud
 0.0.0.0	super.cat898.com
 0.0.0.0	tracking.cat898.com
 0.0.0.0	cbhzxctgm.com
 0.0.0.0	adv.ccb.com
 0.0.0.0	ad.ccement.com
+0.0.0.0	btrace.ysp.cctv.cn
 0.0.0.0	mtrace.ysp.cctv.cn
 0.0.0.0	ad.cctv.com
 0.0.0.0	httpdns.cctv.com
@@ -1985,6 +1991,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.uaa.iqiyi.com
 0.0.0.0	cards-css.iqiyi.com
 0.0.0.0	cm.passport.iqiyi.com
+0.0.0.0	cs-feige.iqiyi.com
 0.0.0.0	doh.iqiyi.com
 0.0.0.0	emoticon-sns.iqiyi.com
 0.0.0.0	emoticon.sns.iqiyi.com
@@ -2077,6 +2084,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api.jietuhb.com
 0.0.0.0	jiguang.cn
 0.0.0.0	ad.open.api.jihuoniao.com
+0.0.0.0	ad.report.jihuoniao.com
 0.0.0.0	target.ads.jihuoniao.com
 0.0.0.0	wuliao.jingyanben.com
 0.0.0.0	adx-api.jinmo.tech
@@ -2281,6 +2289,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	amdc.lazada.com
 0.0.0.0	h-adashx.ut.lazada.com
 0.0.0.0	orange-dc.lazada.com
+0.0.0.0	ph-log-emagzal.lazada.com
+0.0.0.0	sg-log-emagzal.lazada.com
 0.0.0.0	jmacs-m.lazada.com.my
 0.0.0.0	msgacs-m.lazada.com.my
 0.0.0.0	jmacs-m.lazada.com.ph
@@ -2315,6 +2325,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	o.lenovo.com
 0.0.0.0	s.lenovo.com
 0.0.0.0	fsr.lenovomm.com
+0.0.0.0	prw.lenovomm.com
 0.0.0.0	pushapi.lenovomm.com
 0.0.0.0	susapi.lenovomm.com
 0.0.0.0	uss-pid.lenovomm.com
@@ -2817,6 +2828,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jspassport.ssl.qhimg.com
 0.0.0.0	qhonzpl.cn
 0.0.0.0	c.qiandao.cn
+0.0.0.0	sensors-api.qiandao.cn
 0.0.0.0	click.qianqian.com
 0.0.0.0	jsb.qianzhan.com
 0.0.0.0	qichetansuo.com
@@ -3306,6 +3318,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-hl.snssdk.com
 0.0.0.0	log-lq.snssdk.com
 0.0.0.0	mcs.snssdk.com
+0.0.0.0	mercury-sdk.snssdk.com
 0.0.0.0	mon.snssdk.com
 0.0.0.0	open.snssdk.com
 0.0.0.0	pangolin.snssdk.com
@@ -3465,6 +3478,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ae-alimelog.taobao.com
 0.0.0.0	agoodm.m.taobao.com
 0.0.0.0	ai.m.taobao.com
+0.0.0.0	alimelog.taobao.com
 0.0.0.0	amdcopen.m.taobao.com
 0.0.0.0	audid-api.taobao.com
 0.0.0.0	audid-api-sg.taobao.com
@@ -3483,6 +3497,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hybrid.miniapp.taobao.com
 0.0.0.0	m-adash.m.taobao.com
 0.0.0.0	m.simba.taobao.com
+0.0.0.0	mclick.simba.taobao.com
 0.0.0.0	nbsdk-baichuan.taobao.com
 0.0.0.0	openjmacs.m.taobao.com
 0.0.0.0	pcookie.taobao.com
@@ -3564,7 +3579,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sstats.thermoscientific.cn
 0.0.0.0	thinkingdata.cn
 0.0.0.0	tatrack.thinkyeah.com
-0.0.0.0	ad.thsi.cn
 0.0.0.0	tracking.ti.com.cn
 0.0.0.0	tracking.mail.ti.com.cn
 0.0.0.0	tianjimedia.com
@@ -3838,6 +3852,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cname-asia-st-exappupgrade.vivoglobal.com
 0.0.0.0	cname-in-apport-stsdk.vivoglobal.com
 0.0.0.0	cname-in-bom01-nginxpool03.vivoglobal.com
+0.0.0.0	cname-in-ctdbonrt-stsdk.vivoglobal.com
 0.0.0.0	cname-sin01-stsdk09.vivoglobal.com
 0.0.0.0	co-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	co-st-sl.vivoglobal.com
@@ -4055,6 +4070,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.wps.cn
 0.0.0.0	wpsweb-dc.wps.cn
 0.0.0.0	api-ad-adapter.wps.com
+0.0.0.0	api-ad-adapter-mb.wps.com
 0.0.0.0	mo.res.wpscdn.cn
 0.0.0.0	abroadad.cache.wpscdn.com
 0.0.0.0	wpwpquse.cn
@@ -4062,6 +4078,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wrljgy.cn
 0.0.0.0	wsacjdg.cn
 0.0.0.0	wsds.cn
+0.0.0.0	mlog.wangsu.com.wswebcdn.com
 0.0.0.0	wukongtongji.com
 0.0.0.0	wumii.cn
 0.0.0.0	wumii.com
@@ -4086,6 +4103,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pvx.xcar.com.cn
 0.0.0.0	zio.xcar.com.cn
 0.0.0.0	xdrig.com
+0.0.0.0	sensors.h5.xed.plus
 0.0.0.0	xegnfwkju.com
 0.0.0.0	xerhibx.cn
 0.0.0.0	dt.xfyun.cn
@@ -4129,6 +4147,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cdn-exp-sg-recommend.pt.xiaomi.com
 0.0.0.0	cdn.exp.xiaomi.com
 0.0.0.0	cdn.fds.api.xiaomi.com
+0.0.0.0	data.game.xiaomi.com
 0.0.0.0	data.mistat.intl.xiaomi.com
 0.0.0.0	de.pandora.xiaomi.com
 0.0.0.0	dvb.pandora.xiaomi.com
@@ -4152,6 +4171,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
+0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
@@ -4227,6 +4247,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.xunkids.com
 0.0.0.0	adsp.xunlei.com
 0.0.0.0	advertpay-vip-ssl.xunlei.com
+0.0.0.0	advertpay.vip.xunlei.com
 0.0.0.0	analytics-union.xunlei.com
 0.0.0.0	kkpgv2.xunlei.com
 0.0.0.0	soa-vip-ssl.xunlei.com
@@ -4350,6 +4371,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	myes.youku.com
 0.0.0.0	orange-dc.youku.com
 0.0.0.0	pcapp-data-collect.youku.com
+0.0.0.0	pis-tel-pcdn.youku.com
 0.0.0.0	player-lg.youku.com
 0.0.0.0	push.m.youku.com
 0.0.0.0	s.p.youku.com
