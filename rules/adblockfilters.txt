@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260908033110
-! Last modified: 2026/09/08 03:31:10
-! Blocked Filters: 103992
+! Version: 20260908101536
+! Last modified: 2026/09/08 10:15:36
+! Blocked Filters: 104002
 !
 ###AC_ad
 ###AD_160
@@ -75628,7 +75628,6 @@ startmag.it#%#//scriptlet('abort-on-property-read', 'wpsite_clickable_data')
 startpage.com###main > div[data-bvs][data-identifier]
 startpage.com###main > div[style^="margin-bottom:"] > div:has(> div[style^="margin-bottom:"] > svg)
 startpage.com##div[data-identifier="exoclick-native-impression"]
-startpage.com##div[data-visible="true"][data-identifier]
 startpage.com##section#main > a[href][target="_blank"]:has(path[d^="m6.07067 3.14453c-.04309-.40317-.22467-.71709-.54475"])
 startpage.com#%#//scriptlet('spoof-css', '.ad.a-bg', 'display', 'block')
 startpage.com#%#//scriptlet('trusted-set-constant', 's1PxyAdsTag', '"01234567890123456789"')
@@ -88919,6 +88918,7 @@ zzzyk.com###Tinfo
 ||bing.com^$cookie=ABDEF
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
+||binomnet.com^$popup
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
@@ -90512,6 +90512,7 @@ zzzyk.com###Tinfo
 ||crosswalk.com/bundles/mgid-js/
 ||crowdtwist.com/trck/$script
 ||crtx.info^$third-party
+||cruel-love.com^$popup
 ||crunchbase.com/rw7M6iAV/init.js
 ||crunchyroll.com/awidget/
 ||crunchyroll.com/tracker?
@@ -91484,6 +91485,7 @@ zzzyk.com###Tinfo
 ||eepower.com/js/ad-homepage.js
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
+||eessoong.com^$popup
 ||eevblog.com/images/comm/$image
 ||eeyy.cc/style/yxj.js
 ||eflbundles.*.com.tr^
@@ -91548,6 +91550,7 @@ zzzyk.com###Tinfo
 ||empressleak.biz/popunderscript.js
 ||empressleak.biz/script.js
 ||empressleak.biz/wp-content/uploads/2017/10/newskin.jpg
+||encouragedmemistress.com^$popup
 ||endorsal.io/check/
 ||enet.com.cn/counter.php
 ||enetres.net/StatisticsV1/
@@ -91913,6 +91916,7 @@ zzzyk.com###Tinfo
 ||fembed.net/asset/angular.min.js?t=
 ||fembeq.com/assets/js/base.js$replace=/'ad':\[[\s\S]*?\]/'ad':[]/
 ||femida.az/baner/rek*.php
+||fenacheaverage.com^$popup
 ||fengniao.com*/pv.js
 ||fennyboy.com/js/dabt.js
 ||fennyboy.com/negco-
@@ -97499,6 +97503,7 @@ zzzyk.com###Tinfo
 ||oremanga.net/wp-content/uploads/*.gif
 ||oremanga.net/wp-content/uploads/*/pg999.jpg
 ||organicfruitapps.com/analytics/
+||orgassme.com^$popup
 ||orgyxxxhub.com/eureka^
 ||orgyxxxhub.com/js/965eka57.js
 ||orgyxxxhub.com/js/arjlk.js
@@ -97678,11 +97683,14 @@ zzzyk.com###Tinfo
 ||pastemagazine.com/wp-content/themes/pastemagazine/js/ads-gam-a9-ow.js
 ||pastemytxt.com/download_ad.jpg
 ||pastemytxt.com/downloadad.jpg
+||pasxfixs.com^$popup
 ||path-2-happiness.com/*/select_adv
 ||patient.info/a31h/
 ||patient.info/scripts/doda.js
 ||patreon.com/api/tracking
 ||paxnews.com/data/pageads
+||paxsfiss.com^$popup
+||paxxfiss.com^$popup
 ||pay4fans.com/api/analytics
 ||payangel.com/resources/images/$third-party
 ||payments-amazon.com^*/analytics.js
@@ -97734,6 +97742,7 @@ zzzyk.com###Tinfo
 ||pcmag.com/js/alpine/$domain=speedtest.net
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+||pcmclks.com^$popup
 ||pcmweb.nl/track/
 ||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
@@ -97746,6 +97755,7 @@ zzzyk.com###Tinfo
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pcrl.co/js/jstracker.min.js
+||pctsrv.com^$popup
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pcworld.com/www/js/messaging.js
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
