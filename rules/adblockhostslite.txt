@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260917031453
-# Last modified: 2026/09/17 03:14:53
-# Blocked domains: 4537
+# Version: 20260917103744
+# Last modified: 2026/09/17 10:37:44
+# Blocked domains: 4527
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -517,12 +517,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	commondata.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	darren01.oss-cn-beijing.aliyuncs.com
 0.0.0.0	dmg-dd.oss-accelerate.aliyuncs.com
-0.0.0.0	dongtukj.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
 0.0.0.0	facai383.oss-cn-guangzhou.aliyuncs.com
 0.0.0.0	first-hufu.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	free-cdn.oss-cn-shanghai.aliyuncs.com
-0.0.0.0	hdtu.oss-cn-beijing.aliyuncs.com
 0.0.0.0	httpdns-api.aliyuncs.com
 0.0.0.0	httpdns-sc.aliyuncs.com
 0.0.0.0	jpg1.oss-cn-beijing.aliyuncs.com
@@ -534,7 +532,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 0.0.0.0	star-seo.oss-ap-northeast-1.aliyuncs.com
 0.0.0.0	swwwxww.oss-cn-hangzhou.aliyuncs.com
-0.0.0.0	sz88.oss-cn-shenzhen.aliyuncs.com
 0.0.0.0	tci.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	tmea116.oss-cn-beijing.aliyuncs.com
 0.0.0.0	tttppp.oss-cn-guangzhou.aliyuncs.com
@@ -1045,7 +1042,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	strack.concur.cn
 0.0.0.0	cu-cn-north00001.gala.convection.cn
 0.0.0.0	cu-cn-north00002.gala.convection.cn
-0.0.0.0	conyz.cn
 0.0.0.0	coocaatv.com
 0.0.0.0	12.cookcai.com
 0.0.0.0	detaillog-global-dual.coolbcloud.com
@@ -1352,7 +1348,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	euuh.cn
 0.0.0.0	evri-parcelq.cn
 0.0.0.0	duologinsupersdk.ewan.cn
-0.0.0.0	ewrrpuquc1.com
 0.0.0.0	a.exam58.com
 0.0.0.0	drovs.excelliance.cn
 0.0.0.0	excoino.com
@@ -2827,7 +2822,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qishui-yinle.hl.cn
 0.0.0.0	stats.qiumibao.com
 0.0.0.0	webstat.qiumibao.com
-0.0.0.0	qiuxl11.cn
 0.0.0.0	qiyegongqiu1.qiyegongqiu.com
 0.0.0.0	meta.video.qiyi.com
 0.0.0.0	msg.video.qiyi.com
@@ -3108,7 +3102,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	rz261.cn
 0.0.0.0	s0p6s02x28.com
 0.0.0.0	s1gr2198h.com
-0.0.0.0	s4y6lhotaw.com
 0.0.0.0	sacre.cn
 0.0.0.0	sadrfv.cn
 0.0.0.0	404.safedog.cn
@@ -4067,7 +4060,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zio.xcar.com.cn
 0.0.0.0	xdrig.com
 0.0.0.0	sensors.h5.xed.plus
-0.0.0.0	xegnfwkju.com
 0.0.0.0	xerhibx.cn
 0.0.0.0	dt.xfyun.cn
 0.0.0.0	pics.xgo-img.com.cn
@@ -4371,7 +4363,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yvdb.cn
 0.0.0.0	yw800.com.cn
 0.0.0.0	ywkkmze.cn
-0.0.0.0	123.ywxww.net
 0.0.0.0	adsclick.yx.js.cn
 0.0.0.0	qiniuyunxz.yxflzs.com
 0.0.0.0	yxgfcj.com
@@ -4550,7 +4541,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zukddms.cn
 0.0.0.0	1.zuowenjun.com
 0.0.0.0	5mm.zxfw5.cn
-0.0.0.0	zxiws.cn
 0.0.0.0	zxrcfw.com
 0.0.0.0	httpdns.zybang.com
 0.0.0.0	syh.zybang.com
