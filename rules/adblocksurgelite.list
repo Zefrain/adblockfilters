@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/09/19 10:25:25
-#!support=4528
+#!date=2026/09/19 20:11:13
+#!support=4538
 #!proxy-select=REJECT-DROP
 #
 .kwflvcdn.000dn.com
@@ -220,6 +220,7 @@
 .amradmin.5173.com
 .518ad.com
 .log.51changdu.com
+.log2.51changdu.com
 .logs.51cto.com
 .web.51fishplace.com
 .trace.51jingying.com
@@ -520,6 +521,7 @@
 .kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 .logtail-release.oss-cn-hangzhou.aliyuncs.com
 .mobantong.oss-cn-hangzhou.aliyuncs.com
+.o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 .retcode-sg-lazada.arms.aliyuncs.com
 .shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 .star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -713,6 +715,7 @@
 .m1.baidu.com
 .miao.baidu.com
 .miaowu.baidu.com
+.mo.baidu.com
 .mobads.baidu.com
 .mobads-logs.baidu.com
 .mountain.zhidao.baidu.com
@@ -726,6 +729,7 @@
 .pimlog.baidu.com
 .plugin.mobopay.baidu.com
 .pos.baidu.com
+.publish-pic-cpu.baidu.com
 .pups.baidu.com
 .push.zhanzhang.baidu.com
 .qapm.baidu.com
@@ -906,6 +910,8 @@
 .cbhzxctgm.com
 .adv.ccb.com
 .ad.ccement.com
+.btrace.ysp.cctv.cn
+.mtrace.ysp.cctv.cn
 .ad.cctv.com
 .httpdns.cctv.com
 .p.data.cctv.com
@@ -915,7 +921,6 @@
 .api-access.pangolin-sdk-toutiao.com.w.cdngslb.com
 .api-access.pangolin-sdk-toutiao1.com.w.cdngslb.com
 .log-api.pangolin-sdk-toutiao.com.w.cdngslb.com
-.sgtm.dhgate.com.cdngtm.com
 .httpdns.c.cdnhwc2.com
 .httpdns1.cc.cdnhwc5.com
 .ad.cdnjm.cn
@@ -1001,6 +1006,7 @@
 .log1.cmpassport.com
 .log2.cmpassport.com
 .cmpxaup.cn
+.ggc.cmvideo.cn
 .ggx.cmvideo.cn
 .ad-api.cnblogs.com
 .analytics.cnblogs.com
@@ -1179,7 +1185,6 @@
 .trackercollect.ddxq.mobi
 .trackerfeed.ddxq.mobi
 .analytics.dealmoon.com
-.sm.dell.com
 .aem.dentsuchina.cn
 .www.destinationurl.com
 .msz3.destinia.cn
@@ -1483,12 +1488,12 @@
 .doh.ptqy.gitv.tv
 .liveats-vod.video.ptqy.gitv.tv
 .msg.ptqy.gitv.tv
+.ota.ptqy.gitv.tv
 .policy.video.ptqy.gitv.tv
 .puma-api.ptqy.gitv.tv
 .sdk-cache.video.ptqy.gitv.tv
 .sdk.ptqy.gitv.tv
 .static.ptqy.gitv.tv
-.t7z.cupid.ptqy.gitv.tv
 .time.video.ptqy.gitv.tv
 .50m.gkcyc.com
 .gl0r6d2uyy.com
@@ -1661,7 +1666,6 @@
 .cl-data-sg.ads.heytapmobi.com
 .cl-data.ads.heytapmobi.com
 .conf-cn.dc.heytapmobi.com
-.conf-eu.dc.heytapmobi.com
 .conf-in.dc.heytapmobi.com
 .conf-sg.dc.heytapmobi.com
 .darvin-ec.ads.heytapmobi.com
@@ -1728,6 +1732,7 @@
 .api-4know-em.hismarttv.com
 .api-gps.hismarttv.com
 .api-gps-eu.hismarttv.com
+.api-gps-na.hismarttv.com
 .api-launcher-eu.hismarttv.com
 .api-launcher-na.hismarttv.com
 .auth-em.hismarttv.com
@@ -1918,6 +1923,7 @@
 .seeder.igetget.com
 .ihclam.cn
 .fpbone.ihowguide.com
+.appadapi.ihuman.com
 .iimedia.cn
 .www.iiyout.cn
 .ijinshan.com
@@ -1973,6 +1979,7 @@
 .ndct-data.video.iqiyi.com
 .nl-rcd.iqiyi.com
 .paopao.iqiyi.com
+.paopao-monitor.iqiyi.com
 .policy.video.iqiyi.com
 .puma-api.iqiyi.com
 .puma.api.iqiyi.com
@@ -2052,6 +2059,7 @@
 .udiab1.jianshu.com
 .api.jietuhb.com
 .jiguang.cn
+.ad.open.api.jihuoniao.com
 .target.ads.jihuoniao.com
 .wuliao.jingyanben.com
 .adx-api.jinmo.tech
@@ -3127,7 +3135,6 @@
 .smetrics.schindler.cn
 .scjpqut.cn
 .sckexing.cn
-.sckfcn.cn
 .statscollector.sd-rtn.com
 .sd6hon.cn
 .sdhuawen.cn
@@ -3435,6 +3442,7 @@
 .adashx4yt.m.taobao.com
 .adashxgc.ut.taobao.com
 .ae-alimelog.taobao.com
+.agoodm.m.taobao.com
 .ai.m.taobao.com
 .amdcopen.m.taobao.com
 .audid-api.taobao.com
@@ -3538,6 +3546,7 @@
 .ad.thsi.cn
 .tracking.ti.com.cn
 .tracking.mail.ti.com.cn
+.tianji520.cn
 .tianjimedia.com
 .tianmidian.com
 .ip.tianqiapi.com
@@ -3701,7 +3710,6 @@
 .uqz.com
 .urbanfind.club
 .uri6.com
-.urlqh.cn
 .usercenter.ha.cn
 .usercenter.he.cn
 .usercenter.nx.cn
@@ -3864,11 +3872,13 @@
 .tr-domaincfg.vivoglobal.com
 .tr-onrt-stsdk.vivoglobal.com
 .tr-ort-stsdk.vivoglobal.com
+.tr-p.vivoglobal.com
 .tr-romsp-unifyconfig.vivoglobal.com
 .tr-st-sl.vivoglobal.com
 .tr-timesync.vivoglobal.com
 .tr-vcode-api.vivoglobal.com
 .tr-vcode-od.vivoglobal.com
+.tr-vcode-or.vivoglobal.com
 .uk-timesync.vivoglobal.com
 .za-p.vivoglobal.com
 .zasc-cota.vivoglobal.com
@@ -4099,6 +4109,7 @@
 .global-ad-extranet-pri-azams.alb.xiaomi.com
 .global-ad-extranet-pri-azpn.alb.xiaomi.com
 .global-ad-intl-pri-alisgp.alb.xiaomi.com
+.globalvideo.cdn.pandora.intl.xiaomi.com
 .image.cdn.pandora.xiaomi.com
 .milink.pandora.xiaomi.com
 .misc.pandora.xiaomi.com
@@ -4115,7 +4126,6 @@
 .storeconfig.mistat.intl.xiaomi.com
 .sys.tv.india.xiaomi.com
 .t1.a.market.xiaomi.com
-.t17.market.xiaomi.com
 .tz.sec.xiaomi.com
 .video.market.xiaomi.com
 .api.device.xiaomi.net

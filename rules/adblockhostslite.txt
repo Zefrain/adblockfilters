@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260919102524
-# Last modified: 2026/09/19 10:25:24
-# Blocked domains: 4528
+# Version: 20260919201113
+# Last modified: 2026/09/19 20:11:13
+# Blocked domains: 4538
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -228,6 +228,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	amradmin.5173.com
 0.0.0.0	518ad.com
 0.0.0.0	log.51changdu.com
+0.0.0.0	log2.51changdu.com
 0.0.0.0	logs.51cto.com
 0.0.0.0	web.51fishplace.com
 0.0.0.0	trace.51jingying.com
@@ -528,6 +529,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	logtail-release.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	mobantong.oss-cn-hangzhou.aliyuncs.com
+0.0.0.0	o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0	shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 0.0.0.0	star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -721,6 +723,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	m1.baidu.com
 0.0.0.0	miao.baidu.com
 0.0.0.0	miaowu.baidu.com
+0.0.0.0	mo.baidu.com
 0.0.0.0	mobads.baidu.com
 0.0.0.0	mobads-logs.baidu.com
 0.0.0.0	mountain.zhidao.baidu.com
@@ -734,6 +737,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pimlog.baidu.com
 0.0.0.0	plugin.mobopay.baidu.com
 0.0.0.0	pos.baidu.com
+0.0.0.0	publish-pic-cpu.baidu.com
 0.0.0.0	pups.baidu.com
 0.0.0.0	push.zhanzhang.baidu.com
 0.0.0.0	qapm.baidu.com
@@ -914,6 +918,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	cbhzxctgm.com
 0.0.0.0	adv.ccb.com
 0.0.0.0	ad.ccement.com
+0.0.0.0	btrace.ysp.cctv.cn
+0.0.0.0	mtrace.ysp.cctv.cn
 0.0.0.0	ad.cctv.com
 0.0.0.0	httpdns.cctv.com
 0.0.0.0	p.data.cctv.com
@@ -923,7 +929,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-access.pangolin-sdk-toutiao.com.w.cdngslb.com
 0.0.0.0	api-access.pangolin-sdk-toutiao1.com.w.cdngslb.com
 0.0.0.0	log-api.pangolin-sdk-toutiao.com.w.cdngslb.com
-0.0.0.0	sgtm.dhgate.com.cdngtm.com
 0.0.0.0	httpdns.c.cdnhwc2.com
 0.0.0.0	httpdns1.cc.cdnhwc5.com
 0.0.0.0	ad.cdnjm.cn
@@ -1009,6 +1014,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log1.cmpassport.com
 0.0.0.0	log2.cmpassport.com
 0.0.0.0	cmpxaup.cn
+0.0.0.0	ggc.cmvideo.cn
 0.0.0.0	ggx.cmvideo.cn
 0.0.0.0	ad-api.cnblogs.com
 0.0.0.0	analytics.cnblogs.com
@@ -1187,7 +1193,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trackercollect.ddxq.mobi
 0.0.0.0	trackerfeed.ddxq.mobi
 0.0.0.0	analytics.dealmoon.com
-0.0.0.0	sm.dell.com
 0.0.0.0	aem.dentsuchina.cn
 0.0.0.0	www.destinationurl.com
 0.0.0.0	msz3.destinia.cn
@@ -1491,12 +1496,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	doh.ptqy.gitv.tv
 0.0.0.0	liveats-vod.video.ptqy.gitv.tv
 0.0.0.0	msg.ptqy.gitv.tv
+0.0.0.0	ota.ptqy.gitv.tv
 0.0.0.0	policy.video.ptqy.gitv.tv
 0.0.0.0	puma-api.ptqy.gitv.tv
 0.0.0.0	sdk-cache.video.ptqy.gitv.tv
 0.0.0.0	sdk.ptqy.gitv.tv
 0.0.0.0	static.ptqy.gitv.tv
-0.0.0.0	t7z.cupid.ptqy.gitv.tv
 0.0.0.0	time.video.ptqy.gitv.tv
 0.0.0.0	50m.gkcyc.com
 0.0.0.0	gl0r6d2uyy.com
@@ -1669,7 +1674,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cl-data-sg.ads.heytapmobi.com
 0.0.0.0	cl-data.ads.heytapmobi.com
 0.0.0.0	conf-cn.dc.heytapmobi.com
-0.0.0.0	conf-eu.dc.heytapmobi.com
 0.0.0.0	conf-in.dc.heytapmobi.com
 0.0.0.0	conf-sg.dc.heytapmobi.com
 0.0.0.0	darvin-ec.ads.heytapmobi.com
@@ -1736,6 +1740,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-4know-em.hismarttv.com
 0.0.0.0	api-gps.hismarttv.com
 0.0.0.0	api-gps-eu.hismarttv.com
+0.0.0.0	api-gps-na.hismarttv.com
 0.0.0.0	api-launcher-eu.hismarttv.com
 0.0.0.0	api-launcher-na.hismarttv.com
 0.0.0.0	auth-em.hismarttv.com
@@ -1926,6 +1931,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	seeder.igetget.com
 0.0.0.0	ihclam.cn
 0.0.0.0	fpbone.ihowguide.com
+0.0.0.0	appadapi.ihuman.com
 0.0.0.0	iimedia.cn
 0.0.0.0	www.iiyout.cn
 0.0.0.0	ijinshan.com
@@ -1981,6 +1987,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ndct-data.video.iqiyi.com
 0.0.0.0	nl-rcd.iqiyi.com
 0.0.0.0	paopao.iqiyi.com
+0.0.0.0	paopao-monitor.iqiyi.com
 0.0.0.0	policy.video.iqiyi.com
 0.0.0.0	puma-api.iqiyi.com
 0.0.0.0	puma.api.iqiyi.com
@@ -2060,6 +2067,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	udiab1.jianshu.com
 0.0.0.0	api.jietuhb.com
 0.0.0.0	jiguang.cn
+0.0.0.0	ad.open.api.jihuoniao.com
 0.0.0.0	target.ads.jihuoniao.com
 0.0.0.0	wuliao.jingyanben.com
 0.0.0.0	adx-api.jinmo.tech
@@ -3135,7 +3143,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.schindler.cn
 0.0.0.0	scjpqut.cn
 0.0.0.0	sckexing.cn
-0.0.0.0	sckfcn.cn
 0.0.0.0	statscollector.sd-rtn.com
 0.0.0.0	sd6hon.cn
 0.0.0.0	sdhuawen.cn
@@ -3443,6 +3450,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adashx4yt.m.taobao.com
 0.0.0.0	adashxgc.ut.taobao.com
 0.0.0.0	ae-alimelog.taobao.com
+0.0.0.0	agoodm.m.taobao.com
 0.0.0.0	ai.m.taobao.com
 0.0.0.0	amdcopen.m.taobao.com
 0.0.0.0	audid-api.taobao.com
@@ -3546,6 +3554,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.thsi.cn
 0.0.0.0	tracking.ti.com.cn
 0.0.0.0	tracking.mail.ti.com.cn
+0.0.0.0	tianji520.cn
 0.0.0.0	tianjimedia.com
 0.0.0.0	tianmidian.com
 0.0.0.0	ip.tianqiapi.com
@@ -3709,7 +3718,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	uqz.com
 0.0.0.0	urbanfind.club
 0.0.0.0	uri6.com
-0.0.0.0	urlqh.cn
 0.0.0.0	usercenter.ha.cn
 0.0.0.0	usercenter.he.cn
 0.0.0.0	usercenter.nx.cn
@@ -3872,11 +3880,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	tr-domaincfg.vivoglobal.com
 0.0.0.0	tr-onrt-stsdk.vivoglobal.com
 0.0.0.0	tr-ort-stsdk.vivoglobal.com
+0.0.0.0	tr-p.vivoglobal.com
 0.0.0.0	tr-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	tr-st-sl.vivoglobal.com
 0.0.0.0	tr-timesync.vivoglobal.com
 0.0.0.0	tr-vcode-api.vivoglobal.com
 0.0.0.0	tr-vcode-od.vivoglobal.com
+0.0.0.0	tr-vcode-or.vivoglobal.com
 0.0.0.0	uk-timesync.vivoglobal.com
 0.0.0.0	za-p.vivoglobal.com
 0.0.0.0	zasc-cota.vivoglobal.com
@@ -4107,6 +4117,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	global-ad-extranet-pri-azams.alb.xiaomi.com
 0.0.0.0	global-ad-extranet-pri-azpn.alb.xiaomi.com
 0.0.0.0	global-ad-intl-pri-alisgp.alb.xiaomi.com
+0.0.0.0	globalvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0	image.cdn.pandora.xiaomi.com
 0.0.0.0	milink.pandora.xiaomi.com
 0.0.0.0	misc.pandora.xiaomi.com
@@ -4123,7 +4134,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	storeconfig.mistat.intl.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
-0.0.0.0	t17.market.xiaomi.com
 0.0.0.0	tz.sec.xiaomi.com
 0.0.0.0	video.market.xiaomi.com
 0.0.0.0	api.device.xiaomi.net
