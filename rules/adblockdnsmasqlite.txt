@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260923103539
-# Last modified: 2026/09/23 10:35:39
-# Blocked domains: 4533
+# Version: 20260923211010
+# Last modified: 2026/09/23 21:10:10
+# Blocked domains: 4532
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -33,6 +33,7 @@ local=/ad.12306.cn/
 local=/123cha.com/
 local=/bdad.123pan.cn/
 local=/ent1.12584.cn/
+local=/126.cn/
 local=/analytics.126.com/
 local=/ir.mail.126.com/
 local=/iadmusicmat.music.126.net/
@@ -1654,6 +1655,7 @@ local=/cl-data-in.ads.heytapmobi.com/
 local=/cl-data-sg.ads.heytapmobi.com/
 local=/cl-data.ads.heytapmobi.com/
 local=/conf-cn.dc.heytapmobi.com/
+local=/conf-eu.dc.heytapmobi.com/
 local=/conf-in.dc.heytapmobi.com/
 local=/conf-sg.dc.heytapmobi.com/
 local=/darvin-ec.ads.heytapmobi.com/
@@ -1720,7 +1722,6 @@ local=/analytics.shop.hisense.com/
 local=/api-4know-em.hismarttv.com/
 local=/api-gps.hismarttv.com/
 local=/api-gps-eu.hismarttv.com/
-local=/api-gps-na.hismarttv.com/
 local=/api-launcher-eu.hismarttv.com/
 local=/api-launcher-na.hismarttv.com/
 local=/auth-em.hismarttv.com/
@@ -1966,6 +1967,7 @@ local=/msga.cupid.iqiyi.com/
 local=/ndct-data.video.iqiyi.com/
 local=/nl-rcd.iqiyi.com/
 local=/paopao.iqiyi.com/
+local=/paopao-monitor.iqiyi.com/
 local=/policy.video.iqiyi.com/
 local=/puma-api.iqiyi.com/
 local=/puma.api.iqiyi.com/
@@ -3165,7 +3167,6 @@ local=/umini.shujupie.com/
 local=/ad.shunchangzhixing.com/
 local=/js.shunqi.com/
 local=/shuzilm.cn/
-local=/ads-monitoring.shziyi.com/
 local=/sigmob.com/
 local=/smetrics.marketing.signify.com.cn/
 local=/adblock.sina.cn/
@@ -3865,7 +3866,6 @@ local=/tr-st-sl.vivoglobal.com/
 local=/tr-timesync.vivoglobal.com/
 local=/tr-vcode-api.vivoglobal.com/
 local=/tr-vcode-od.vivoglobal.com/
-local=/tr-vcode-or.vivoglobal.com/
 local=/uk-timesync.vivoglobal.com/
 local=/za-p.vivoglobal.com/
 local=/zasc-cota.vivoglobal.com/
@@ -4018,6 +4018,7 @@ local=/push.wps.cn/
 local=/update.wps.cn/
 local=/wpsweb-dc.wps.cn/
 local=/api-ad-adapter.wps.com/
+local=/api-ad-adapter-mb.wps.com/
 local=/mo.res.wpscdn.cn/
 local=/abroadad.cache.wpscdn.com/
 local=/wpwpquse.cn/
@@ -4217,7 +4218,6 @@ local=/yatemy.cn/
 local=/ycsshb.cn/
 local=/ydgsvls.cn/
 local=/kl.yditweb.cn/
-local=/adpublish.ydstatic.com/
 local=/oimagea2.ydstatic.com/
 local=/bdm.ye-su.cn/
 local=/ir.mail.yeah.net/
@@ -4401,7 +4401,6 @@ local=/p3.zbjimg.com/
 local=/xue.zbyw.cn/
 local=/log.zcool.com.cn/
 local=/zegarkirepliki.pl/
-local=/api-analytics.zepp.com/
 local=/api-analytics-cn3.zepp.com/
 local=/api-analytics-de.zepp.com/
 local=/api-analytics-us.zepp.com/
