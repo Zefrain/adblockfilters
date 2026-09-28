@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260928104634
-! Last modified: 2026/09/28 10:46:34
-! Blocked domains: 4487
+! Version: 20260929001813
+! Last modified: 2026/09/29 00:18:13
+! Blocked domains: 4498
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -77,6 +77,7 @@
 ||nex.163.com^
 ||r.mail.163.com^
 ||sentry.music.163.com^
+||temp.163.com^
 ||timejs.game.163.com^
 ||yaolu.mh.163.com^
 ||yaolu.yuedu.163.com^
@@ -701,7 +702,6 @@
 ||m1.baidu.com^
 ||miao.baidu.com^
 ||miaowu.baidu.com^
-||mipengine.baidu.com^
 ||mo.baidu.com^
 ||mobads.baidu.com^
 ||mobads-logs.baidu.com^
@@ -882,6 +882,8 @@
 ||applog.camera360.com^
 ||appres.camera360.com^
 ||collect.camera360.com^
+||dispatcher.camera360.com^
+||pushmsg.camera360.com^
 ||stratus.campaign-image.com.cn^
 ||zc1.campaign-view.com.cn^
 ||count.candou.com^
@@ -1001,6 +1003,7 @@
 ||1.codesdq.com^
 ||reportwest-midas.codmwest.com^
 ||guif.coloros.com^
+||guif-eu.coloros.com^
 ||icota-eu.coloros.com^
 ||ifrus.coloros.com^
 ||ifrus-eu.coloros.com^
@@ -1298,6 +1301,7 @@
 ||client-api.ele.me^
 ||grand.ele.me^
 ||h-adashx.ut.ele.me^
+||advert-server.elecfans.com^
 ||metrics.ellechina.com^
 ||ename.com.cn^
 ||count.enet.com.cn^
@@ -1417,6 +1421,7 @@
 ||ng-vn-notice.gameitop.com^
 ||ad.gameley.com^
 ||click.gamersky.com^
+||ja2.gamersky.com^
 ||wmbd.gamersky.com^
 ||jiaoben.ganji.cn^
 ||ad.ganji.com^
@@ -2012,6 +2017,7 @@
 ||mapi.m.jd.com^
 ||mars.jd.com^
 ||mllog.jd.com^
+||nfa.jd.com^
 ||orbit.jd.com^
 ||policy.jd.com^
 ||sgm-w.jd.com^
@@ -2107,6 +2113,7 @@
 ||logsdk.klingai.com^
 ||affiliate.klook.com^
 ||kmpxq.cn^
+||kxlogo.knet.cn^
 ||knliylh.cn^
 ||ofkqiy.knowfashionstyle.com^
 ||knowsafe.com^
@@ -2687,6 +2694,7 @@
 ||penxiangge.com^
 ||1buu1.penyouw.com^
 ||counter.people.cn^
+||pmm.people.com.cn^
 ||pepnsnq.cn^
 ||pepsico.com.cn^
 ||pfdth.cn^
@@ -2705,6 +2713,7 @@
 ||img50.pingguolv.com^
 ||api.pingstart.com^
 ||bd1.pipaw.com^
+||stat2.pixpin.cn^
 ||pl53l7tyw.com^
 ||placidocn.com^
 ||bdx.playnext.cn^
@@ -2758,7 +2767,6 @@
 ||jspassport.ssl.qhimg.com^
 ||qhonzpl.cn^
 ||c.qiandao.cn^
-||sensors-api.qiandao.cn^
 ||click.qianqian.com^
 ||jsb.qianzhan.com^
 ||qichetansuo.com^
@@ -3228,6 +3236,7 @@
 ||log-hl.snssdk.com^
 ||log-lq.snssdk.com^
 ||mcs.snssdk.com^
+||mercury-sdk.snssdk.com^
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
@@ -3401,6 +3410,7 @@
 ||hybrid.miniapp.taobao.com^
 ||m-adash.m.taobao.com^
 ||m.simba.taobao.com^
+||mclick.simba.taobao.com^
 ||nbsdk-baichuan.taobao.com^
 ||openjmacs.m.taobao.com^
 ||pcookie.taobao.com^
@@ -3444,7 +3454,6 @@
 ||log.tec73.com^
 ||1.tecbbs.com^
 ||tongji.techweb.com.cn^
-||data.tempersyi.com^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
@@ -3762,6 +3771,7 @@
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
+||co-timesync.vivoglobal.com^
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||de-gdpr-err-up.vivoglobal.com^
@@ -4005,6 +4015,7 @@
 ||pvx.xcar.com.cn^
 ||zio.xcar.com.cn^
 ||xdrig.com^
+||sensors.h5.xed.plus^
 ||xerhibx.cn^
 ||dt.xfyun.cn^
 ||pics.xgo-img.com.cn^
