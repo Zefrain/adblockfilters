@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260930042216
-# Last modified: 2026/09/30 04:22:16
-# Blocked domains: 4484
+# Version: 20260930111135
+# Last modified: 2026/09/30 11:11:35
+# Blocked domains: 4475
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -436,10 +436,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jp-datareceiver.aki-game.net
 0.0.0.0	us-datareceiver.aki-game.net
 0.0.0.0	ako.cc
-0.0.0.0	alertcenter.hn.cn
-0.0.0.0	alertcenter.net.cn
 0.0.0.0	alertcenter.qh.cn
-0.0.0.0	alertcenter.sd.cn
 0.0.0.0	smetrics.alfalaval.cn
 0.0.0.0	dsp.ali213.net
 0.0.0.0	cdn.ynuf.aliapp.org
@@ -1101,7 +1098,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	net.daraz.pk
 0.0.0.0	gate.datacaciques.com
 0.0.0.0	pv.datacaciques.com
-0.0.0.0	datacenter.qh.cn
 0.0.0.0	datamaster.com.cn
 0.0.0.0	jc1.dayfund.com.cn
 0.0.0.0	bun1.dayi.org.cn
@@ -3348,8 +3344,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	symaa.cn
 0.0.0.0	synacast.com
 0.0.0.0	syr66.com.cn
-0.0.0.0	systemhub.nx.cn
-0.0.0.0	systemhub.sc.cn
 0.0.0.0	syzjxz2018.cn
 0.0.0.0	szbdyd.com
 0.0.0.0	bd1.szhk.com
@@ -3663,9 +3657,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	urbanfind.club
 0.0.0.0	uri6.com
 0.0.0.0	urlqh.cn
-0.0.0.0	usercenter.ha.cn
-0.0.0.0	usercenter.he.cn
-0.0.0.0	usercenter.nx.cn
 0.0.0.0	usrzh.cn
 0.0.0.0	gyqpyr.utsource.net
 0.0.0.0	dlog-config.uu.cc
