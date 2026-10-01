@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20261001111835
-! Last modified: 2026/10/01 11:18:35
-! Blocked domains: 4465
+! Version: 20261001225811
+! Last modified: 2026/10/01 22:58:11
+! Blocked domains: 4467
 ! unBlocked domains: 15
 !
 ||kwflvcdn.000dn.com^
@@ -206,11 +206,9 @@
 ||51.la^
 ||511a.cn^
 ||51240.com^
-||5166.info^
 ||amradmin.5173.com^
 ||518ad.com^
 ||log.51changdu.com^
-||log2.51changdu.com^
 ||logs.51cto.com^
 ||web.51fishplace.com^
 ||trace.51jingying.com^
@@ -500,6 +498,7 @@
 ||jun01.oss-cn-beijing.aliyuncs.com^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
@@ -763,6 +762,7 @@
 ||j.baminw.cn^
 ||n.baminw.com.cn^
 ||q.baminw.com.cn^
+||midinfo.baofeng.com^
 ||baycode.cn^
 ||bayimob.com^
 ||bbbazlp.cn^
@@ -881,7 +881,6 @@
 ||telemetry.canva.cn^
 ||caomeixz7.xyz^
 ||baidu1.cardbaobao.com^
-||cart.net.cn^
 ||cartx.cloud^
 ||super.cat898.com^
 ||tracking.cat898.com^
@@ -1142,6 +1141,7 @@
 ||events-dra-op-dbankcloud-com-dra.region.dbankedge.cn^
 ||events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn^
 ||events-dre-op-hicloud-com-dre.appacc.dbankedge.cn^
+||hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||dbzy5.com^
 ||engine.dcad01.com^
 ||xcx.dcad01.com^
@@ -1156,7 +1156,6 @@
 ||detailroi.com^
 ||api.dewmobile.net^
 ||dexinyi.cn^
-||dgrj.com.cn^
 ||d.dgzj.com^
 ||dianru.com^
 ||digitalfiles.org^
@@ -1455,12 +1454,12 @@
 ||doh.ptqy.gitv.tv^
 ||liveats-vod.video.ptqy.gitv.tv^
 ||msg.ptqy.gitv.tv^
+||ota.ptqy.gitv.tv^
 ||policy.video.ptqy.gitv.tv^
 ||puma-api.ptqy.gitv.tv^
 ||sdk-cache.video.ptqy.gitv.tv^
 ||sdk.ptqy.gitv.tv^
 ||static.ptqy.gitv.tv^
-||t7z.cupid.ptqy.gitv.tv^
 ||time.video.ptqy.gitv.tv^
 ||50m.gkcyc.com^
 ||gl0r6d2uyy.com^
@@ -1701,6 +1700,7 @@
 ||api-4know-em.hismarttv.com^
 ||api-gps.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
+||api-gps-na.hismarttv.com^
 ||api-launcher-eu.hismarttv.com^
 ||api-launcher-na.hismarttv.com^
 ||auth-em.hismarttv.com^
@@ -1891,6 +1891,7 @@
 ||seeder.igetget.com^
 ||ihclam.cn^
 ||fpbone.ihowguide.com^
+||appadapi.ihuman.com^
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijinshan.com^
@@ -1916,7 +1917,6 @@
 ||sla-media.immomo.com^
 ||atb-stats-api.imolive.tv^
 ||ads-gdl.imovideo.ru^
-||analytics.infility.cn^
 ||link.infineon.cn^
 ||apidns.kwd.inkuai.com^
 ||httpdns.kwd.inkuai.com^
@@ -1947,6 +1947,7 @@
 ||ndct-data.video.iqiyi.com^
 ||nl-rcd.iqiyi.com^
 ||paopao.iqiyi.com^
+||paopao-monitor.iqiyi.com^
 ||policy.video.iqiyi.com^
 ||puma-api.iqiyi.com^
 ||puma.api.iqiyi.com^
@@ -2062,7 +2063,6 @@
 ||jxdown.com^
 ||jy135.com^
 ||jygdb.com^
-||jyhengyi.cn^
 ||o1.jyjyj.cn^
 ||o2.jyjyj.cn^
 ||jzdwl4.cn^
@@ -2501,6 +2501,7 @@
 ||mobgi.com^
 ||ent.mobileanjian.com^
 ||mobisage.cn^
+||mobvoi-analytics-transfer.mobvoi.com^
 ||bd1.moguvet.com^
 ||ad.api.moji.com^
 ||fds.api.moji.com^
@@ -2623,7 +2624,6 @@
 ||olpv.onlylady.com^
 ||onrunningshop.com^
 ||ooniu.com^
-||analytics.ooofoo.com^
 ||openai.wf^
 ||openinstall.io^
 ||adsfs.oppomobile.com^
@@ -2872,6 +2872,7 @@
 ||pcm-img.zhls.qq.com^
 ||pingjs.qq.com^
 ||pingma.qq.com^
+||pingmid.qq.com^
 ||pingtas.qq.com^
 ||pmir.3g.qq.com^
 ||pms.mb.qq.com^
@@ -3342,6 +3343,7 @@
 ||report.tantanapp.com^
 ||seiya.tantanapp.com^
 ||tanv.com^
+||cdn.tanx.com^
 ||click.tanx.com^
 ||cms.tanx.com^
 ||df.tanx.com^
@@ -3557,7 +3559,6 @@
 ||livetech.shopee.com.br.txlivecdn.com^
 ||m.txtxr.com^
 ||u.txuesoft.cn^
-||ty.cn^
 ||tydouke.com^
 ||tzlit.cn^
 ||stat.u.sb^
@@ -3758,6 +3759,7 @@
 ||ex-romsp-unifyconfig.vivoglobal.com^
 ||id-analyzer-appstore.vivoglobal.com^
 ||id-third-appstore.vivoglobal.com^
+||kz-onrt-stsdk.vivoglobal.com^
 ||kz-vcode-od.vivoglobal.com^
 ||mx-cota.vivoglobal.com^
 ||mx-domaincfg.vivoglobal.com^
@@ -3953,6 +3955,7 @@
 ||update.wps.cn^
 ||wpsweb-dc.wps.cn^
 ||api-ad-adapter.wps.com^
+||api-ad-adapter-mb.wps.com^
 ||mo.res.wpscdn.cn^
 ||abroadad.cache.wpscdn.com^
 ||wpwpquse.cn^
@@ -4154,7 +4157,6 @@
 ||ycsshb.cn^
 ||ydgsvls.cn^
 ||kl.yditweb.cn^
-||adpublish.ydstatic.com^
 ||oimagea2.ydstatic.com^
 ||bdm.ye-su.cn^
 ||ir.mail.yeah.net^
