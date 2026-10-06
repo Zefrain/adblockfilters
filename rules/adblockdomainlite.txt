@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20261006120212
-! Last modified: 2026/10/06 12:02:12
-! Blocked domains: 4501
+! Version: 20261006223742
+! Last modified: 2026/10/06 22:37:42
+! Blocked domains: 4485
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -206,7 +206,6 @@ ios-pclog.3u.com
 51.la
 511a.cn
 51240.com
-5166.info
 amradmin.5173.com
 518ad.com
 log.51changdu.com
@@ -217,7 +216,6 @@ trace.51jingying.com
 scdata.51job.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 ad.51wnl.com
 51xuex.com.cn
 51yes.com
@@ -701,7 +699,6 @@ m1.baidu.com
 miao.baidu.com
 miaowu.baidu.com
 mipengine.baidu.com
-mo.baidu.com
 mobads.baidu.com
 mobads-logs.baidu.com
 mountain.zhidao.baidu.com
@@ -769,7 +766,6 @@ h.baminw.cn
 j.baminw.cn
 n.baminw.com.cn
 q.baminw.com.cn
-midinfo.baofeng.com
 baycode.cn
 bayimob.com
 bbbazlp.cn
@@ -891,7 +887,6 @@ count.candou.com
 telemetry.canva.cn
 caomeixz7.xyz
 baidu1.cardbaobao.com
-cart.net.cn
 cartx.cloud
 super.cat898.com
 tracking.cat898.com
@@ -990,7 +985,6 @@ log-h5.cmpassport.com
 log1.cmpassport.com
 log2.cmpassport.com
 cmpxaup.cn
-ggc.cmvideo.cn
 ggx.cmvideo.cn
 ad-api.cnblogs.com
 analytics.cnblogs.com
@@ -1155,7 +1149,6 @@ events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
-hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
 dbzy5.com
 engine.dcad01.com
 xcx.dcad01.com
@@ -1252,7 +1245,6 @@ other.v.duowan.com
 playstats.v.duowan.com
 stats.v.duowan.com
 vupload.duowan.com
-adsmis.duxiaoman.com
 dvzk66.cn
 gmlddrla.dwsfipix.cn
 untitled.dwstatic.com
@@ -1281,6 +1273,7 @@ easou.com
 mini.eastday.com
 ay.eastmoney.com
 bdstatic.eastmoney.com
+bduserlog.eastmoney.com
 bdwblog.eastmoney.com
 cp2.eastmoney.com
 emdcadvertise.eastmoney.com
@@ -1379,7 +1372,6 @@ fjsytjs.cn
 flash.cn
 bd1.flfgw.cn
 flsfzr.cn
-api-flow.flyme.cn
 bro.flyme.cn
 t-e.flyme.cn
 t-flow.flyme.cn
@@ -1426,6 +1418,8 @@ fc.gaizong.cn
 ng-vn-notice.gameitop.com
 ad.gameley.com
 click.gamersky.com
+ja.gamersky.com
+ja1.gamersky.com
 ja2.gamersky.com
 wmbd.gamersky.com
 jiaoben.ganji.cn
@@ -1474,6 +1468,7 @@ puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
+t7z.cupid.ptqy.gitv.tv
 time.video.ptqy.gitv.tv
 50m.gkcyc.com
 gl0r6d2uyy.com
@@ -1597,7 +1592,6 @@ cdn.haocaa.com
 js1.haoge500.com
 2.haoxue360.com
 download.haozip.com
-log.dc.cn.happyelements.com
 hapying.com
 hashnest.com
 a.hbf23.cn
@@ -1653,7 +1647,6 @@ darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
 dc-dragate-cn.heytapmobi.com
 dragate-sg.dc.heytapmobi.com
-epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
 i-sg01a.ocloud.heytapmobi.com
 iot-earbuds-cn.heytapmobi.com
@@ -1906,7 +1899,6 @@ piccdn.igetget.com
 seeder.igetget.com
 ihclam.cn
 fpbone.ihowguide.com
-appadapi.ihuman.com
 iimedia.cn
 www.iiyout.cn
 ijinshan.com
@@ -1952,7 +1944,6 @@ apisgame.iqiyi.com
 c.uaa.iqiyi.com
 cards-css.iqiyi.com
 cm.passport.iqiyi.com
-cs-feige.iqiyi.com
 doh.iqiyi.com
 emoticon-sns.iqiyi.com
 emoticon.sns.iqiyi.com
@@ -2044,8 +2035,6 @@ tr.jianshu.com
 udiab1.jianshu.com
 api.jietuhb.com
 jiguang.cn
-ad.open.api.jihuoniao.com
-ad.report.jihuoniao.com
 target.ads.jihuoniao.com
 wuliao.jingyanben.com
 adx-api.jinmo.tech
@@ -2282,7 +2271,6 @@ images.smbdirect.lenovo.com
 o.lenovo.com
 s.lenovo.com
 fsr.lenovomm.com
-prw.lenovomm.com
 pushapi.lenovomm.com
 susapi.lenovomm.com
 uss-pid.lenovomm.com
@@ -2857,7 +2845,6 @@ e.qq.com
 file.daihuo.qq.com
 fodder.qq.com
 fodder.tc.qq.com
-fusion.qq.com
 fw.qq.com
 gdt.qq.com
 hd2.3g.qq.com
@@ -3247,11 +3234,9 @@ mon.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
 stream.snssdk.com
-tbm.snssdk.com
 tnc3-aliec2.snssdk.com
 tnc3-alisc1.snssdk.com
 tnc3-bjlgy.snssdk.com
-toutiao-frontier.snssdk.com
 tsearch.snssdk.com
 ug.snssdk.com
 vcl-brain.snssdk.com
@@ -3396,7 +3381,6 @@ adashx4sg.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 ae-alimelog.taobao.com
-agoodm.m.taobao.com
 ai.m.taobao.com
 alimelog.taobao.com
 amdcopen.m.taobao.com
@@ -3776,6 +3760,7 @@ cname-in-bom01-nginxpool03.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
+co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 de-gdpr-err-up.vivoglobal.com
@@ -3987,6 +3972,7 @@ push.wps.cn
 update.wps.cn
 wpsweb-dc.wps.cn
 api-ad-adapter.wps.com
+api-ad-adapter-mb.wps.com
 mo.res.wpscdn.cn
 abroadad.cache.wpscdn.com
 wpwpquse.cn
@@ -4054,14 +4040,12 @@ api.d.xiaomi.com
 api.installer.xiaomi.com
 api.miui.security.xiaomi.com
 appstore.cdn.pandora.xiaomi.com
-appstore.pandora.xiaomi.com
 awssgp0-files.fds.api.xiaomi.com
 bigdata-lbs-pri-c3.alb.xiaomi.com
 bss.pandora.xiaomi.com
 cdn-exp-sg-recommend.pt.xiaomi.com
 cdn.exp.xiaomi.com
 cdn.fds.api.xiaomi.com
-data.game.xiaomi.com
 data.mistat.intl.xiaomi.com
 de.pandora.xiaomi.com
 dvb.pandora.xiaomi.com
