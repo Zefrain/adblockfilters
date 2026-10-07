@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20261007113001
-  # Last modified: 2026/10/07 11:30:01
-  # Blocked domains: 4485
+  # Version: 20261007225739
+  # Last modified: 2026/10/07 22:57:39
+  # Blocked domains: 4483
   #
   - '+.kwflvcdn.000dn.com'
   - '+.img.0279.net'
@@ -894,7 +894,6 @@ payload:
   - '+.cbhzxctgm.com'
   - '+.adv.ccb.com'
   - '+.ad.ccement.com'
-  - '+.btrace.ysp.cctv.cn'
   - '+.mtrace.ysp.cctv.cn'
   - '+.ad.cctv.com'
   - '+.httpdns.cctv.com'
@@ -1150,6 +1149,7 @@ payload:
   - '+.events-dra-op-dbankcloud-com-dra.region.dbankedge.cn'
   - '+.events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn'
   - '+.events-dre-op-hicloud-com-dre.appacc.dbankedge.cn'
+  - '+.hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn'
   - '+.dbzy5.com'
   - '+.engine.dcad01.com'
   - '+.xcx.dcad01.com'
@@ -1164,7 +1164,6 @@ payload:
   - '+.detailroi.com'
   - '+.api.dewmobile.net'
   - '+.dexinyi.cn'
-  - '+.dgrj.com.cn'
   - '+.d.dgzj.com'
   - '+.dianru.com'
   - '+.digitalfiles.org'
@@ -1246,6 +1245,7 @@ payload:
   - '+.playstats.v.duowan.com'
   - '+.stats.v.duowan.com'
   - '+.vupload.duowan.com'
+  - '+.adsmis.duxiaoman.com'
   - '+.dvzk66.cn'
   - '+.gmlddrla.dwsfipix.cn'
   - '+.untitled.dwstatic.com'
@@ -1274,7 +1274,6 @@ payload:
   - '+.mini.eastday.com'
   - '+.ay.eastmoney.com'
   - '+.bdstatic.eastmoney.com'
-  - '+.bduserlog.eastmoney.com'
   - '+.bdwblog.eastmoney.com'
   - '+.cp2.eastmoney.com'
   - '+.emdcadvertise.eastmoney.com'
@@ -1469,7 +1468,6 @@ payload:
   - '+.sdk-cache.video.ptqy.gitv.tv'
   - '+.sdk.ptqy.gitv.tv'
   - '+.static.ptqy.gitv.tv'
-  - '+.t7z.cupid.ptqy.gitv.tv'
   - '+.time.video.ptqy.gitv.tv'
   - '+.50m.gkcyc.com'
   - '+.gl0r6d2uyy.com'
@@ -1708,8 +1706,8 @@ payload:
   - '+.analytics.shop.hisense.com'
   - '+.api-4know-em.hismarttv.com'
   - '+.api-gps.hismarttv.com'
+  - '+.api-gps-em.hismarttv.com'
   - '+.api-gps-eu.hismarttv.com'
-  - '+.api-gps-na.hismarttv.com'
   - '+.api-launcher-eu.hismarttv.com'
   - '+.api-launcher-na.hismarttv.com'
   - '+.auth-em.hismarttv.com'
@@ -3235,6 +3233,7 @@ payload:
   - '+.open.snssdk.com'
   - '+.pangolin.snssdk.com'
   - '+.stream.snssdk.com'
+  - '+.tbm.snssdk.com'
   - '+.tnc3-aliec2.snssdk.com'
   - '+.tnc3-alisc1.snssdk.com'
   - '+.tnc3-bjlgy.snssdk.com'
@@ -3776,7 +3775,6 @@ payload:
   - '+.ex-romsp-unifyconfig.vivoglobal.com'
   - '+.id-analyzer-appstore.vivoglobal.com'
   - '+.id-third-appstore.vivoglobal.com'
-  - '+.kz-onrt-stsdk.vivoglobal.com'
   - '+.kz-vcode-od.vivoglobal.com'
   - '+.mx-cota.vivoglobal.com'
   - '+.mx-domaincfg.vivoglobal.com'
