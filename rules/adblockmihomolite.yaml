@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20261008114426
-  # Last modified: 2026/10/08 11:44:26
-  # Blocked domains: 4481
+  # Version: 20261008230547
+  # Last modified: 2026/10/08 23:05:47
+  # Blocked domains: 4486
   #
   - '+.kwflvcdn.000dn.com'
   - '+.img.0279.net'
@@ -34,7 +34,6 @@ payload:
   - '+.123cha.com'
   - '+.bdad.123pan.cn'
   - '+.ent1.12584.cn'
-  - '+.126.cn'
   - '+.analytics.126.com'
   - '+.ir.mail.126.com'
   - '+.iadmusicmat.music.126.net'
@@ -899,6 +898,7 @@ payload:
   - '+.p.data.cctv.com'
   - '+.ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net'
   - '+.tracker.cdnbye.com'
+  - '+.analytics.emqx.com.w.cdngslb.com'
   - '+.api-access.pangolin-sdk-toutiao-b.com.w.cdngslb.com'
   - '+.api-access.pangolin-sdk-toutiao.com.w.cdngslb.com'
   - '+.api-access.pangolin-sdk-toutiao1.com.w.cdngslb.com'
@@ -994,6 +994,7 @@ payload:
   - '+.smuc.cnnfootballclub.com'
   - '+.adp.cnool.net'
   - '+.clickcount.cnool.net'
+  - '+.ad.cnr.cn'
   - '+.phpstat.cntcm.com.cn'
   - '+.cnzz.cn'
   - '+.cnzz.com'
@@ -1163,6 +1164,7 @@ payload:
   - '+.detailroi.com'
   - '+.api.dewmobile.net'
   - '+.dexinyi.cn'
+  - '+.dgrj.com.cn'
   - '+.d.dgzj.com'
   - '+.dianru.com'
   - '+.digitalfiles.org'
@@ -1273,6 +1275,7 @@ payload:
   - '+.mini.eastday.com'
   - '+.ay.eastmoney.com'
   - '+.bdstatic.eastmoney.com'
+  - '+.bduserlog.eastmoney.com'
   - '+.bdwblog.eastmoney.com'
   - '+.cp2.eastmoney.com'
   - '+.emdcadvertise.eastmoney.com'
@@ -3256,6 +3259,7 @@ payload:
   - '+.888.tv.sohu.com'
   - '+.assp.sohu.com'
   - '+.bd.hd.sohu.com'
+  - '+.changyan.sohu.com'
   - '+.click2.hd.sohu.com'
   - '+.count.vrs.sohu.com'
   - '+.ctr.hd.sohu.com'
@@ -3773,6 +3777,7 @@ payload:
   - '+.ex-romsp-unifyconfig.vivoglobal.com'
   - '+.id-analyzer-appstore.vivoglobal.com'
   - '+.id-third-appstore.vivoglobal.com'
+  - '+.kz-onrt-stsdk.vivoglobal.com'
   - '+.kz-vcode-od.vivoglobal.com'
   - '+.mx-cota.vivoglobal.com'
   - '+.mx-domaincfg.vivoglobal.com'
