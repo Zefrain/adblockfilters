@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20261017101901
-  # Last modified: 2026/10/17 10:19:01
-  # Blocked domains: 4463
+  # Version: 20261017195354
+  # Last modified: 2026/10/17 19:53:54
+  # Blocked domains: 4466
   #
   - '+.kwflvcdn.000dn.com'
   - '+.img.0279.net'
@@ -1453,6 +1453,7 @@ payload:
   - '+.liveats-vod.video.ptqy.gitv.tv'
   - '+.msg.ptqy.gitv.tv'
   - '+.policy.video.ptqy.gitv.tv'
+  - '+.puma-api.ptqy.gitv.tv'
   - '+.sdk-cache.video.ptqy.gitv.tv'
   - '+.sdk.ptqy.gitv.tv'
   - '+.static.ptqy.gitv.tv'
@@ -2842,6 +2843,7 @@ payload:
   - '+.iwan-s.video.qq.com'
   - '+.jpush.html5.qq.com'
   - '+.kde.qq.com'
+  - '+.kuaibao.qq.com'
   - '+.l.qq.com'
   - '+.lcsdk.3g.qq.com'
   - '+.lives.l.ott.video.qq.com'
@@ -3218,6 +3220,7 @@ payload:
   - '+.log-lq.snssdk.com'
   - '+.mcs.snssdk.com'
   - '+.mon.snssdk.com'
+  - '+.mssdk.snssdk.com'
   - '+.open.snssdk.com'
   - '+.pangolin.snssdk.com'
   - '+.stream.snssdk.com'
