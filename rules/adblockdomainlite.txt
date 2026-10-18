@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20261018101843
-! Last modified: 2026/10/18 10:18:43
-! Blocked domains: 4466
+! Version: 20261018201954
+! Last modified: 2026/10/18 20:19:54
+! Blocked domains: 4476
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -691,6 +691,7 @@ m1.baidu.com
 miao.baidu.com
 miaowu.baidu.com
 mipengine.baidu.com
+mo.baidu.com
 mobads.baidu.com
 mobads-logs.baidu.com
 mountain.zhidao.baidu.com
@@ -978,6 +979,7 @@ log1.cmpassport.com
 log2.cmpassport.com
 senlog.cmpassport.com
 cmpxaup.cn
+ggc.cmvideo.cn
 ggx.cmvideo.cn
 ad-api.cnblogs.com
 analytics.cnblogs.com
@@ -1451,12 +1453,12 @@ auth.api.gitv.tv
 doh.ptqy.gitv.tv
 liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
+ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
 puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
-t7z.cupid.ptqy.gitv.tv
 time.video.ptqy.gitv.tv
 50m.gkcyc.com
 gl0r6d2uyy.com
@@ -1580,6 +1582,7 @@ cdn.haocaa.com
 js1.haoge500.com
 2.haoxue360.com
 download.haozip.com
+log.dc.cn.happyelements.com
 hapying.com
 hashnest.com
 a.hbf23.cn
@@ -1635,6 +1638,7 @@ darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
 dc-dragate-cn.heytapmobi.com
 dragate-sg.dc.heytapmobi.com
+epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
 i-sg01a.ocloud.heytapmobi.com
 iot-earbuds-cn.heytapmobi.com
@@ -1698,6 +1702,7 @@ api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-em.hismarttv.com
 api-gps-eu.hismarttv.com
+api-gps-na.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 auth-em.hismarttv.com
@@ -2027,6 +2032,7 @@ tr.jianshu.com
 udiab1.jianshu.com
 api.jietuhb.com
 jiguang.cn
+ad.open.api.jihuoniao.com
 target.ads.jihuoniao.com
 wuliao.jingyanben.com
 adx-api.jinmo.tech
@@ -2047,6 +2053,7 @@ jpushoa.com
 jrltdiu.cn
 jsdajp.click
 jsebmcv.cn
+jshbbs.cn
 jsing.net
 jsmxkj.com
 fpb1.jsq886.com
@@ -2261,6 +2268,7 @@ images.smbdirect.lenovo.com
 o.lenovo.com
 s.lenovo.com
 fsr.lenovomm.com
+prw.lenovomm.com
 pushapi.lenovomm.com
 susapi.lenovomm.com
 uss-pid.lenovomm.com
@@ -3227,6 +3235,7 @@ tbm.snssdk.com
 tnc3-aliec2.snssdk.com
 tnc3-alisc1.snssdk.com
 tnc3-bjlgy.snssdk.com
+toutiao-frontier.snssdk.com
 tsearch.snssdk.com
 ug.snssdk.com
 vcl-brain.snssdk.com
@@ -4184,6 +4193,7 @@ bd1.yidu.cc
 yijifen.com
 yijirecovery.com
 data-track.yingxiong.com
+data-track-global.yingxiong.com
 yingyankantu.com
 log.yinshantech.cn
 analytics.yinxiang.com
