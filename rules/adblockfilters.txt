@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261027045004
-! Last modified: 2026/10/27 04:50:04
-! Blocked Filters: 103667
+! Version: 20261027110353
+! Last modified: 2026/10/27 11:03:53
+! Blocked Filters: 103682
 !
 ###AC_ad
 ###AD_160
@@ -14591,6 +14591,7 @@
 ##a[href^="https://a.medfoodhome.com/"]
 ##a[href^="https://a.medfoodsafety.com/"]
 ##a[href^="https://bc.game/"]
+##a[href^="https://believessway.com/"]
 ##a[href^="https://best-experience-cool.com/"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
 ##a[href^="https://bongacams10.com/track?"]
@@ -20332,6 +20333,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
+/poster/zj-gd.js
+/poster/zj-mhz-ding.js
 /posthog-recorder.js
 /postlog?
 /postview.gif?
@@ -87246,6 +87249,7 @@ zzzyk.com###Tinfo
 ||akamaized.net/js3/tracker.js
 ||akamaized.net/mr/popunder.js
 ||akhbarak.net/widget_v.php
+||akhoondathecae.shop^$popup
 ||akiba-online.com/data/siropu/
 ||akirabox.com/js/akira-ads*.js
 ||akirabox.com/js/akira-ads2.js
@@ -87377,12 +87381,14 @@ zzzyk.com###Tinfo
 ||allsporttv.com^$popup
 ||allyes.$third-party
 ||almamedia.fi^*/scroll-monitor.min.js
+||almstda.tv^$popup
 ||alotporn.com/*_*.js|
 ||alphaporno.com/ap-script.js
 ||alphaporno.com/bravoplayer/custom/alphapornocom/scripts/inplaybn-
 ||alphaporno.com/pop/
 ||alpharank.io/api/pixel/
 ||alpheratzscheat.top^$popup
+||alpine-vpn.com^$popup
 ||alpinedrct.com^$popup
 ||alrincon.com/*/*adultfriend*
 ||alrincon.com/2022/varios/crazyshit.jpg
@@ -88077,6 +88083,7 @@ zzzyk.com###Tinfo
 ||atsptp.com^$third-party
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||att.ydss.cn/attachments/portal/
+||attachedkneel.com^$popup
 ||attr-logs.*.amazonaws.com^
 ||atube.xxx/static/js/abb.js
 ||atube.xxx/static/nblock/
@@ -91157,6 +91164,7 @@ zzzyk.com###Tinfo
 ||eage.it/count2.php?
 ||eagle.mn/uploads/banner_/
 ||earn-bitcoins.net/banner_
+||easelegbike.com^$popup
 ||easeus.com/default/js/aff_buy_tracking.js
 ||eastday.com/assets/js/dftongjiad.js
 ||eastday.com/assets/js/resources/detail/
@@ -91330,6 +91338,7 @@ zzzyk.com###Tinfo
 ||emailtemporario.com.br/*/trackevents
 ||emailtemporario.com.br/~api/analytics
 ||emarketeer.com/tracker/
+||embarkvision.top^$popup
 ||embed.fireplace.yahoo.com/embed/*?articleId=$domain=news.yahoo.com
 ||embed.lpcontent.net/leadboxes/current/embed.js$domain=exchangerates.org.uk
 ||embed.reddit.com/svc/shreddit
@@ -95840,6 +95849,7 @@ zzzyk.com###Tinfo
 ||maxmind.com^*/geoip2.js
 ||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
+||maybejanuarycosmetics.com^$popup
 ||mayla.jp/TRACKING/
 ||mb223.com^$popup
 ||mbalib.com/common/a_mbalib/
@@ -95876,6 +95886,7 @@ zzzyk.com###Tinfo
 ||me360.com/swt/swt.js
 ||me4track.com^$popup
 ||me9ddf.moebelix.
+||meantimesubside.com^$popup
 ||measured.com^$third-party
 ||meawfy.com/static/images/others/d/900x250_1.gif
 ||meawfy.com/static/images/others/d/logo_en_4-en.gif
@@ -98868,6 +98879,7 @@ zzzyk.com###Tinfo
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rn221.xyz^*.gif
 ||ro-ph.com/img/banners/roph.jpg$domain=sa-mp.ro
+||roadcontagion.com^$popup
 ||roadster.com/roadster_dealer_analytics
 ||roastoup.com^$popup
 ||roblox.com/_/_/1px.gif
@@ -101346,6 +101358,7 @@ zzzyk.com###Tinfo
 ||trackcb.com^$third-party
 ||trackconsole.com^$third-party
 ||trackdz.com/img/banners/
+||tracker-tds.info^$popup
 ||tracker.$xhr,websocket,script,ping
 ||tracker.twenga.
 ||trackerflw.com^$popup
@@ -102091,6 +102104,7 @@ zzzyk.com###Tinfo
 ||viptube.com/player_right_ntv_
 ||vipyearha.com/uploads/20*.gif
 ||viralblastt.com^$domain=isharatv.co
+||viralnewsbd.xyz^$popup
 ||virgilio.it/clientinfo.gif?
 ||virgilio.it/js/web-vitals-evnt/tracking.js
 ||virgilio.it/public/*/js/adv.min.js
@@ -102166,6 +102180,7 @@ zzzyk.com###Tinfo
 ||vod.provider.plex.tv/ad?metadataId=
 ||vodconcepts.com^*/banners/
 ||voidemail.org/js/track.js
+||volform.online^$popup
 ||volksverpetzer.de/pl/v.js
 ||volkswagen-italia.it^*/tracking/
 ||volument.com^$third-party
